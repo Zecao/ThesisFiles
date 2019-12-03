@@ -1,4 +1,4 @@
-# ThesisFiles
+## Master degree files
 Real distribuction feeders files to used in the experiments from my master dissertation(1) and articles(2). The files are Matlab variables (.mat) in the [Matpower](www.pserc.cornell.edu/matpower) struct format. 
 
 1. **directory "2014MasterDissertation"**
@@ -9,11 +9,11 @@ In this directory there are 6 real Eletric Distribuction 13,8kV feeders, used to
 In this directory there are the same 6 feeders (maybe be with some minor differences, like temporal differences) plus 6 new feeders. 
 [Link for the article (portuguese only version)](https://www.academia.edu/25755758/Reconfigura%C3%A7%C3%A3o_de_Redes_de_Distribui%C3%A7%C3%A3o_para_a_Minimiza%C3%A7%C3%A3o_de_Perdas_T%C3%A9cnicas_-_P_and_D317)
 
-# My qualify presentation
+## My qualify presentation
 **directory "2019_QualifyPresentation"**
 In this directory one can find the my qualifying presentation in Microsoft Powerpoint format pptx. 
 
-# ThesisFiles - Initial Population for Evolutionary Metaheuristics
+## ThesisFiles - Initial Population for Evolutionary Metaheuristics
 **directory "2019InitialPopulationGA"**
 In the *population1* sub directory there are the initial populations for IEEE eletrical tests system for any population/evolutionary metaheuristics. The files are in Matlab (.mat) format and uses binary codification, i.e. they represent the normally closed - NCs (represented by 1s) and normally opened - NOs (represented by 0s) switchs for the following test cases:  
 * (Zhu, 2002) 33 buses system
