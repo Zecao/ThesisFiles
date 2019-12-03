@@ -24,4 +24,7 @@ The population2 was generates by Minimum Spanning Tree based algorithm.
  4. **directory "2019_LineConstants"**
  In this directory one can find the OpenDSS script for the calculation of distribution line parameters for my doctorate thesis. 
 
+ 5. **directory "2019_QualifyPresentation"**
+ In this directory one can find the my qualifying presentation in Microsoft Powerpoint format pptx. 
+
 Ezequiel C. Pereira
