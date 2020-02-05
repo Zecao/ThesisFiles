@@ -10,7 +10,7 @@ In this directory there are the same 6 feeders (maybe be with some minor differe
 [Link for the article (portuguese only version)](https://www.academia.edu/25755758/Reconfigura%C3%A7%C3%A3o_de_Redes_de_Distribui%C3%A7%C3%A3o_para_a_Minimiza%C3%A7%C3%A3o_de_Perdas_T%C3%A9cnicas_-_P_and_D317)
 
 ## My qualify presentation
-**directory "2019_QualifyPresentation"**
+[**directory "2019_QualifyPresentation"**](https://github.com/Zecao/ThesisFiles/tree/master/2019_QualifyPresentation)
 In this directory one can find the my qualifying presentation in Microsoft Powerpoint format pptx. 
 
 ## ThesisFiles - Initial Population for Evolutionary Metaheuristics
