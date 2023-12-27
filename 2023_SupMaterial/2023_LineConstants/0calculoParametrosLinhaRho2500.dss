@@ -1,0 +1,46 @@
+clear
+
+new circuit.test bus1=b1,basekv=13.8,pu=1.0,Phases=3
+
+! MT !Valores RAC do Prodist
+New Wiredata.CAB102  GMR=0.00213 DIAM=0.588 RAC=1.551 NormAmps=230.0000 Runits=km radunits=cm gmrunits=m ! 4AWG
+New Wiredata.CAB103  GMR=0.00269 DIAM=0.741 RAC=0.975 NormAmps=185.0000 Runits=km radunits=cm gmrunits=m ! 2AWG
+New Wiredata.CAB104  GMR=0.00339 DIAM=0.936 RAC=0.613 NormAmps=185.0000 Runits=km radunits=cm gmrunits=m ! 1/0 AWG
+New Wiredata.CAB107  GMR=0.00481 DIAM=1.326 RAC=0.306 NormAmps=185.0000 Runits=km radunits=cm gmrunits=m ! 4/0 AWG
+New Wiredata.CAB108  GMR=0.00778 DIAM=1.883 RAC=0.195 NormAmps=185.0000 Runits=km radunits=cm gmrunits=m ! 336.6 MCM
+New Wiredata.CAB202  GMR=0.00244 DIAM=0.635 RAC=1.551 NormAmps=230.0000 Runits=km radunits=cm gmrunits=m ! 4AWG ! RACold =1.5378
+New Wiredata.CAB203  GMR=0.00308 DIAM=0.802 RAC=0.975 NormAmps=230.0000 Runits=km radunits=cm gmrunits=m ! 2AWG
+New Wiredata.CAB204  GMR=0.00388 DIAM=1.011 RAC=0.613 NormAmps=230.0000 Runits=km radunits=cm gmrunits=m ! 1/0 AWG
+New Wiredata.CAB207  GMR=0.00550 DIAM=1.431 RAC=0.306 NormAmps=230.0000 Runits=km radunits=cm gmrunits=m ! 4/0 AWG
+New Wiredata.CAB208  GMR=0.00778 DIAM=1.883 RAC=0.195 NormAmps=230.0000 Runits=km radunits=cm gmrunits=m ! 336.6 MCM
+
+! MT Isolada 
+New Wiredata.CABA06  GMR=0.00339 DIAM=1.420 RAC=0.732 NormAmps=230.0000 Runits=km radunits=cm gmrunits=m ! 50 mm2 
+New Wiredata.CABA08  GMR=0.00778 DIAM=2.030 RAC=0.236 NormAmps=230.0000 Runits=km radunits=cm gmrunits=m ! 150 mm2 
+  	
+
+New Linegeometry.CAB102 nconds=4,nphases=3,cond=1,Wire=CAB102,x=0.3,h=8.4,units=m,cond=2,Wire=CAB102,x=1,h=8.4,units=m,cond=3,Wire=CAB102,x=1.7,h=8.4,units=m,cond=4,Wire=CAB102,x=0.2 h=7.2,units=m,Reduce=Y
+New Linegeometry.CAB103 nconds=4,nphases=3,cond=1,Wire=CAB103,x=0.3,h=8.4,units=m,cond=2,Wire=CAB103,x=1,h=8.4,units=m,cond=3,Wire=CAB103,x=1.7,h=8.4,units=m,cond=4,Wire=CAB102,x=0.2 h=7.2,units=m,Reduce=Y
+New Linegeometry.CAB104 nconds=4,nphases=3,cond=1,Wire=CAB104,x=0.3,h=8.4,units=m,cond=2,Wire=CAB104,x=1,h=8.4,units=m,cond=3,Wire=CAB104,x=1.7,h=8.4,units=m,cond=4,Wire=CAB103,x=0.2 h=7.2,units=m,Reduce=Y
+New Linegeometry.CAB107 nconds=4,nphases=3,cond=1,Wire=CAB107,x=0.3,h=8.4,units=m,cond=2,Wire=CAB107,x=1,h=8.4,units=m,cond=3,Wire=CAB107,x=1.7,h=8.4,units=m,cond=4,Wire=CAB104,x=0.2 h=7.2,units=m,Reduce=Y
+New Linegeometry.CAB108 nconds=4,nphases=3,cond=1,Wire=CAB108,x=0.3,h=8.4,units=m,cond=2,Wire=CAB108,x=1,h=8.4,units=m,cond=3,Wire=CAB108,x=1.7,h=8.4,units=m,cond=4,Wire=CAB104,x=0.2 h=7.2,units=m,Reduce=Y
+New Linegeometry.CAB202 nconds=4,nphases=3,cond=1,Wire=CAB202,x=-1.1,h=8.4,units=m,cond=2,Wire=CAB202,x=0.4,h=8.4,units=m,cond=3,Wire=CAB202,x=1.1,h=8.4,units=m,cond=4,Wire=CAB202,x=-0.2 h=7.25,units=m,Reduce=Y
+New Linegeometry.CAB203 nconds=4,nphases=3,cond=1,Wire=CAB203,x=-1.1,h=8.4,units=m,cond=2,Wire=CAB203,x=0.4,h=8.4,units=m,cond=3,Wire=CAB203,x=1.1,h=8.4,units=m,cond=4,Wire=CAB202,x=-0.2 h=7.25,units=m,Reduce=Y
+New Linegeometry.CAB204 nconds=4,nphases=3,cond=1,Wire=CAB204,x=-1.1,h=8.4,units=m,cond=2,Wire=CAB204,x=0.4,h=8.4,units=m,cond=3,Wire=CAB204,x=1.1,h=8.4,units=m,cond=4,Wire=CAB203,x=-0.2 h=7.25,units=m,Reduce=Y
+New Linegeometry.CAB207 nconds=4,nphases=3,cond=1,Wire=CAB207,x=-1.1,h=8.4,units=m,cond=2,Wire=CAB207,x=0.4,h=8.4,units=m,cond=3,Wire=CAB207,x=1.1,h=8.4,units=m,cond=4,Wire=CAB204,x=-0.2 h=7.25,units=m,Reduce=Y
+New Linegeometry.CAB208 nconds=4,nphases=3,cond=1,Wire=CAB208,x=-1.1,h=8.4,units=m,cond=2,Wire=CAB208,x=0.4,h=8.4,units=m,cond=3,Wire=CAB208,x=1.1,h=8.4,units=m,cond=4,Wire=CAB204,x=-0.2 h=7.25,units=m,Reduce=Y
+New Linegeometry.CABA06 nconds=4,nphases=3,cond=1,Wire=CABA06,x=0.275,h=8.8,units=m,cond=2,Wire=CABA06,x=0.35,h=8.6,units=m,cond=3,Wire=CABA06,x=0.425,h=8.8,units=m,cond=4,Wire=CAB103,x=0.2 h=7.1,units=m,Reduce=Y
+New Linegeometry.CABA08 nconds=4,nphases=3,cond=1,Wire=CABA08,x=0.275,h=8.8,units=m,cond=2,Wire=CABA08,x=0.35,h=8.6,units=m,cond=3,Wire=CABA08,x=0.425,h=8.8,units=m,cond=4,Wire=CAB104,x=0.2 h=7.1,units=m,Reduce=Y
+
+!arranjos monofásicos
+! New Linegeometry.CAB2021 nconds=2,nphases=1,cond=1,Wire=CAB202,x=0,h=8.4,units=m,cond=2,Wire=CAB202,x=0.2 h=7.2,units=m,Reduce=Y
+! New Linegeometry.CAB1031 nconds=2,nphases=1,cond=1,Wire=CAB103,x=0,h=8.4,units=m,cond=2,Wire=CAB102,x=0.2 h=7.2,units=m,Reduce=Y
+! New Linegeometry.CAB1021 nconds=2,nphases=1,cond=1,Wire=CAB102,x=0,h=8.4,units=m,cond=2,Wire=CAB102,x=0.2 h=7.2,units=m,Reduce=Y
+! New Linegeometry.CAB2031 nconds=2,nphases=1,cond=1,Wire=CAB203,x=0,h=8.4,units=m,cond=2,Wire=CAB202,x=0.2 h=7.2,units=m,Reduce=Y
+! New Linegeometry.CABA061 nconds=2,nphases=1,cond=1,Wire=CABA06,x=0.35,h=8.63,units=m,cond=2,Wire=CAB103,x=0.2 h=6.95,units=m,Reduce=Y
+
+set Basefrequency = 60
+set EarthModel = Carson
+
+! Exibe parametros de linha
+Show lineconstants freq=60 units=km rho=2500
