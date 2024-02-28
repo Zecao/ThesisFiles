@@ -13,7 +13,7 @@ Instructions: Download the [**"IterativeBranchExchange"**](https://github.com/Ze
 - run_136buses.m
 
 ## 2. Suplementary material
-[**folder "2023_LineConstants"**](https://github.com/Zecao/ThesisFiles/tree/master/2023_LineConstants)
+[**folder "2023_LineConstants"**](https://github.com/Zecao/ThesisFiles/tree/master/2024_SupMaterial/2023_LineConstants)
 Folder with OpenDSS script for calculating distribution line parameters of the doctoral thesis.
 
 [**folder "DSS_reconfiguration_networks"**](https://github.com/Zecao/ThesisFiles/tree/master/2024_SupMaterial/DSS_reconfiguration_networks)
