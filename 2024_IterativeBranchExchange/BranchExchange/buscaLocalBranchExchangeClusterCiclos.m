@@ -82,37 +82,25 @@ indBinFechado(:) = 1;
 % newFxi = avaliaPopulacao(indBinFechado, alim, []);
 % debugChavesTS = hashClustersXTieSwitches.keys;
 
-global param;
-
 % OBS: nao faz sentido "aleatorizar" por cluster, pq um cluster nao altera o outro. 
 % Os beneficios sao capturados somente em outra iteracao para cada cluster
 for i=hashClustersXTieSwitches.keys
 
     % chaves TS que serao otimizadas
     indTS = hashClustersXTieSwitches(char(i));
-
-    param.NCALBL_iter = param.NCALBL;    
-    debug = param.NCALBL;
  
     % se contem 1 ciclo
     if (size(indTS,2)==1)
 
 % 	 OBS: reduz NFP se nao rodar BE em Grupo com so 1 ciclo
-%         novoInd = otimizaCicloCluster_Pvt(indTS,indBinFechado,indTSOriginal,alim);
+%       novoInd = otimizaCicloCluster_Pvt(indTS,indBinFechado,indTSOriginal,alim);
 
     else
-
         novoInd = otimizaCicloCluster_Pvt(indTS,indBinFechado,indTSOriginal,alim);
 
     end
-    
-       lstNovosInds = [lstNovosInds; novoInd];
-       
-%        % 2024 cond. parada
-%        if ( ~isempty(novoInd))
-%            break; 
-%        end
-       
+        lstNovosInds = [lstNovosInds; novoInd];
+           
 end
 
 % filtra lstIndividuos
@@ -159,7 +147,7 @@ function setup_417barras_r1
         % OBS: desempenho cai p/ rede 4  
 %     % reabre chaves NA do ciclo somente
         clusterAberto = indBinFechado; 
-        clusterAberto(indTS) =0;
+        clusterAberto(indTS) = 0;
         
         % analisa com cluster aberto
         novoInd = otimizaCicloCluster_Pvt(indTS,clusterAberto,indTSOriginal,alim);
@@ -219,14 +207,14 @@ end
 %
 function pop = otimizaCicloCluster_Pvt(indTS,indBinOriginal,indTSOriginal,alim)
 
-sis = getSistema(alim.Fnome);
-pop =[];
-
-pop = otimizaCicloClusterPvt2024(indTS,indBinOriginal,indTSOriginal,alim);
-
+% OLD CODE 
+% sis = getSistema(alim.Fnome);
+% pop =[];
 % if (sis == 7)||(sis==4)
 %     pop = otimizaCicloClusterPvt2024(indTS,indBinOriginal,indTSOriginal,alim);
 % else
+
+pop = otimizaCicloClusterPvt2024(indTS,indBinOriginal,indTSOriginal,alim);
 
 end
 
@@ -256,6 +244,10 @@ for TS=indices
     % obtem a chave da condicao de menor perda p/ dada chave indTS(i)
     chaveMP = otimizacaoAberturaCiclo(TS, indBinAbertoOuFechado, alim);
 
+    % DEBUG
+    global param;   
+    param.lstChaves = [param.lstChaves, chaveMP];    
+    
     % se nao membro do indTS (isto eh foi alterada)
     % OBS: ao analisar o cluster com as outras chaves fechadas, pode ocorrer de repetir alguma TS mais de 1 vez. 
     if ( ~ismember(chaveMP,indTS) )
@@ -414,12 +406,7 @@ for TS=indTS;
 
     [d1, pred1] = shortest_paths(branchesSparse, i, struct('target', cabAlim));
     [d2, pred2] = shortest_paths(branchesSparse, j, struct('target', cabAlim));
-
-%     % DEBUG 
-%     if (TS == 256)
-%         debug=0;
-%     end
-    
+   
     % substitui Inf por -1 
     vertice1 = pred1(cabAlim);
     vertice2 = pred2(cabAlim);

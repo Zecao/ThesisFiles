@@ -1,11 +1,6 @@
 % cria struct Matpower
 function mpc = criaStructMatpower(alim)
 
-% DEBUG
-% mBus = alim.FmBus;
-% mBranch = alim.FmBranch;
-% mGerador = alim.FmGerador;
-
 %     version: '2'
 %     baseMVA: 100
 %         bus: [16x13 double]

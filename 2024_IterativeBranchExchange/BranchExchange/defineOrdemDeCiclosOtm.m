@@ -12,8 +12,6 @@ switch alim.paramAG.tipoOrdCiclos
 
         % 2 ordena por tamanho das sub-redes
         indTS = defOrdemCiclosPorTamanhoDosCiclos(indTS,indBinOriginal,alim);
-        DEBUG=0; 
-%          [51 76 43 131 130 123 110 27 96 35 23 74 72 59 39]
 
     case 'revTamCiclo'
 
@@ -26,10 +24,7 @@ switch alim.paramAG.tipoOrdCiclos
     case 'cargaCiclo'
 
         % 2 ordena por ciclos com maior carga
-        indTS = defOrdemCiclos_CargaDosCiclos(indTS,indBinOriginal,alim);
-        
-        DEBUG=0;
-% [130 76 51 110 35 131 59 74 123 43 96 72 23 27 39]
+        indTS = defOrdemCiclos_CargaDosCiclos(indTS,indBinOriginal,alim);        
         
     case 'distEletrica'
         

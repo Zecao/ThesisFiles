@@ -70,8 +70,8 @@ indBinOriginal(:)=1;
 % numero de TS
 for i=1:size(indTS,2)
 
-    global param;
-    debug = param.NCALBL;
+%    global param;
+%    debug = param.NCALBL;
     
     % abre chave NA
     indBinOriginal(indTS(i))=0;

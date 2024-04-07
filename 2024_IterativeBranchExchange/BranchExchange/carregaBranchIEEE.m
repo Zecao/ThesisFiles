@@ -73,23 +73,31 @@ alim.FmBranch = mBranch;
  
 end
  
- % transforma Z(ohms) para Zpu, se necessario 
- function B = zohms2zpu(B,sistema,Sbase,Vbase)
+% transforma Z(ohms) para Zpu, se necessario 
+function B = zohms2zpu(B,sistema,Sbase,Vbase)
+
+% calculo zBase
+zBase = Vbase^2/Sbase; 
+
+% calculo zpu = zohms/zbase;
+B(:,3) = B(:,3)/zBase; 
+B(:,4) = B(:,4)/zBase; 
+
+% OLD CODE
+% % OBS: todos os sistemas a excecao do 1  devem ter impedancias
+% % trasnformadas p/ pu
+% if ( ~  (sistema == 1) )
+%     
+%      % calculo zBase
+%      zBase = Vbase^2/Sbase; 
+%  
+%      % calculo zpu = zohms/zbase;
+%      B(:,3) = B(:,3)/zBase; 
+%      B(:,4) = B(:,4)/zBase; 
+%  
+%  end
  
-% OBS: todos os sistemas a excecao do 1  devem ter impedancias
-% trasnformadas p/ pu
-if ( ~  (sistema == 1) )
-    
-     % calculo zBase
-     zBase = Vbase^2/Sbase; 
- 
-     % calculo zpu = zohms/zbase;
-     B(:,3) = B(:,3)/zBase; 
-     B(:,4) = B(:,4)/zBase; 
- 
- end
- 
- end
+end
  
  % %% branch data
  % %	fbus	tbus	r	x	b	rateA	rateB	rateC	ratio	angle	status	angmin	angmax

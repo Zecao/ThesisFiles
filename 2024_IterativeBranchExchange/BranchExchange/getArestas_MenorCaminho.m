@@ -27,16 +27,12 @@ while (distancia ~= 0)&&(distancia ~= Inf)
     % OBS: a aresta pode vir vazia, caso seja a aresta de interligacao de
     % geradores
     
-%     if (noInicial == 3)
-%         debug=0;
-%     end    
-    
-    arestas = getChavePorNos(noInicial,proxNo,alim);
-    
-%     if (arestas ==0)
-%         debug=0;
-%     end    
-    
+    % condicao de retorno
+    if (proxNo==0)
+        return;
+    end
+
+    arestas = getChavePorNos(noInicial,proxNo,alim);    
     indArestas = [indArestas; arestas];
     
     % atualiza contadores

@@ -12,12 +12,6 @@ if (chave==0)
      chave=[];
 end
 
-% DEBUG 
-% OBS: a aresta pode vir vazia, caso seja a 
-% if (isempty(chave))
-%     debug=0;
-% end
-
 end
 
 

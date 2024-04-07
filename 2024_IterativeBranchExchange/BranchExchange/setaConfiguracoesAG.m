@@ -16,10 +16,13 @@ paramAG.tipoOrdCiclos = 'aleatorio'; % 'tamCiclo' 'aleatorio' 'revTamCiclo' 'car
 paramAG.ladoCicloBE = 'maiorQueda'; %'aleatorio';
 
 % tipo de fluxo
-paramAG.PFtype = 'Matpower'; %'AlimReduzido'; % Matpower DistFlow
+paramAG.PFtype = 'DistFlow'; %DistFlow 'AlimReduzido'; % Matpower 
 
 % se = 1, faz BE com chaves fechadas
 paramAG.closeAll = 0;
+
+% falg p/ controlar BE por DistFlow nos clusters
+paramAG.skipDistFlowCluster = 0;
 
 switch sistema
     
@@ -36,9 +39,9 @@ switch sistema
 
         paramAG.maxPop = 5; % artigo
         paramAG.numGeracoes = 5;
-%       paramAG.tipoOrdCiclos = 'tamCiclo';
+        paramAG.tipoOrdCiclos = 'tamCiclo';
 %       paramAG.tipoOrdCiclos = 'cargaCiclo';
-        paramAG.tipoOrdCiclos = 'aleatorio'; % melhor desempenho
+%        paramAG.tipoOrdCiclos = 'aleatorio'; % melhor desempenho OBS: testar com BAran
                 
     case 3 % Sistema_Huang2002.txt';
 
@@ -66,8 +69,8 @@ switch sistema
 
         paramAG.maxPop = 5; % 10 artigo
         paramAG.numGeracoes = 5;
-        paramAG.tipoOrdCiclos = 'aleatorio'; % melhor desempenho
-%         paramAG.tipoOrdCiclos = 'tamCiclo';
+%        paramAG.tipoOrdCiclos = 'aleatorio'; % melhor desempenho
+        paramAG.tipoOrdCiclos = 'tamCiclo';
 %         paramAG.tipoOrdCiclos = 'cargaCiclo';
 
     case 6 % rede 417barras 

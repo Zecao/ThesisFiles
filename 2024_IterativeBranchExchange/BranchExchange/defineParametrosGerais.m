@@ -3,6 +3,8 @@ function defineParametrosGerais()
 
 global param;
 
+param.lstChaves = [];
+
 % imprime variavel do fluxo 
 param.OUT_ALL = 0;
 
@@ -27,18 +29,10 @@ param.NCAL = 0;
 % contador de avaliacoes das funcoes busca local
 param.NCALBL = 0;
 
-% contador de avaliacoes das funcoes busca local
-param.NCALBL_iter = 0;
-
-% contador de otimizacao de abertura de lacos 
-param.NOAC = 0;
-
 % contador de DFS
 param.contTestesRadialidade = 0;
 
 % contador 
 param.SucessoSEL =0;
-
-param.Abortar = 0;
 
 end

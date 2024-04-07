@@ -38,16 +38,6 @@ else
     [populacao, fxi] = buscaLocalClusterCiclos(populacao,fxi,alim); 
 end
 
-% if (mod(geracao,2)==1)
-%     [populacao, fxi] = buscaLocalElite(populacao,fxi,alim);
-% else
-%     
-%     alim.paramAG.closeAll =1;
-% 
-%     [populacao, fxi] = buscaLocalElite(populacao,fxi,alim); 
-%     
-%     alim.paramAG.closeAll =1;
-% end
 end
 
 % BL tamCiclo ou aleatorio. Se nao otimizou, tenta por Cluster.
@@ -71,18 +61,6 @@ else
     % busca local por ciclos
     [populacao, fxi] = buscaLocalClusterCiclos(populacao,fxi,alim); 
 end
-
-% alim.paramAG.tipoOrdCiclos = 'aleatorio';    
-% 
-% % OBS: este setup otimiza em 163,6 fluxos
-% % busca local
-% [populacao, fxi] = buscaLocalElite(populacao,fxi,alim);
-% 
-% % busca local por ciclos
-% [populacao, fxi] = buscaLocalClusterCiclos(populacao,fxi,alim); 
-%     
-% % busca local por ciclos
-% [populacao, fxi] = buscaLocalClusterCiclos(populacao,fxi,alim); 
     
 end
 

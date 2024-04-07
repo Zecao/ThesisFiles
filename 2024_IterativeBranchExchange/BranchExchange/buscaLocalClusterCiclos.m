@@ -1,6 +1,9 @@
 % busca loca ciclo a ciclo
 function [populacao, fxi] = buscaLocalClusterCiclos(populacao,fxi,alim)
 
+% flag GrupoCiclos
+alim.paramAG.skipDistFlowCluster = 1;
+
 % seleciona UM individuos p/ realizar busca local
 [individuo, indFxi] = selecionaIndividuoBuscaLocal(populacao,fxi,alim);
 
@@ -16,5 +19,8 @@ end
 
 % % poda tam populacao
 [populacao, fxi] = podaTamPopulacao(populacao,fxi,alim);
+
+% des-flag
+alim.paramAG.skipDistFlowCluster = 0;
 
 end

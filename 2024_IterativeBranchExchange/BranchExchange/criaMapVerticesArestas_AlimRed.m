@@ -17,9 +17,6 @@ for i=1:size(arestas,1);
     
 end
 
-% DEBUG testando compatibildiade dos retornos % OK :)
-% alim = criaMapVerticesArestas(alim);
-
 % adioiona
 alim.FmapVerticesArestas = matrixConectividade;
 

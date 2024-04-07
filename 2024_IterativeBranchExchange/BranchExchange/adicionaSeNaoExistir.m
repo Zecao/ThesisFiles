@@ -22,9 +22,6 @@ end
 populacao = [populacao; e(naoMembros,:)];
 fxi = [fxi;f_e(naoMembros)];
 
-% DEBUG
-% sort(f_e(naoMembros))
-
 % ordena decrescente
 [fxi, ind] = sort(fxi);
 populacao = populacao(ind,:);

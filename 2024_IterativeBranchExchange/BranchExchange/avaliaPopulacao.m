@@ -1,9 +1,6 @@
 % Avalia a funcao objetivo para a Populacao.
 function [ fitness, alim, results ] = avaliaPopulacao(populacao, alim, forceRunMatpower) 
 
-% init var
-avaliadoBool = false;
-
 tamPopulacao = size(populacao,1);
 
 % opcao fluxo 

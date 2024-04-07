@@ -28,9 +28,6 @@ end
 %     
 % end
 
-% DEBUG testando compatibildiade dos retornos % OK :)
-% alim = criaMapVerticesArestas_OLD(alim);
-
 % adioiona
 alim.FmapVerticesArestas = matrixConectividade;
 

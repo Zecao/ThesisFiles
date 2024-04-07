@@ -4,8 +4,6 @@ function [arrayStructElite, populacao, fitness, k] = algGenDEFluxo( alim, algori
 % gera populacao inicial Alim
 [populacao, fitness] = geraPopulacao(alim);
 
-global param;
-    
 % inicio variaveis while
 k = 1; % contador de geracoes
 
@@ -14,11 +12,6 @@ arrayStructElite = criaArrayStructElite(alim.paramAG.numGeracoes,alim);
 
 % repete o numero de geracoes
 while ( k <= alim.paramAG.numGeracoes )
-
-    % condicao de aborto (populacao sem diversiade)
-    if (param.Abortar==1)
-        break;
-    end
 
     % roda Evolucao Diferencial de acordo com o tipo do algoritmo
     [populacao, fitness] = runAlgorithm(algoritmo, alim, populacao, fitness, k);

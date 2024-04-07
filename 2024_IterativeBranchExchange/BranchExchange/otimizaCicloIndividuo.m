@@ -1,16 +1,14 @@
 % correcao de lacos
 function [lstIndividuos] = otimizaCicloIndividuo(indTS,indBinOriginal,alim)
 
+lstIndividuos = otimizaCicloIndividuo2024(indTS,indBinOriginal,alim);
+
+% OLD CODE testar antes de remover...
 % lstIndividuos = otimizaCicloIndividuo2021(indTS,indBinOriginal,alim);
 
-lstIndividuos = otimizaCicloIndividuo2024(indTS,indBinOriginal,alim);
-% OBS: melhores resultados
 % lstIndividuos = otimizaCicloIndividuo2020(indTS,indBinOriginal,alim);
 
 % lstIndividuos = otimizaCicloIndividuoPvp(indTS,indBinOriginal,alim);
-
-% incrementa contador OAC
-contaOAC();
 
 end
 
@@ -19,9 +17,6 @@ function lstIndividuos = otimizaCicloIndividuo2024(indTS,indBinOriginal,alim)
 
 % escolhe ordem de otimizacao das chaves
 indTS = defineOrdemDeCiclosOtm(indTS,indBinOriginal,alim);
-
-% vetor que guarda info se TS foi otimizada
-tentouOtmTS(indTS) = 0;
 
 % cria lista de individuos do tamanho do numero de TS (ciclos). 
 lstIndividuos = zeros( size(indTS,2),size(indTS,2)  );
@@ -32,12 +27,16 @@ novoInd = indTS;
 % numero de TS 
 for i=1:size(indTS,2)
 
-    global param;
-    NCALBL = param.NCALBL;
-    NCAL = param.NCAL;
+    if (indTS(i)==153)    
+        debug=0;
+    end
     
     % obtem a chave da condicao de menor perda p/ dada chave indTS(i)
     chaveMP = otimizacaoAberturaCiclo(indTS(i), indBinOriginal, alim);
+
+    % DEBUG
+    global param;   
+    param.lstChaves = [param.lstChaves, chaveMP];
 
     % se nao membro do indTS (isto eh foi alterada)
     if ( ~ismember(chaveMP,indTS) )  
@@ -79,12 +78,7 @@ novoInd = indTS;
 
 % numero de TS 
 for i=1:size(indTS,2)
-
-%     % DEBUG
-%     % contador p/ medir NPF da iteracao
-%     global param;
-%     param.NCALBL_iter = param.NCALBL;    
-    
+   
     % se nao otimizou TS 
     if ( ~otimizouTS(indTS(i)) )
 
@@ -218,13 +212,5 @@ end
 
 % filtra lstIndividuos
 lstIndividuos = unique(lstIndividuos, 'rows');
-
-end
-
-% incrementa contador OAC
-function contaOAC()
-
-global param;
-param.NOAC = param.NOAC + 1;
 
 end
