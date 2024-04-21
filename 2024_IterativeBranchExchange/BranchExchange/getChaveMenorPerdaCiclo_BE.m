@@ -363,7 +363,7 @@ tensao = results.bus(no,8);
 end
 
 % obtem chave menor perda, caminhando p/ os 2 lados da rede 
-function novaTieSwitch = obtemChaveMenorPerdaCaminhaRede(tieSwitch,alimOriginal,fitRef)
+function novaTieSwitch = obtemChaveMenorPerdaCaminhaRede(tieSwitch,alimOriginal,fitRef,results)
 
 % obtem nos 
 [noDireito,noEsquerdo] = getNos(tieSwitch,alimOriginal);
@@ -378,13 +378,13 @@ else
 end
 
 % caminha em direcao ao Pai, enquanto fitness estiver diminuindo
-novaTieSwitch = caminhaEnquantoFitnessDiminuir_2024(primNo,tieSwitch,fitRef,alimOriginal);
+novaTieSwitch = caminhaEnquantoFitnessDiminuir_2024(primNo,tieSwitch,fitRef,alimOriginal,results);
 
 % senao encontrou chave menor perda, caminha no sentido do filho
 if ( novaTieSwitch == tieSwitch )
     
     % caminha em direcao ao Pai, enquanto fitness estiver diminuindo
-    novaTieSwitch = caminhaEnquantoFitnessDiminuir_2024(segNo,tieSwitch,fitRef,alimOriginal);
+    novaTieSwitch = caminhaEnquantoFitnessDiminuir_2024(segNo,tieSwitch,fitRef,alimOriginal,results);
     
 end
 

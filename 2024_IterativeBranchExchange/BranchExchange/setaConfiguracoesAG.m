@@ -40,9 +40,8 @@ switch sistema
         paramAG.maxPop = 5; % artigo
         paramAG.numGeracoes = 5;
         paramAG.tipoOrdCiclos = 'tamCiclo';
-%       paramAG.tipoOrdCiclos = 'cargaCiclo';
-%        paramAG.tipoOrdCiclos = 'aleatorio'; % melhor desempenho OBS: testar com BAran
-                
+%       paramAG.tipoOrdCiclos = 'aleatorio'; % melhor desempenho
+              
     case 3 % Sistema_Huang2002.txt';
 
         paramAG.maxPop = 5; % artigo
@@ -55,7 +54,7 @@ switch sistema
 
         paramAG.numGeracoes = 5;
         paramAG.maxPop = 10;
-%         paramAG.tipoOrdCiclos = 'aleatorio'; % pessimos resultados
+%         paramAG.tipoOrdCiclos = 'aleatorio'; % pessimos resultados sucesso 1/10
         paramAG.tipoOrdCiclos = 'tamCiclo'; % melhor
 %       paramAG.tipoOrdCiclos = 'cargaCiclo';
        
@@ -85,7 +84,7 @@ switch sistema
         paramAG.numGeracoes = 10;
         paramAG.tipoOrdCiclos = 'tamCiclo'; % melhor
 %         paramAG.tipoOrdCiclos = 'cargaCiclo';
-%          paramAG.tipoOrdCiclos = 'aleatorio'; % nao da bons resultados
+%           paramAG.tipoOrdCiclos = 'aleatorio'; % sucessos: 5/10
 
         
     case 8 % rede Carrano

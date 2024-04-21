@@ -1,6 +1,6 @@
 function SistemaTPC2003 = SistemaTPC2003B()
 
-% De	Para	R(pus)	X(pus)	Comprimento(km)	Ampacidade(A)
+% De	Para	R(ohm)	X(ohm)	Comprimento(km)	Ampacidade(A)
 SistemaTPC2003 =[
 1	12	0.1944	0.6624	1	655
 12	13	0.2096	0.4304	1	655

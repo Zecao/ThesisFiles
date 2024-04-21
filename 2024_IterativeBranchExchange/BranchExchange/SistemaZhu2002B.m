@@ -1,6 +1,6 @@
 function SistemaZhu2002 = SistemaZhu2002B()
 
-% De	Para	R(pus)	X(pus)	Comprimento(km)	Ampacidade(A)
+% De	Para	R(ohm)	X(ohm)	Comprimento(km)	Ampacidade(A)
 SistemaZhu2002 = [
 1	2	0.0922	0.047	1	100
 2	3	0.493	0.2512	1	100

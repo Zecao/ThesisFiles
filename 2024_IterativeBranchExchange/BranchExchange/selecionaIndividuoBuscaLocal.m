@@ -17,6 +17,7 @@ for i=1:size(populacao,1)
     if (getStatusBuscaLocalInd(individuo,alim))
         continue;
     else
+        i
         return; % retornando o individuo
     end
         

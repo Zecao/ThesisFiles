@@ -1,6 +1,6 @@
 function branchs = Sistema136branchs()
 
-% De	Para	R(pus)	X(pus)	Comprimento(km)	Ampacidade(A)
+% De	Para	R(ohm)	X(ohm)	Comprimento(km)	Ampacidade(A)
 branchs = [
 136	1	0.33205	0.76653	1	300
 1	2	0.00188	0.00433	1	300

@@ -1,6 +1,6 @@
 function SistemaZhu20023fontes = SistemaZhu20023fontesB()
 
-% % De	Para	R(pus)	X(pus)	Comprimento(km)	Ampacidade(A)
+% % De	Para	R(ohm)	X(ohm)	Comprimento(km)	Ampacidade(A)
 SistemaZhu20023fontes = [
 1	4	0.39675	0.529	1	1200
 4	6	0.4761	0.9522	1	1200

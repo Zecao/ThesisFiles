@@ -11,9 +11,9 @@ vetorResultados = [
     % algoritmo;
     perdasXGen;
     param.NCAL;
-    telapsed;
     param.NCALBL;
-    %param.contTestesRadialidade;
+    telapsed;
+    param.contTestesRadialidade;
     ];
 
 end
