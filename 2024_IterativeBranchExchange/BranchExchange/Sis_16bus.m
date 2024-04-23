@@ -1,7 +1,27 @@
-function SistemaZhu20023fontes = SistemaZhu20023fontesB()
+function [bus,branch,chaves] = Sis_16bus()
+
+% No	Tipo	Vpu	Teta	Pcarga	Qcarga	Pger	Qger
+bus = [
+1	3	21.0	0	0	0	0	0
+2	3	21.0	0	0	0	0	0
+3	3	21.0	0	0	0	0	0
+4	1	21.0	0	2000	1600	0	0
+5	1	21.0	0	3000	400	0	0
+6	1	21.0	0	2000	-400	0	0
+7	1	21.0	0	1500	1200	0	0
+8	1	21.0	0	4000	2700	0	0
+9	1	21.0	0	5000	1800	0	0
+10	1	21.0	0	1000	900	0	0
+11	1	21.0	0	600		-500	0	0
+12	1	21.0	0	4500	-1700	0	0
+13	1	21.0	0	1000	900	0	0
+14	1	21.0	0	1000	-1100	0	0
+15	1	21.0	0	1000	900	0	0
+16	1	21.0	0	2100	-800	0	0
+];
 
 % % De	Para	R(ohm)	X(ohm)	Comprimento(km)	Ampacidade(A)
-SistemaZhu20023fontes = [
+branch = [
 1	4	0.39675	0.529	1	1200
 4	6	0.4761	0.9522	1	1200
 4	5	0.4232	0.5819	1	1200
@@ -40,4 +60,23 @@ SistemaZhu20023fontes = [
 % 13	15	0.08	0.11	1	1200
 % ];
 
+% IdLinha	No_Emissor	No_Receptor		Tipo		Operacional			Estado
+%                                       (NA=1/NF=0)	(0-inativo,1-ativo)	(0-aberta,1-fechada)
+chaves = [
+1	1	4	1	1	1
+2	4	6	1	1	1
+3	4	5	1	1	1
+4	5	11	1	1	0
+5	6	7	1	1	1
+6	9	11	1	1	1
+7	2	8	1	1	1
+8	8	9	1	1	1
+9	8	10	1	1	1
+10	9	12	1	1	1
+11	7	16	1	1	0
+12	15	16	1	1	1
+13	10	14	1	1	0
+14	13	14	1	1	1
+15	3	13	1	1	1
+16	13	15	1	1	1];
 end

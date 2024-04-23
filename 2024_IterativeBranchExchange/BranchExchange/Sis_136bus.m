@@ -1,4 +1,4 @@
-function [barras,branchs,chaves] = Sistema136barras()
+function [barras,branch,chaves] = Sis_136bus()
 
 % No	Tipo	Vpu	Teta	Pcarga	Qcarga	Pger	Qger
 barras = [
@@ -141,7 +141,7 @@ barras = [
 ];
 
 % De	Para	R(pus)	X(pus)	Comprimento(km)	Ampacidade(A)
-branchs = [
+branch = [
 136	1	0.33205	0.76653	1	300
 1	2	0.00188	0.00433	1	300
 2	3	0.22324	0.51535	1	300
