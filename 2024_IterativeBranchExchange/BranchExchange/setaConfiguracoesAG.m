@@ -93,7 +93,6 @@ switch sistema
         paramAG.tipoOrdCiclos = 'tamCiclo'; % melhor
 %         paramAG.tipoOrdCiclos = 'cargaCiclo';
 %         paramAG.tipoOrdCiclos = 'aleatorio'; % sucessos: 5/10
-
         
     case 8 % rede Carrano
         
@@ -145,11 +144,11 @@ end
 function paramAG = inicializaHash()
 
 paramAG.hashIndividuosCalculados = containers.Map('KeyType', 'char', 'ValueType', 'double');
-paramAG.hashResultsCalculados = containers.Map('KeyType', 'char', 'ValueType', 'any');
+paramAG.hashIndividuosOtmBuscaLocalCluster = containers.Map('KeyType', 'char', 'ValueType', 'logical');
 
+paramAG.hashResultsCalculados = containers.Map('KeyType', 'char', 'ValueType', 'any');
 % verifica se busca local jah foi aplicada ao individuo
 paramAG.hashIndividuosOtmBuscaLocal = containers.Map('KeyType', 'char', 'ValueType', 'logical');
-paramAG.hashIndividuosOtmBuscaLocalCluster = containers.Map('KeyType', 'char', 'ValueType', 'logical');
 % paramAG.hashIndividuosOtmBuscaLocalTamCiclo = containers.Map('KeyType', 'char', 'ValueType', 'logical');
 
 end

@@ -26,36 +26,32 @@ function mpc = adicionaGenCost(nome,mpc)
 % 	2	0	0	3	0.25	20	0;
 % ];
 
+% TODO
 switch nome
        
-    case 'alim\Sistema_Zhu2002_3fontes.txt'
+    case '16-bus'
         
         gencost = [
         2	0	0	3	0.25 20 0;
         2	0	0	3	0.25 20 0;
         2	0	0	3	0.25 20 0;  ];
         
-    case 'alim\Sistema_Zhu2002.txt'
+    case '33-bus'
         
         gencost = [
         2	0	0	3	0.25 20 0;  ];
         
-    case 'alim\Sistema_Huang2002.txt'
+    case '69-bus'
     
         gencost = [
         2	0	0	3	0.25 20 0;  ];
     
-    case 'alim\Sistema_Brasileiro2008.txt'
-        
-        gencost = [
-        2	0	0	3	0.25 20 0;  ];
-	
-	case 'alim\Sistema_Brasileiro2008_teste'
+    case '136-bus'
         
         gencost = [
         2	0	0	3	0.25 20 0;  ];
         
-    case 'alim\Sistema_TPC2003.txt'
+    case '84-bus'
 
         gencost = [
         2	0	0	3	0.25 20 0;
@@ -69,27 +65,8 @@ switch nome
         2	0	0	3	0.25 20 0;
         2	0	0	3	0.25 20 0;
         2	0	0	3	0.25 20 0;  ];
-    
-    case 'alim\Sistema_TPC2003rede1.txt'
         
-        gencost = [
-        2	0	0	3	0.25 20 0;  
-        2	0	0	3	0.25 20 0;
-        2	0	0	3	0.25 20 0;
-        2	0	0	3	0.25 20 0;  
-        2	0	0	3	0.25 20 0;
-        2	0	0	3	0.25 20 0;
-        2	0	0	3	0.25 20 0;
-        2	0	0	3	0.25 20 0;  ];
-
-    case 'alim\Sistema_TPC2003rede2.txt'
-
-        gencost = [
-        2	0	0	3	0.25 20 0;
-        2	0	0	3	0.25 20 0;
-        2	0	0	3	0.25 20 0;  ];
-    
-    otherwise % 'SLAU07'
+    otherwise
         
         % linha de custo p/ cada gerador     
         gen = [

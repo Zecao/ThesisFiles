@@ -1,7 +1,8 @@
 % busca loca ciclo a ciclo
 function [populacao, fxi] = buscaLocalClusterCiclos(populacao,fxi,alim)
 
-% flag GrupoCiclos
+% FLAG P/ skipar o DistFlow nos Agrupamento (pois as chaves dos outros ciclos sao
+% fechadas e DistFlow nao calcula malha)
 alim.paramAG.skipDistFlowCluster = 1;
 
 % seleciona UM individuos p/ realizar busca local
@@ -10,8 +11,15 @@ alim.paramAG.skipDistFlowCluster = 1;
 % correcao de lacos da populacao 
 [newPop,newFxi] = buscaLocalBranchExchangeClusterCiclos(individuo, alim);
 
+% TODO refactory
+% se possui 1 ou 2 ciclos roda algoritmo original 
 if (isempty(newPop))
-   return; 
+    
+    % FLAG
+    alim.paramAG.skipDistFlowCluster = 0;
+    % correcao de lacos da populacao 
+    [newPop,newFxi] = buscaLocalBranchExchange(individuo, alim);
+
 end
 
 % adiciona na nova populacao os individuos radiais
@@ -20,7 +28,8 @@ end
 % % poda tam populacao
 [populacao, fxi] = podaTamPopulacao(populacao,fxi,alim);
 
-% des-flag
+% FLAG
 alim.paramAG.skipDistFlowCluster = 0;
 
 end
+

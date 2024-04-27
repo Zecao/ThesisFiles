@@ -23,7 +23,7 @@ algoritmo = 521;
 setPath();
 
 %numero de execucoes
-numexec = 10;
+numexec = 1;
 
 % inicializa var
 matrizResultados =[];

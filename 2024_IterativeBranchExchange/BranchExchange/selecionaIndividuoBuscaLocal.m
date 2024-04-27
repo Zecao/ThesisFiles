@@ -1,7 +1,5 @@
 % seleciona 1 individuo p/ busca local 
 function [individuo, indFxi] = selecionaIndividuoBuscaLocal(populacao,fxi,alim)
-
-global param;
     
 % % seleciona individuos diferentes
 [popDiv, indSupP] = unique(populacao, 'rows');
@@ -17,7 +15,9 @@ for i=1:size(populacao,1)
     if (getStatusBuscaLocalInd(individuo,alim))
         continue;
     else
-        i
+        
+        % DEBUG
+%         i
         return; % retornando o individuo
     end
         

@@ -38,39 +38,34 @@ end
 
 switch alim.Fnome 
     
-    case 'alim\Sistema_Zhu2002_3fontes.txt';
+    case '16-bus';
 
         % OBS; ha grande chance de que na populacao gerada ja exista o
         % minimo, como eh caso da populacao 'populacaoSis1.mat'
         load('populacaoSis1.mat');
   
-    case 'alim\Sistema_Zhu2002.txt';
+    case '33-bus';
         
         load('populacaoSis2.mat');
             
-    case 'alim\Sistema_Huang2002.txt'
+    case '69-bus'
         
         load('populacaoSis3.mat');
 
-    case 'alim\Sistema_Brasileiro2008.txt';
+    case '136-bus';
          
         % arquivo populacao (ja convertido)
-        load('populacaoSis4.mat');
-        
-    case 'alim\Sistema_Brasileiro2008_teste';
-         
-        % arquivo populacao (ja convertido)
-        load('populacaoSis4.mat');
+        load('populacaoSis4.mat');        
       
-    case 'alim\Sistema_TPC2003.txt';
+    case '84-bus';
            
         load('populacaoSis5.mat'); 
           
-    case 'alim\Sistema_415.txt';
+    case '417-bus';
         
         load('populacaoSis6.mat'); 
         
-    case 'Sistema119buses';
+    case '119-bus';
         
         load('populacaoSis7.mat'); 
         

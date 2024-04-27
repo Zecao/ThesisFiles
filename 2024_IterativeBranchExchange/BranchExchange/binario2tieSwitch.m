@@ -39,6 +39,7 @@ end
 
 end
 
+% TODO fix me
 % transforma individuo TS para individuo TS que mapeiam somente arestas que podem ser manobradas,
 % isto, eh arestas que fazem parte do conjunto de ciclos do alimentador.
 function newPop = tieSwitch2TSReduzido(newPop,alim)

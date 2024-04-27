@@ -50,11 +50,6 @@ if ((tieSwitch == 28)) %||(tieSwitch == 155)% r136 53 139  % rede 84b (tieSwitch
     debug = 0;
 end
 
-% OLD CODE DEL
-% [lstArestasLadoBE, lstArestasOLado] = defLadoBE(tieSwitch,noInicial,lstTodasArestasCiclo,alim,pred);
-% lstArestasLadoBE = lstArestasLadoBE2;
-% lstArestasOLado = lstArestasOLado2;
-
 % TODO mover p/ if
 [lstArestasLadoBE, lstArestasOLado] = defLadoBE(tieSwitch,noInicial,lstTodasArestasCiclo,alim,pred);
 
@@ -91,7 +86,6 @@ while (  proxNo ~= 0 )   % ~isempty(proxNo)
 
     end  
 
-    % TODO 
     % ### Manobra (utilizado em fluxo completo)
     % fecha chaveNA atual
     alim = fechaChaveTS(alim,chaveNAmenorPerda);

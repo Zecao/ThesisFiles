@@ -7,7 +7,7 @@ MAX = max(union(alim.FmBranch(:,1),alim.FmBranch(:, 2)));
 
 matrixConectividade = sparse(MAX,MAX);
 
-% TODO verificar unir p/ funcao unica criaMapVerticesArestas_AlimRed
+% 
 for i=1:size(arestas,1);   
     
     vertice1 = alim.FmChavesIEEE(i,2);

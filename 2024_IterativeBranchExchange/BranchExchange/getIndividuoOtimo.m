@@ -3,11 +3,11 @@ function ind = getIndividuoOtimo(sistema,alim)
 
 switch sistema
     
-    case 1 % 'alim\Sistema_Zhu2002_3fontes.txt';
+    case 1 % 16-bus
 
         ind = [1 1 1 1 1 0 1 1 0 1 0 1 1 1 1 1];
       
-    case 2 % alim\Sistema_Zhu2002.txt';
+    case 2 % 33-bus
 
 % % Otimo artigo Zhu,2002 0.139532 % s7-s9-s14-s32-s33 
 % % OBS: da Inf matpower
@@ -19,13 +19,13 @@ switch sistema
         ind = [1 1 1 1 1 1 0 1 0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 ...
 1 1 0 1 1 1 1 0];
 
-    case 3 % 'alim\Sistema_Huang2002.txt';
+    case 3 % 70-bus
 
         ind = [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 ...
 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 ... 
 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 ];
 
-    case 31 % 'alim\Sistema_Huang2002.txt';
+    case 31 % 69-bus
 
         indTS = [14, 58, 61, 69, 70];  % Maioria dos trabalhos apontam este resultado
 % indTS = [14, 55, 61, 69, 70];  0.0986055604266739
@@ -42,7 +42,7 @@ switch sistema
 % % A novel integration technique for optimal network reconfiguration and distributed generation
 % % placement inpower distribution networks      
 
-    case 4 % 'alim\Sistema_Brasileiro2008.txt';
+    case 4 % 136-bus
 
         % otimo BArbosa et al. 2013
         % 0.280193
@@ -78,7 +78,7 @@ switch sistema
 %  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 1 ...
 %  1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 0 1 0 0 1 1 0 ...
               
-    case 5 % 'alim\Sistema_TPC2003.txt';
+    case 5 % 84-bus
 
 % Perda calculada: 0.471096540044206
 

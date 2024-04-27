@@ -35,8 +35,8 @@ for i=1:size(indTS,2)
     chaveMP = otimizacaoAberturaCiclo(indTS(i), indBinOriginal, alim);
 
     % DEBUG
-    global param;   
-    param.lstChaves = [param.lstChaves, chaveMP];
+    % global param;   
+    % param.lstChaves = [param.lstChaves, chaveMP];
 
     % se nao membro do indTS (isto eh foi alterada)
     if ( ~ismember(chaveMP,indTS) )  

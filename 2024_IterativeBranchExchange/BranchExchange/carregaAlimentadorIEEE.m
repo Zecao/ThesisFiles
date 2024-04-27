@@ -7,19 +7,6 @@ alim = carregaArquivoIEEE(sistema);
 %
 alim = loadBus_Branch_Generator(sistema,alim);
 
-% OLD CODE
-% % carrega matriz Bus IEEE
-% alim = carregaBusIEEE(sistema,alim);
-% 
-% % carrega matriz Branch IEEE
-% alim = carregaBranchIEEE(sistema,alim);
-% 
-% % carrega Gerador IEEE
-% alim = carregaGeradorIEEE(sistema,alim);
-
-% carrega Chaves IEEE
-% alim = carregaChavesIEEE(sistema,alim);
-
 % obtem individuo original 
 indOriginal = chaves2individuo(alim.FmChavesIEEE);
 

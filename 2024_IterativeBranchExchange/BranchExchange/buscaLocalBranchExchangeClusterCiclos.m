@@ -15,7 +15,7 @@ if ( ~isempty(novosIndividuos) )
 
     % seta status de BuscaLocal do individuo p/ true 
     setStatusBuscaLocalInd(indBin,alim);
-
+  
 end
 
 end
@@ -33,6 +33,13 @@ indTS = binario2tieSwitch(indBin,alim);
 % separa as TS por Clusters do mesmo ciclo
 lstIndividuos = branchExchangeClusters(indTS,indBin,alim);
 
+% TODO
+if (isempty(lstIndividuos))
+     
+    return;
+    
+end
+
 % transforma p/ binario
 lstIndividuos = tieSwitch2binario(lstIndividuos,alim);
 
@@ -47,6 +54,8 @@ end
 % 
 function lstIndividuos = branchExchangeClusters(indTS,indBinOriginal,alim)
 
+lstIndividuos = [];
+
 % detecta os clusters. i.e. conjunto de ciclos com mesmas saidas da SE ("arestas pais")
 % isto eh feito por meio da matriz matrizTSxArestasOrigem
 % com as arestas finais (mais proximas a SE) de cada chaveTS 
@@ -55,13 +64,21 @@ hashTSxArestasDoCiclo = criaMapTS_VerticesProxSE(indTS,alim);
 % cria map(cluster) de VerticesProxSe X TS, definindo as TS que "compartilham" mesmos ciclos
 hashClustersXTieSwitches = criaMapClusterCiclosComMesmasArestasSE2021(hashTSxArestasDoCiclo);
 
-% OBS: versao antiga que nao armazena os ciclos sozinhos (i.e. sem
-% clusters)
-% hashClustersXTieSwitchesOLD = criaMapClusterCiclosComMesmasArestasSE_OLD(hashTSxArestasDoCiclo);
+% se contem apenas 1 ou 2 GRUPOS, roda algoritmo original
+if ( hashClustersXTieSwitches.Count <= 2 )
+    
+    return;
+    
+else    
 
-% realiza Branch Exchange por ciclo
-% lstIndividuos = branchExchangeClustersCiclo_OLD(hashClustersXTieSwitches,indBinOriginal,alim);
-lstIndividuos = branchExchangeClustersCiclo2021(hashClustersXTieSwitches,indBinOriginal,alim);
+    % OBS: versao antiga que nao armazena os ciclos sozinhos (i.e. sem clusters)
+    % hashClustersXTieSwitchesOLD = criaMapClusterCiclosComMesmasArestasSE_OLD(hashTSxArestasDoCiclo);
+
+    % realiza Branch Exchange por ciclo
+    % lstIndividuos = branchExchangeClustersCiclo_OLD(hashClustersXTieSwitches,indBinOriginal,alim);
+    lstIndividuos = branchExchangeClustersCiclo2021(hashClustersXTieSwitches,indBinOriginal,alim);
+    
+end
 
 end
 
@@ -207,13 +224,6 @@ end
 %
 function pop = otimizaCicloCluster_Pvt(indTS,indBinOriginal,indTSOriginal,alim)
 
-% OLD CODE 
-% sis = getSistema(alim.Fnome);
-% pop =[];
-% if (sis == 7)||(sis==4)
-%     pop = otimizaCicloClusterPvt2024(indTS,indBinOriginal,indTSOriginal,alim);
-% else
-
 pop = otimizaCicloClusterPvt2024(indTS,indBinOriginal,indTSOriginal,alim);
 
 end
@@ -229,12 +239,6 @@ novoInd = indTSOriginal;
 % 1 ordem aleatoria 
 indices = indTS(randperm(size(indTS,2)));
 
-% %     DEBUG rede 4
-% % analisar ciclo 147 e 150, pois substitui para 150 e 150
-%     if (indTS(1)==147)
-%         debug=0;
-%     end
-
 % numero de TS 
 for TS=indices 
 
@@ -245,8 +249,8 @@ for TS=indices
     chaveMP = otimizacaoAberturaCiclo(TS, indBinAbertoOuFechado, alim);
 
     % DEBUG
-    global param;   
-    param.lstChaves = [param.lstChaves, chaveMP];    
+    % global param;   
+    % param.lstChaves = [param.lstChaves, chaveMP];    
     
     % se nao membro do indTS (isto eh foi alterada)
     % OBS: ao analisar o cluster com as outras chaves fechadas, pode ocorrer de repetir alguma TS mais de 1 vez. 

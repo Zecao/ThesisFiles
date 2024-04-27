@@ -4,14 +4,17 @@ function setStatusBuscaLocalInd(individuo,alim)
 % calcula Index Individuo
 index = calculaIndexIndividuo(individuo);
 
-if ( strcmp(alim.paramAG.tipoOrdCiclos,'cluster'))
-    
-    alim.paramAG.hashIndividuosOtmBuscaLocalCluster(index) = true;
+% OLD CODE manter
+% if ( alim.paramAG.ligaAgrupamento == 1 )
+%     
+%     alim.paramAG.hashIndividuosOtmBuscaLocalCluster(index) = true;
+% 
+% else
+%     
+%     alim.paramAG.hashIndividuosOtmBuscaLocal(index) = true;
+% 
+% end
 
-else
-    
-    alim.paramAG.hashIndividuosOtmBuscaLocal(index) = true;
-
-end
+alim.paramAG.hashIndividuosOtmBuscaLocal(index) = true;
 
 end
