@@ -9,12 +9,8 @@ switch sistema
     case 2 % 33-bus
 
         [bus,branch,chave] = Sis_33bus();
-
-    case 3 % 70-bus
-
-        [bus,branch,chave] = Sis_70bus();
-        
-    case 31 % 69-bus
+       
+    case 3 % 69-bus
 
         [bus,branch,chave] = Sis_69bus();
 

@@ -14,14 +14,9 @@ switch sistema
      case 2 
          alim.Sbase = 1; %10 orig. % 100MVA = 0.201860379372922
          alim.Vbase = 12.66;
-         alim.Fnome = '33-bus';
+         alim.Fnome = '33-bus';         
          
-     case 3 
-         alim.Sbase = 10; %10 ok % 1 e 100 nao ok (erro numerico)
-         alim.Vbase = 12.66;
-         alim.Fnome = '70-bus';
-         
-      case 31
+      case 3
          alim.Sbase = 10; %10 ok % 1 e 100 nao ok (erro numerico)
          alim.Vbase = 12.66;
          alim.Fnome = '69-bus';   

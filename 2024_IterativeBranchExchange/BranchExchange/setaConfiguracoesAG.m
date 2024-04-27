@@ -42,15 +42,7 @@ switch sistema
         paramAG.tipoOrdCiclos = 'tamCiclo';
 %       paramAG.tipoOrdCiclos = 'aleatorio'; % melhor desempenho
               
-    case 3 % 70-bus
-
-        paramAG.maxPop = 5; % artigo
-        paramAG.numGeracoes = 5; 
-        paramAG.tipoOrdCiclos = 'tamCiclo'; % melhor desempenho
-%       paramAG.tipoOrdCiclos = 'aleatorio';
-%       paramAG.tipoOrdCiclos = 'cargaCiclo'; % nao resolve a rede
-
-    case 31 % 69-bus
+    case 3 % 69-bus
 
         paramAG.maxPop = 5; % artigo
         paramAG.numGeracoes = 5; 
