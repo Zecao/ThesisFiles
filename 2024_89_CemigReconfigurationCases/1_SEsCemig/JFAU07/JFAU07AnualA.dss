@@ -1,0 +1,23 @@
+clear
+new circuit.alimJFAU07 bus1=BMTFIC.1.2.3,basekv=22.000000000,pu=1.040000000
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect JFAU07SegmentosMT.dss
+Redirect JFAU07ChavesMT.dss
+Redirect JFAU07Reguladores.dss
+Redirect JFAU07Transformadores.dss
+Redirect JFAU07SegmentosBT.dss
+Redirect JFAU07Ramais.dss
+Redirect JFAU07CargaMT_Dez.dss
+Redirect JFAU07CargaBT_Dez.dss
+Redirect JFAU07CapacitorMT.dss
+
+new energymeter.carga element=line.TRfic9,terminal=2
+
+Set voltagebases=[22.000000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+! BusCoords JFAU07CoordMT.csv

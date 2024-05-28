@@ -1,0 +1,23 @@
+clear
+new circuit.alimPRRU07 bus1=BMTFIC.1.2.3,basekv=13.800000000,pu=1.040000000
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect PRRU07SegmentosMT.dss
+Redirect PRRU07ChavesMT.dss
+Redirect PRRU07Reguladores.dss
+Redirect PRRU07Transformadores.dss
+Redirect PRRU07SegmentosBT.dss
+Redirect PRRU07Ramais.dss
+Redirect PRRU07CargaMT_Dez.dss
+Redirect PRRU07CargaBT_Dez.dss
+! Redirect PRRU07CapacitorMTDez.dss
+
+new energymeter.carga element=line.TRfic6,terminal=2
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+! BusCoords PRRU07CoordMT.csv

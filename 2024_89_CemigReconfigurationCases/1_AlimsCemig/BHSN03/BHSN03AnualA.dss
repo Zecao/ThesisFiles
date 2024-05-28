@@ -1,0 +1,21 @@
+clear
+new circuit.alimBHSN03 bus1=BMT159935026.1.2.3,basekv=13.800000000,pu=1.040000000,r1=0,x1=0.0001
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect BHSN03SegmentosMT.dss
+Redirect BHSN03ChavesMT.dss
+Redirect BHSN03Transformadores.dss
+Redirect BHSN03SegmentosBT.dss
+Redirect BHSN03Ramais.dss
+Redirect BHSN03CargaMT_Nov.dss
+Redirect BHSN03CargaBT_Nov.dss
+
+new energymeter.carga element=line.TR12446907,terminal=1
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+BusCoords BHSN03CoordMT.csv

@@ -1,0 +1,21 @@
+clear
+new circuit.alimAXAU10 bus1=BMT119970113.1.2.3,basekv=13.800000000,pu=1.040000000,r1=0,x1=0.0001
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect AXAU10SegmentosMT.dss
+Redirect AXAU10ChavesMT.dss
+Redirect AXAU10Transformadores.dss
+Redirect AXAU10SegmentosBT.dss
+Redirect AXAU10Ramais.dss
+Redirect AXAU10CargaMT_Nov.dss
+Redirect AXAU10CargaBT_Nov.dss
+
+new energymeter.carga element=line.TR84865,terminal=1
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+BusCoords AXAU10CoordMT.csv

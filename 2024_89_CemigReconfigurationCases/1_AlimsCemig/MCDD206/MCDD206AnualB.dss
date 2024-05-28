@@ -1,0 +1,9 @@
+! manobra 26/01/2021 
+close line.CTRR39384 term=1 !173090	
+open line.CTRR38302 term=1 !264345
+
+new energymeter.carga element=line.TR12676187,terminal=1
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+

@@ -1,0 +1,12 @@
+new transformer.RT1075-1 Phases=1,windings=2,buses=[BMT171991958.1.0 BMT171991959.1.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC1075-1 transformer=RT1075-1,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:188552
+new transformer.RT1075-2 Phases=1,windings=2,buses=[BMT171991958.2.0 BMT171991959.2.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC1075-2 transformer=RT1075-2,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:188552
+new transformer.RT1075-3 Phases=1,windings=2,buses=[BMT171991958.3.0 BMT171991959.3.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC1075-3 transformer=RT1075-3,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:188552
+new transformer.RT7191-1 Phases=1,windings=2,buses=[BMT179004096.1.0 BMT176550251.1.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[1670.000000000 1670.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0299
+new RegControl.RC7191-1 transformer=RT7191-1,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:321075
+new transformer.RT7191-2 Phases=1,windings=2,buses=[BMT179004096.2.0 BMT176550251.2.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[1670.000000000 1670.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0299
+new RegControl.RC7191-2 transformer=RT7191-2,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:321075
+new transformer.RT7191-3 Phases=1,windings=2,buses=[BMT179004096.3.0 BMT176550251.3.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[1670.000000000 1670.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0299
+new RegControl.RC7191-3 transformer=RT7191-3,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:321075

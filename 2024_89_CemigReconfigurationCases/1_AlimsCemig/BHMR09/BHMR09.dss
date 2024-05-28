@@ -1,0 +1,3 @@
+! manter este comentario para compatibilidade do C#
+new circuit.alimBHMR09 bus1=BMT154853662,basekv=13.800000000,pu=1.040000000,r1=0,x1=0.0001
+

@@ -1,0 +1,677 @@
+new line.CTR128423 bus1=BMT101929291.1.2.3,bus2=BMT101929298.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90263
+new line.CTR128906 bus1=BMT119640152.1.2.3,bus2=BMT174436648.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 292538
+new line.CTR141555 bus1=BMT176259884.1.2.3,bus2=BMT170218945.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90827
+new line.CTR141583 bus1=BMT170218963.1.2.3,bus2=BMT170218964.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 8657
+new line.CTR141611 bus1=BMT101928626.1.2.3,bus2=BMT101931041.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90015
+new line.CTR141667 bus1=BMT170886859.1.2.3,bus2=BMT170886862.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90223
+new line.CTR153287 bus1=BMT170218479.1.2.3,bus2=BMT170218480.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90152
+new line.CTR179362 bus1=BMT170218807.2,bus2=BMT170218808.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 147683
+new line.CTR179796 bus1=BMT170218443.2,bus2=BMT170218444.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 148820
+new line.CTR182946 bus1=BMT170218784.1.2.3,bus2=BMT170218789.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 8616
+new line.CTR184304 bus1=BMT170218642.3,bus2=BMT171795912.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 148623
+new line.CTR194678 bus1=BMT101919778.1,bus2=BMT101919890.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 136771
+new line.CTR194706 bus1=BMT101919799.1,bus2=BMT163157395.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 136772
+new line.CTR197125365 bus1=BMTSEGM#985626825.1.2.3,bus2=BMTSEGM#591376095.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 
+open line.CTR197125365 term=1
+new line.CTR197125381 bus1=BMTSEGM#985626905.1.2.3,bus2=BMTSEGM#591376143.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 
+open line.CTR197125381 term=1
+new line.CTR197125393 bus1=BMTSEGM#985626965.1.2.3,bus2=BMTSEGM#591376179.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 
+open line.CTR197125393 term=1
+new line.CTR197125405 bus1=BMTSEGM#985627025.1.2.3,bus2=BMTSEGM#591376215.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 
+open line.CTR197125405 term=1
+new line.CTR197125417 bus1=BMTSEGM#985627085.1.2.3,bus2=BMTSEGM#591376251.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 
+open line.CTR197125417 term=1
+new line.CTR197125429 bus1=BMTSEGM#985627145.1.2.3,bus2=BMTSEGM#591376287.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 
+new line.CTR197126069 bus1=BMTSEGM#985630345.1.2.3,bus2=BMTSEGM#591378207.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 
+new line.CTR197126085 bus1=BMTSEGM#985630425.1.2.3,bus2=BMTSEGM#591378255.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 
+new line.CTR197126097 bus1=BMTSEGM#985630485.1.2.3,bus2=BMTSEGM#591378291.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 
+new line.CTR197126109 bus1=BMTSEGM#985630545.1.2.3,bus2=BMTSEGM#591378327.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 
+open line.CTR197126109 term=1
+new line.CTR197126121 bus1=BMTSEGM#985630605.1.2.3,bus2=BMTSEGM#591378363.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 
+new line.CTR197126133 bus1=BMTSEGM#985630665.1.2.3,bus2=BMTSEGM#591378399.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 
+new line.CTR197126145 bus1=BMTSEGM#985630725.1.2.3,bus2=BMTSEGM#591378435.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 
+new line.CTR197126257 bus1=BMTSEGM#985631285.1.2.3,bus2=BMTSEGM#591378771.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 
+new line.CTR197126283 bus1=BMTSEGM#985631415.1.2.3,bus2=BMTSEGM#591378849.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 
+new line.CTR197126311 bus1=BMTSEGM#985631555.1.2.3,bus2=BMTSEGM#591378933.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 
+new line.CTR197126339 bus1=BMTSEGM#985631695.1.2.3,bus2=BMTSEGM#591379017.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 
+new line.CTR197126367 bus1=BMTSEGM#985631835.1.2.3,bus2=BMTSEGM#591379101.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 
+new line.CTR197126387 bus1=BMTSEGM#985631935.1.2.3,bus2=BMTSEGM#591379161.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 
+new line.CTR197126423 bus1=BMTSEGM#985632115.1.2.3,bus2=BMTSEGM#591379269.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 
+new line.CTR197884 bus1=BMT101925203.1.2.3,bus2=BMT101928024.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 150353
+new line.CTR202798 bus1=BMT101926120.2,bus2=BMT101926309.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 136768
+new line.CTR203967 bus1=BMT170218429.1.2.3,bus2=BMT170218438.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 149215
+new line.CTR206851 bus1=BMT170218794.1.2.3,bus2=BMT170218800.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 8656
+new line.CTR214005 bus1=BMT101929914.1.2.3,bus2=BMT101930467.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 14291
+new line.CTR225989 bus1=BMT170886846.1.2.3,bus2=BMT170886875.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 191832
+new line.CTR227333 bus1=BMT170886629.1.2.3,bus2=BMT170886630.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90199
+new line.CTR243881 bus1=BMT101918168.2,bus2=BMT101918203.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 90159
+new line.CTR243895 bus1=BMT119636407.1.2.3,bus2=BMT163797261.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 292531
+new line.CTR243923 bus1=BMT101918294.1.2.3,bus2=BMT152713115.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 292534
+new line.CTR243993 bus1=BMT101921304.3,bus2=BMT101921430.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 90945
+new line.CTR10319 bus1=BMT101918392.1.2.3,bus2=BMT153451872.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 292536
+new line.CTR132413 bus1=BMT101928164.1.2.3,bus2=BMT170674478.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 128115
+new line.CTR138363 bus1=BMT101920401.1.2.3,bus2=BMT163092059.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90981
+new line.CTR138433 bus1=BMT101920618.1,bus2=BMT152560668.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 333375
+new line.CTR138475 bus1=BMT101919526.1.2.3,bus2=BMT101919533.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 191963
+new line.CTR160833 bus1=BMT101926085.1.2.3,bus2=BMT101926092.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 218746
+new line.CTR186768 bus1=BMT170218579.1.2.3,bus2=BMT170218580.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 139939
+new line.CTR186908 bus1=BMT170218602.1.2.3,bus2=BMT170218603.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90182
+new line.CTR187601 bus1=BMT170218506.1,bus2=BMT170218510.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 147726
+new line.CTR188077 bus1=BMT166196138.1.2.3,bus2=BMT4859926.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 149381
+open line.CTR188077 term=1
+new line.CTR214964 bus1=BMT101918826.1.2.3,bus2=BMT158853345.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 9636
+new line.CTR223161 bus1=BMT101921745.1.2.3,bus2=BMT173596282.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90406
+new line.CTR224582 bus1=BMT170886935.1.2.3,bus2=BMT170886936.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 131413
+new line.CTR225219 bus1=BMT170886685.1.2.3,bus2=BMT170886686.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 380810
+new line.CTR241186 bus1=BMT170218218.1.2.3,bus2=BMT170218970.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90446
+new line.CTR241200 bus1=BMT170218975.1.2.3,bus2=BMT170218976.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90296
+new line.CTR241242 bus1=BMT170218260.1.2.3,bus2=BMT176707015.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90778
+new line.CTR241270 bus1=BMT170218931.1.2.3,bus2=BMT172771677.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 116234
+new line.CTR241298 bus1=BMT170218719.1.2.3,bus2=BMT170218720.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 294941
+open line.CTR241298 term=1
+new line.CTR241354 bus1=BMT170218758.1.2.3,bus2=BMT170218757.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 134869
+new line.CTR241382 bus1=BMT170218526.1.2.3,bus2=BMT170218575.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 91024
+new line.CTR241410 bus1=BMT170218530.1.2.3,bus2=BMT170218533.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 306299
+new line.CTR241424 bus1=BMT170886825.1.2.3,bus2=BMT170886831.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 309066
+new line.CTR241452 bus1=BMT170886634.1.2.3,bus2=BMT170886635.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 8565
+new line.CTR241473 bus1=BMT170886646.1.2.3,bus2=BMT170886647.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90006
+new line.CTR241501 bus1=BMT170886687.1.2.3,bus2=BMT170886688.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90830
+new line.CTR241543 bus1=BMT170218471.1.2.3,bus2=BMT174761802.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90469
+new line.CTR241571 bus1=BMT101928745.1.2.3,bus2=BMT165804843.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90256
+new line.CTR241585 bus1=BMT161516621.1.2.3,bus2=BMT101929109.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90490
+new line.CTR241599 bus1=BMT101930103.1,bus2=BMT101930110.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 11087
+new line.CTR241613 bus1=BMT101930495.1.2.3,bus2=BMT160341619.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90625
+new line.CTR241690 bus1=BMT155762219.1.2.3,bus2=BMT168218412.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 149992
+new line.CTR241823 bus1=BMT101925000.1.2.3,bus2=BMT101928073.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90563
+new line.CTR241837 bus1=BMT171729989.1.2.3,bus2=BMT2800253.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90255
+open line.CTR241837 term=1
+new line.CTR242257 bus1=BMT170218503.1.2.3,bus2=BMT170218514.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 150082
+new line.CTR248788 bus1=BMT170886789.1.2.3,bus2=BMT170886798.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 106273
+new line.CTR271398 bus1=BMT101919050.1,bus2=BMT163822837.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 265337
+new line.CTR272714 bus1=BMT101918665.1.2.3,bus2=BMT161874811.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 292545
+new line.CTR272728 bus1=BMT175477264.1.2.3,bus2=BMT170886791.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 312942
+new line.CTR273414 bus1=BMT101928822.3,bus2=BMT158573067.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 380950
+new line.CTR289913 bus1=BMT101918532.1.2.3,bus2=BMT165640226.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90171
+new line.CTR290655 bus1=BMT101925553.1.2.3,bus2=BMT152833192.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 5366
+new line.CTR320937 bus1=BMT101918245.1.2.3,bus2=BMT105671463.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 292533
+new line.CTR321035 bus1=BMT101918791.1.2.3,bus2=BMT101918854.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90619
+new line.CTR321049 bus1=BMT101918420.1.2.3,bus2=BMT101918441.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 9231
+new line.CTR321063 bus1=BMT101921913.1.2.3,bus2=BMT153076255.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90164
+new line.CTR321105 bus1=BMT173596289.1.2.3,bus2=BMT2799196.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90161
+open line.CTR321105 term=1
+new line.CTR10074 bus1=BMT170218949.1.2.3,bus2=BMT170218950.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90426
+new line.CTR105379 bus1=BMT173959630.1.2.3,bus2=BMT173959625.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90267
+open line.CTR105379 term=1
+new line.CTR140204 bus1=BMT101929634.1.2.3,bus2=BMT165333633.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 9630
+new line.CTR140232 bus1=BMT101929886.1.2.3,bus2=BMT165339210.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90185
+new line.CTR140309 bus1=BMT101925343.1.2.3,bus2=BMT157424942.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90628
+new line.CTR140337 bus1=BMT170886641.1.2.3,bus2=BMT170886642.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90200
+new line.CTR140421 bus1=BMT170218462.1.2.3,bus2=BMT170218463.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 272737
+new line.CTR140463 bus1=BMT170218568.1,bus2=BMT170218571.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 9548
+new line.CTR140505 bus1=BMT170218534.1.2.3,bus2=BMT170218555.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 8664
+new line.CTR140533 bus1=BMT170218901.2,bus2=BMT170218908.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 90654
+new line.CTR140561 bus1=BMT170886742.1.2.3,bus2=BMT170886745.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 316971
+new line.CTR140631 bus1=BMT170886667.1.2.3,bus2=BMT170886693.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90809
+new line.CTR140659 bus1=BMT170218275.1.2.3,bus2=BMT170218276.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 10290
+new line.CTR156773 bus1=BMT170218872.2,bus2=BMT170218875.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 147666
+new line.CTR188385 bus1=BMT170218455.1.2.3,bus2=BMT170218456.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 150319
+new line.CTR18845 bus1=BMT101918959.1.2.3,bus2=BMT153464749.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 149002
+new line.CTR189113 bus1=BMT173736486.1.2.3,bus2=BMT173736488.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 212624
+new line.CTR189855 bus1=BMT160918946.1.2.3,bus2=BMT160918995.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 150367
+new line.CTR189911 bus1=BMT156759801.1.2.3,bus2=BMT156759803.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 150669
+new line.CTR191878 bus1=BMT101921885.1.2.3,bus2=BMT101924377.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 199777
+new line.CTR193649 bus1=BMT101926897.1.2.3,bus2=BMT101926904.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 112081
+new line.CTR195693 bus1=BMT174642595.1.2.3,bus2=BMT174642596.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 91052
+new line.CTR199228 bus1=BMT170218860.1,bus2=BMT170218865.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 193044
+new line.CTR199970 bus1=BMT101925630.2,bus2=BMT152586224.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 5686
+new line.CTR200516 bus1=BMT101920520.1.2.3,bus2=BMT174182710.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 151106
+new line.CTR200726 bus1=BMT101920751.1.2.3,bus2=BMT150341479.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 150458
+new line.CTR205052 bus1=BMT101918336.1.2.3,bus2=BMT101921654.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 292535
+new line.CTR205066 bus1=BMT101921661.1.2.3,bus2=BMT101921668.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 149307
+new line.CTR205850 bus1=BMT101927030.1.2.3,bus2=BMT101927716.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 124065
+new line.CTR211380 bus1=BMT101925602.1.2.3,bus2=BMT162020965.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 5513
+new line.CTR220116 bus1=BMT136227800.1,bus2=BMT163761489.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 7291
+new line.CTR221586 bus1=BMT170218702.1.2.3,bus2=BMT170218703.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 5096
+new line.CTR230161 bus1=BMT101925280.1.2.3,bus2=BMT148532843.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 150359
+new line.CTR239800 bus1=BMT170218952.1.2.3,bus2=BMT170218954.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 11025
+new line.CTR239814 bus1=BMT170218962.1.2.3,bus2=BMT170218967.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 8658
+new line.CTR239842 bus1=BMT176519318.1.2.3,bus2=BMT104921812.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 191829
+open line.CTR239842 term=1
+new line.CTR239856 bus1=BMT170886854.1,bus2=BMT170886873.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 307702
+new line.CTR239870 bus1=BMT170886855.1.2.3,bus2=BMT170886856.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 191836
+new line.CTR239884 bus1=BMT176519319.1.2.3,bus2=BMT101928661.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90254
+new line.CTR264293 bus1=BMT101918924.1.2.3,bus2=BMT101918931.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 124023
+new line.CTR273946 bus1=BMT168773515.1,bus2=BMT168773972.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 106230
+new line.CTR286728 bus1=BMT170566517.1.2.3,bus2=BMT101925707.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 380957
+open line.CTR286728 term=1
+new line.CTR352318 bus1=BMT101925567.1.2.3,bus2=BMT163157745.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 5477
+new line.CTR352360 bus1=BMT101925609.1.2.3,bus2=BMT165207080.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 5246
+new line.CTR352472 bus1=BMT170218268.1.2.3,bus2=BMT170218310.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 136783
+new line.CTR354579 bus1=BMT172776561.1.2.3,bus2=BMT170754467.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 150318
+open line.CTR354579 term=1
+new line.CTR354593 bus1=BMT175965089.1.2.3,bus2=BMT170218334.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 150317
+new line.CTR321147 bus1=BMT101919141.1.2.3,bus2=BMT104262489.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 91055
+new line.CTR321161 bus1=BMT101919246.2,bus2=BMT101921479.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 215758
+new line.CTR322855 bus1=BMT101924958.1.2.3,bus2=BMT160686211.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90272
+new line.CTR322869 bus1=BMT101925007.1.2.3,bus2=BMT176302291.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 280121
+new line.CTR322883 bus1=BMT101928878.1.2.3,bus2=BMT101928990.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 9626
+new line.CTR322925 bus1=BMT101929256.1.2.3,bus2=BMT101929277.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90261
+new line.CTR322953 bus1=BMT101926946.1.2.3,bus2=BMT153834233.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 91061
+new line.CTR322981 bus1=BMT101926701.1,bus2=BMT101926708.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 90555
+new line.CTR323009 bus1=BMT101925371.1.2.3,bus2=BMT152999033.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90696
+new line.CTR323023 bus1=BMT101929060.1.2.3,bus2=BMT132077325.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90009
+new line.CTR323037 bus1=BMT101928906.1.2.3,bus2=BMT167170381.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90259
+new line.CTR323079 bus1=BMT101930964.1.2.3,bus2=BMT101931020.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 380949
+new line.CTR323093 bus1=BMT160686212.1.2.3,bus2=BMT169971625.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 258146
+new line.CTR323149 bus1=BMT170218601.1.2.3,bus2=BMT170218699.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90183
+new line.CTR323163 bus1=BMT170218823.1.2.3,bus2=BMT170218596.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 193906
+open line.CTR323163 term=1
+new line.CTR323177 bus1=BMT170218829.3,bus2=BMT170218833.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 9558
+new line.CTR323191 bus1=BMT170886681.1.2.3,bus2=BMT170886682.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 191835
+new line.CTR323219 bus1=BMT170218781.1.2.3,bus2=BMT170218887.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 9589
+new line.CTR323247 bus1=BMT170218760.1,bus2=BMT170218769.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 8665
+new line.CTR323261 bus1=BMT170218517.1.2.3,bus2=BMT170218521.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 9526
+new line.CTR323275 bus1=BMT170218528.1.2.3,bus2=BMT170218561.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90005
+new line.CTR323289 bus1=BMT170218219.1.2.3,bus2=BMT170218220.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 8561
+new line.CTR323303 bus1=BMT171861876.1.2.3,bus2=BMT2800512.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 91013
+open line.CTR323303 term=1
+new line.CTR323345 bus1=BMT101914325.1.2.3,bus2=BMT170218261.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 10075
+new line.CTR323373 bus1=BMT176709908.1.2.3,bus2=BMT170218318.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 302266
+new line.CTR323394 bus1=BMT170218354.1.2.3,bus2=BMT170218355.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90805
+new line.CTR323408 bus1=BMT174161684.1.2.3,bus2=BMT170218360.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 286220
+new line.CTR323422 bus1=BMT170886702.1.2.3,bus2=BMT170886703.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90790
+new line.CTR324283 bus1=BMT173492253.1.2.3,bus2=BMT2800232.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90498
+open line.CTR324283 term=1
+new line.CTR324311 bus1=BMT154252168.1.2.3,bus2=BMT161450614.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90285
+new line.CTR324325 bus1=BMT175913909.1.2.3,bus2=BMT2800491.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90400
+open line.CTR324325 term=1
+new line.CTR324339 bus1=BMT148434732.1.2.3,bus2=BMT148434208.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90284
+open line.CTR324339 term=1
+new line.CTR506416 bus1=BMT170218716.1.2.3,bus2=BMT176601963.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 193905
+new line.CTR50695 bus1=BMT149090981.1.2.3,bus2=BMT101919463.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 218749
+new line.CTR507165 bus1=BMT170886904.1.2.3,bus2=BMT170886725.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 196324
+open line.CTR507165 term=1
+new line.CTR507277 bus1=BMT170886675.1.2.3,bus2=BMT170886676.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90368
+new line.CTR507326 bus1=BMT170886905.1.2.3,bus2=BMT170886891.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 196322
+open line.CTR507326 term=1
+new line.CTR507452 bus1=BMT170886890.1.2.3,bus2=BMT170886734.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 196323
+open line.CTR507452 term=1
+new line.CTR507767 bus1=BMT170886882.1.2.3,bus2=BMT170886884.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90814
+new line.CTR511015 bus1=BMT101918546.1.2.3,bus2=BMT149278504.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 100505
+new line.CTR512387 bus1=BMT170886720.1.2.3,bus2=BMT173341508.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90393
+new line.CTR512443 bus1=BMT101928647.1.2.3,bus2=BMT101928668.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 112586
+new line.CTR557509 bus1=BMT101926428.1,bus2=BMT163176157.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 130299
+new line.CTR558125 bus1=BMT101929032.1.2.3,bus2=BMT165549066.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90260
+new line.CTR559651 bus1=BMT101928129.1.2.3,bus2=BMT174063836.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90282
+new line.CTR559679 bus1=BMT101928150.1.2.3,bus2=BMT154847227.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90269
+new line.CTR559707 bus1=BMT101928171.3,bus2=BMT131140865.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 11058
+new line.CTR244007 bus1=BMT101920548.1.2.3,bus2=BMT163012039.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90798
+new line.CTR244049 bus1=BMT101921927.1.2.3,bus2=BMT172709837.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90166
+new line.CTR244063 bus1=BMT155170170.1.2.3,bus2=BMT155170868.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90168
+new line.CTR244091 bus1=BMT101918490.1.2.3,bus2=BMT166196132.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 243700
+new line.CTR253513 bus1=BMT101920184.2,bus2=BMT173783216.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 90531
+new line.CTR259526 bus1=BMT170886810.1.2.3,bus2=BMT170886812.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 380813
+new line.CTR280897 bus1=BMT170218597.1.2.3,bus2=BMT170218598.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 304953
+new line.CTR282094 bus1=BMT170218477.1.2.3,bus2=BMT170218891.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90545
+new line.CTR297417 bus1=BMT101928808.1.2.3,bus2=BMT158079753.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 11094
+new line.CTR298852 bus1=BMT152713119.1.2.3,bus2=BMT172709993.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 212443
+new line.CTR307749 bus1=BMT101918525.1.2.3,bus2=BMT101918910.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 149382
+new line.CTR349938 bus1=BMT170886718.1.2.3,bus2=BMT170886753.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 11146
+new line.CTR350141 bus1=BMT101930677.1.2.3,bus2=BMT148701829.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 149642
+new line.CTR365450 bus1=BMT101925168.1.2.3,bus2=BMT174202959.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 150350
+new line.CTR502209 bus1=BMT101927541.1,bus2=BMT164503836.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 192892
+new line.CTR520080 bus1=BMT101921367.1.2.3,bus2=BMT101921416.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 151107
+new line.CTR521669 bus1=BMT176601967.1.2.3,bus2=BMT170218786.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 193904
+new line.CTR548003 bus1=BMT170886651.1.2.3,bus2=BMT170886652.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90825
+new line.CTR56883 bus1=BMT170218450.1.2.3,bus2=BMT165578957.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 100497
+new line.CTR58437 bus1=BMT170218543.1.2.3,bus2=BMT170218544.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90004
+new line.CTR58591 bus1=BMT170218582.1.2.3,bus2=BMT172718608.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 8661
+new line.CTR58619 bus1=BMT170218585.1.2.3,bus2=BMT170218588.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90675
+new line.CTR58689 bus1=BMT170218700.3,bus2=BMT170218706.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 90543
+new line.CTR58717 bus1=BMT101925357.1.2.3,bus2=BMT163524021.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 254490
+new line.CTR58773 bus1=BMT176381090.2,bus2=BMT101925924.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 286203
+open line.CTR58773 term=1
+new line.CTR587826 bus1=BMT170218787.1.2.3,bus2=BMT170218851.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90990
+new line.CTR58843 bus1=BMT170886617.1.2.3,bus2=BMT173421325.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90403
+new line.CTR588561 bus1=BMT170218793.1.2.3,bus2=BMT170218814.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 127625
+new line.CTR58927 bus1=BMT101929382.1.2.3,bus2=BMT157371035.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 9615
+new line.CTR58997 bus1=BMT101927436.3,bus2=BMT101927443.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 7389
+new line.CTR590094 bus1=BMT101924916.1.2.3,bus2=BMT154537137.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90271
+new line.CTR640494 bus1=BMT153451394.1.2.3,bus2=BMT153464826.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 292540
+new line.CTR640578 bus1=BMT170218643.3,bus2=BMT170218661.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 8363
+new line.CTR640746 bus1=BMT153258953.1,bus2=BMT153261198.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 215736
+new line.CTR642496 bus1=BMT101927345.1.2.3,bus2=BMT161312507.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 202283
+new line.CTR642524 bus1=BMT101929347.1.2.3,bus2=BMT101929403.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90264
+new line.CTR642552 bus1=BMT101930481.1.2.3,bus2=BMT101930502.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90626
+new line.CTR642580 bus1=BMT101930635.1.2.3,bus2=BMT101930691.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 91073
+new line.CTR642608 bus1=BMT101929361.1.2.3,bus2=BMT174948257.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90676
+new line.CTR642706 bus1=BMT170218590.1.2.3,bus2=BMT170218709.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90471
+new line.CTR642734 bus1=BMT170218607.1.2.3,bus2=BMT170218609.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90669
+new line.CTR642818 bus1=BMT170886772.1.2.3,bus2=BMT170886775.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90554
+new line.CTR642902 bus1=BMT170218203.1.2.3,bus2=BMT173868360.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90404
+new line.CTR665792 bus1=BMT101920674.1.2.3,bus2=BMT157425421.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90943
+new line.CTR684356 bus1=BMT170218365.1.2.3,bus2=BMT176210197.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 195315
+new line.CTR684503 bus1=BMT101922011.1.2.3,bus2=BMT176665714.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 194138
+new line.CTR709815 bus1=BMT101930614.2,bus2=BMT104070493.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 218599
+new line.CTR134786 bus1=BMT170218524.1.2.3,bus2=BMT170218525.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 9538
+new line.CTR159027 bus1=BMT101927128.1,bus2=BMT101927674.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 192891
+new line.CTR165873 bus1=BMT101929935.1.2.3,bus2=BMT163628754.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 14290
+new line.CTR166055 bus1=BMT170218339.1.2.3,bus2=BMT170218428.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 304236
+new line.CTR167175 bus1=BMT170218788.1.2.3,bus2=BMT170218843.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90974
+new line.CTR175519 bus1=BMT163092065.1.2.3,bus2=BMT101920464.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90788
+new line.CTR175617 bus1=BMT170218474.1,bus2=BMT170218919.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 90175
+new line.CTR175785 bus1=BMT101929312.1.2.3,bus2=BMT101929319.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90265
+new line.CTR2689 bus1=BMT174202971.1.2.3,bus2=BMT101925266.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 150354
+new line.CTR269816 bus1=BMT176302297.1.2.3,bus2=BMT101925105.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 91002
+new line.CTR270502 bus1=BMT154537141.1.2.3,bus2=BMT3661211.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90273
+open line.CTR270502 term=1
+new line.CTR2766 bus1=BMT173492148.1.2.3,bus2=BMT173492251.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90408
+new line.CTR276753 bus1=BMT101920121.2,bus2=BMT160919132.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 149279
+new line.CTR276851 bus1=BMT101927009.2,bus2=BMT154474554.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 148429
+new line.CTR313083 bus1=BMT170218407.3,bus2=BMT170218426.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 127645
+new line.CTR314161 bus1=BMT101921570.1,bus2=BMT101921591.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 265336
+new line.CTR333208 bus1=BMT170886666.1.2.3,bus2=BMT151674026.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90807
+open line.CTR333208 term=1
+new line.CTR333537 bus1=BMT170218485.1.2.3,bus2=BMT175276441.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90153
+new line.CTR358303 bus1=BMT101920933.1,bus2=BMT101921003.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 91056
+new line.CTR360949 bus1=BMT101922067.1.2.3,bus2=BMT155160208.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 112645
+new line.CTR370623 bus1=BMT101925644.1.2.3,bus2=BMT163372005.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 5654
+new line.CTR372793 bus1=BMT101926939.1.2.3,bus2=BMT163360016.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 150362
+new line.CTR372835 bus1=BMT170549412.1.2.3,bus2=BMT166837501.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 150351
+open line.CTR372835 term=1
+new line.CTR493683 bus1=BMT170886878.1.2.3,bus2=BMT170886908.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 136781
+new line.CTR493998 bus1=BMT101919617.2,bus2=BMT167004473.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 218732
+new line.CTR497386 bus1=BMT101924853.1.2.3,bus2=BMT166909047.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90407
+new line.CTR497904 bus1=BMT101920527.2,bus2=BMT101921283.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 90797
+new line.CTR498443 bus1=BMT170886892.1.2.3,bus2=BMT170886893.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 136780
+new line.CTR532155 bus1=BMT170886719.1.2.3,bus2=BMT170886751.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 148632
+new line.CTR554051 bus1=BMT101927898.1.2.3,bus2=BMT101927926.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 150392
+new line.CTR58332 bus1=BMT170218342.1.2.3,bus2=BMT170218343.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 218764
+new line.CTR58381 bus1=BMT170218288.3,bus2=BMT170218289.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 218486
+new line.CTR599530 bus1=BMT170886625.1.2.3,bus2=BMT170886627.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90268
+new line.CTR601924 bus1=BMT129835708.2,bus2=BMT129841063.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 110693
+new line.CTR651260 bus1=BMT101918287.1.2.3,bus2=BMT172057014.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 196969
+new line.CTR67761 bus1=BMT101926974.1.2.3,bus2=BMT160918803.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 127209
+new line.CTR724417 bus1=BMT170218795.2,bus2=BMT170218796.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 225505
+new line.CTR724893 bus1=BMT101918399.1.2.3,bus2=BMT150341497.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 218686
+new line.CTR725964 bus1=BMT101929585.1.2.3,bus2=BMT118942819.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 202330
+new line.CTR728981 bus1=BMT101930789.1,bus2=BMT168125768.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 202314
+new line.CTR729023 bus1=BMT170218306.1.2.3,bus2=BMT170218308.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 216528
+new line.CTR729030 bus1=BMT170218273.1.2.3,bus2=BMT170218305.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 216529
+new line.CTR752088 bus1=BMT104262328.1.2.3,bus2=BMT153258946.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 218735
+new line.CTR752123 bus1=BMT101919274.1.2.3,bus2=BMT150342360.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 218738
+new line.CTR752130 bus1=BMT150342363.1.2.3,bus2=BMT101919309.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 218739
+new line.CTR752228 bus1=BMT101919729.2,bus2=BMT105531260.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 218740
+new line.CTR753999 bus1=BMT156372777.3,bus2=BMT156372787.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 225924
+new line.CTR559735 bus1=BMT101928206.1.2.3,bus2=BMT165149926.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 306320
+new line.CTR559931 bus1=BMT172718310.1.2.3,bus2=BMT170218587.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 235825
+new line.CTR560547 bus1=BMT170218356.1.2.3,bus2=BMT174161682.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90806
+new line.CTR560575 bus1=BMT170218406.3,bus2=BMT170218409.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 286219
+new line.CTR560659 bus1=BMT170886671.1.2.3,bus2=BMT170886672.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90826
+open line.CTR560659 term=1
+new line.CTR560687 bus1=BMT170218932.1.2.3,bus2=BMT170218933.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 6714
+new line.CTR560778 bus1=BMT170886774.1.2.3,bus2=BMT2800365.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90308
+new line.CTR560834 bus1=BMT170886691.1.2.3,bus2=BMT170886692.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 191833
+open line.CTR560834 term=1
+new line.CTR560883 bus1=BMT170218604.1.2.3,bus2=BMT170218681.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 9518
+new line.CTR560911 bus1=BMT170218620.3,bus2=BMT170218664.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 90178
+new line.CTR560939 bus1=BMT170218634.3,bus2=BMT170218636.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 90235
+new line.CTR560960 bus1=BMT170218617.1.2.3,bus2=BMT170218666.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 286251
+new line.CTR560988 bus1=BMT170218687.1,bus2=BMT170218689.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 11036
+new line.CTR561093 bus1=BMT160657157.1.2.3,bus2=BMT165809133.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 380948
+new line.CTR561121 bus1=BMT101925140.1.2.3,bus2=BMT101928059.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90500
+new line.CTR561191 bus1=BMT101929893.1.2.3,bus2=BMT165340155.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 384184
+new line.CTR561219 bus1=BMT174510263.1.2.3,bus2=BMT174510268.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 225501
+new line.CTR561275 bus1=BMT101927429.1.2.3,bus2=BMT167921357.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90487
+new line.CTR563333 bus1=BMT176025355.1.2.3,bus2=BMT176026526.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 335216
+new line.CTR563515 bus1=BMT101921920.1.2.3,bus2=BMT163344302.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90165
+new line.CTR563571 bus1=BMT101918112.1.2.3,bus2=BMT173923536.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90405
+new line.CTR563599 bus1=BMT173923539.1.2.3,bus2=BMT2799364.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90499
+open line.CTR563599 term=1
+new line.CTR592894 bus1=BMT170886727.1.2.3,bus2=BMT170886732.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90280
+new line.CTR593006 bus1=BMT104935567.1.2.3,bus2=BMT164730101.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 292546
+new line.CTR593160 bus1=BMT101920562.3,bus2=BMT151458902.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 218559
+new line.CTR595778 bus1=BMT101928794.1.2.3,bus2=BMT165824895.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 125234
+new line.CTR615070 bus1=BMT170218900.2,bus2=BMT170218903.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 90653
+new line.CTR632528 bus1=BMT170886805.1.2.3,bus2=BMT170886814.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 10858
+new line.CTR657490 bus1=BMT101928437.1.2.3,bus2=BMT163741663.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 402381
+new line.CTR661340 bus1=BMT170218854.1.2.3,bus2=BMT170218869.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90464
+new line.CTR719839 bus1=BMT166450071.1.2.3,bus2=BMT101927240.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 205873
+new line.CTR719867 bus1=BMT166450070.1.2.3,bus2=BMT166449841.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 205871
+open line.CTR719867 term=1
+new line.CTR719874 bus1=BMT101930019.1.2.3,bus2=BMT167861297.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 205872
+new line.CTR719902 bus1=BMT101927156.1.2.3,bus2=BMT166450065.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 205870
+new line.CTR74355 bus1=BMT170218532.1.2.3,bus2=BMT170218558.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 101778
+new line.CTR765752 bus1=BMT170218293.3,bus2=BMT170218294.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 220171
+new line.CTR765780 bus1=BMT170218290.3,bus2=BMT170218297.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 220172
+new line.CTR766375 bus1=BMT101925763.2,bus2=BMT136880585.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 128462
+new line.CTR766459 bus1=BMT101925497.1.2.3,bus2=BMT167051047.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 286265
+new line.CTR766473 bus1=BMT101925469.1.2.3,bus2=BMT101926687.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 286193
+new line.CTR766480 bus1=BMT101925378.1.2.3,bus2=BMT174984132.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 286240
+new line.CTR767110 bus1=BMT174714919.1.2.3,bus2=BMT101925812.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 102579
+new line.CTR767117 bus1=BMT101925791.1.2.3,bus2=BMT119964973.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 102578
+new line.CTR767180 bus1=BMT119964959.1.2.3,bus2=BMT101925770.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 102580
+new line.CTR831356 bus1=BMT170886818.1.2.3,bus2=BMT170886819.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 309065
+new line.CTR835458 bus1=BMT148532269.1.2.3,bus2=BMT166836035.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 309069
+new line.CTR835465 bus1=BMT137293431.1.2.3,bus2=BMT148532605.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 315838
+new line.CTR354607 bus1=BMT175964702.1.2.3,bus2=BMT170218331.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 150316
+new line.CTR356056 bus1=BMT101930054.1.2.3,bus2=BMT170533100.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 147999
+new line.CTR366955 bus1=BMT101924468.1.2.3,bus2=BMT162295436.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 137497
+new line.CTR368593 bus1=BMT170218279.1.2.3,bus2=BMT170218300.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 140210
+new line.CTR489266 bus1=BMT101926022.3,bus2=BMT101926330.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 218744
+new line.CTR514053 bus1=BMT170218368.1.2.3,bus2=BMT173736483.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 130888
+new line.CTR539190 bus1=BMT101929536.1.2.3,bus2=BMT152346765.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 101103
+new line.CTR57191 bus1=BMT101928318.1.2.3,bus2=BMT176519395.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90283
+new line.CTR61013 bus1=BMT101920604.2,bus2=BMT101921178.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 9568
+new line.CTR643868 bus1=BMT101928311.1.2.3,bus2=BMT173453670.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90427
+new line.CTR643896 bus1=BMT101928262.1.2.3,bus2=BMT167313807.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 10089
+new line.CTR64891 bus1=BMT101925210.1.2.3,bus2=BMT157286417.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 125235
+new line.CTR668172 bus1=BMT101927107.1.2.3,bus2=BMT174510259.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90561
+new line.CTR745235 bus1=BMT170218766.1.2.3,bus2=BMT170218775.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 230193
+new line.CTR778422 bus1=BMT101930152.1.2.3,bus2=BMT131540992.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 215819
+new line.CTR778443 bus1=BMT101930166.1.2.3,bus2=BMT160202049.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 215820
+new line.CTR778457 bus1=BMT101930194.1.2.3,bus2=BMT171372979.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 205879
+new line.CTR778464 bus1=BMT101930215.1.2.3,bus2=BMT167106166.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 205881
+new line.CTR778471 bus1=BMT101930250.1.2.3,bus2=BMT101930278.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 215823
+new line.CTR778499 bus1=BMT101930292.1.2.3,bus2=BMT131599561.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 205916
+new line.CTR778541 bus1=BMT101930313.1.2.3,bus2=BMT166213159.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 205886
+new line.CTR778548 bus1=BMT101930243.2,bus2=BMT161331751.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 205883
+new line.CTR778639 bus1=BMT101919372.1.2.3,bus2=BMT149090972.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 290415
+new line.CTR778646 bus1=BMT101919379.2,bus2=BMT104224577.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 290414
+new line.CTR778653 bus1=BMT104265156.1.2.3,bus2=BMT101919365.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 290413
+new line.CTR778856 bus1=BMT101930208.1.2,bus2=BMT168776528.1.2,Phases=2,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 205880
+new line.CTR779080 bus1=BMT101929767.1,bus2=BMT161365135.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 296104
+new line.CTR779087 bus1=BMT106670020.1.2.3,bus2=BMT163127739.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 296107
+new line.CTR783840 bus1=BMT170886847.1.2.3,bus2=BMT170886848.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 191830
+new line.CTR783910 bus1=BMT104933187.1.2.3,bus2=BMT104933236.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 292547
+new line.CTR783980 bus1=BMT104943022.1.2.3,bus2=BMT104943106.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 292541
+new line.CTR784001 bus1=BMT104944555.1.2.3,bus2=BMT136453704.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 292542
+new line.CTR784008 bus1=BMT104946326.1.2.3,bus2=BMT119646781.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 292543
+new line.CTR784043 bus1=BMT104953046.1.2.3,bus2=BMT169315344.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 292550
+new line.CTR786857 bus1=BMT165549073.1.2.3,bus2=BMT106026160.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 218773
+open line.CTR786857 term=1
+new line.CTR787865 bus1=BMT106670391.1.2.3,bus2=BMT118993856.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 296105
+new line.CTR787879 bus1=BMT155106206.3,bus2=BMT170420636.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 296106
+new line.CTR787935 bus1=BMT170886837.1.2.3,bus2=BMT170886839.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 191834
+new line.CTR788698 bus1=BMT107057239.1.2.3,bus2=BMT107543179.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 292544
+new line.CTR790168 bus1=BMT170218464.1.2.3,bus2=BMT170218923.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 225651
+new line.CTR79129 bus1=BMT176261737.1.2.3,bus2=BMT4475080.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 147895
+open line.CTR79129 term=1
+new line.CTR805855 bus1=BMT170218548.1.2.3,bus2=BMT170218551.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 302070
+new line.CTR828192 bus1=BMT134390300.2,bus2=BMT163406618.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 208392
+new line.CTR828213 bus1=BMT134407296.2,bus2=BMT134407562.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 307024
+new line.CTR828507 bus1=BMT165549071.1.2.3,bus2=BMT148525437.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 309063
+open line.CTR828507 term=1
+new line.CTR828584 bus1=BMT170886830.1.2.3,bus2=BMT134562010.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 309068
+open line.CTR828584 term=1
+new line.CTR828591 bus1=BMT148532845.1.2.3,bus2=BMT134562402.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 309070
+open line.CTR828591 term=1
+new line.CTR754034 bus1=BMT170218419.3,bus2=BMT170218422.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 226044
+new line.CTR755588 bus1=BMT101919393.3,bus2=BMT104230541.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 218741
+new line.CTR755623 bus1=BMT101919407.3,bus2=BMT164015560.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 226446
+new line.CTR755756 bus1=BMT101919484.1.2.3,bus2=BMT101919491.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 218747
+new line.CTR755819 bus1=BMT149090979.2,bus2=BMT157955111.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 218750
+new line.CTR757191 bus1=BMT101920597.2,bus2=BMT101921143.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 226301
+new line.CTR757828 bus1=BMT101926127.1.2.3,bus2=BMT168215303.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 218727
+new line.CTR759137 bus1=BMT101926162.1.2.3,bus2=BMT162020646.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 218728
+new line.CTR759151 bus1=BMT101926183.3,bus2=BMT101926281.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 218729
+new line.CTR760390 bus1=BMT101919568.1,bus2=BMT101919582.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 218734
+new line.CTR760432 bus1=BMT101919575.1.2.3,bus2=BMT172714793.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 218733
+new line.CTR771072 bus1=BMT101929851.1.2.3,bus2=BMT167383993.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 220225
+new line.CTR77239 bus1=BMT101920443.1,bus2=BMT101921444.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 91046
+new line.CTR772486 bus1=BMT170218724.1.2.3,bus2=BMT170218778.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 286187
+new line.CTR774390 bus1=BMT106670986.1.2.3,bus2=BMT150100012.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 296103
+new line.CTR792856 bus1=BMT109550758.1.2.3,bus2=BMT109559284.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 296666
+new line.CTR794242 bus1=BMT169315352.1.2.3,bus2=BMT110437644.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 292552
+new line.CTR794578 bus1=BMT170218386.1.2.3,bus2=BMT170218387.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 301612
+new line.CTR794886 bus1=BMT170218382.1.2.3,bus2=BMT170218383.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 303075
+new line.CTR795145 bus1=BMT111091052.1.2.3,bus2=BMT111092641.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 290452
+new line.CTR807731 bus1=BMT120214866.2,bus2=BMT176381083.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 288875
+new line.CTR807738 bus1=BMT120216721.2,bus2=BMT176381101.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 286202
+new line.CTR807745 bus1=BMT120217330.2,bus2=BMT136880669.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 286201
+new line.CTR807752 bus1=BMT174714899.2,bus2=BMT120218611.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 288874
+new line.CTR807773 bus1=BMT120231001.2,bus2=BMT136880704.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 286204
+new line.CTR810188 bus1=BMT122650929.1.2.3,bus2=BMT162156234.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 306413
+new line.CTR813681 bus1=BMT125834921.2,bus2=BMT165443545.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 307668
+new line.CTR817699 bus1=BMT148462472.1,bus2=BMT151460646.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 304957
+new line.CTR818378 bus1=BMT170218744.2,bus2=BMT175647683.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 294943
+new line.CTR818385 bus1=BMT170218743.1,bus2=BMT170218752.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 294942
+new line.CTR860096 bus1=BMT170218616.1.2.3,bus2=BMT170218618.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 235041
+new line.CTR861028 bus1=BMT153036776.1.2.3,bus2=BMT153036778.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 235712
+new line.CTR864855 bus1=BMT170218622.1.2.3,bus2=BMT170218627.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 158892
+new line.CTR868705 bus1=BMT170886920.1.2.3,bus2=BMT176258442.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 381769
+new line.CTR868708 bus1=BMT170886661.1.2.3,bus2=BMT170886662.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 381773
+open line.CTR868708 term=1
+new line.CTR868710 bus1=BMT176258443.1.2.3,bus2=BMT176258444.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 115497
+new line.CTR868711 bus1=BMT170218243.1.2.3,bus2=BMT176257968.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 115499
+new line.CTR868808 bus1=BMT170218232.1.2.3,bus2=BMT176704859.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 381768
+new line.CTR869929 bus1=BMT161354794.1.2.3,bus2=BMT155645457.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 115441
+new line.CTR870318 bus1=BMT161336003.1.2.3,bus2=BMT163615746.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 115445
+new line.CTR870320 bus1=BMT163615741.1.2.3,bus2=BMT161336035.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 115444
+new line.CTR870338 bus1=BMT170549277.1.2.3,bus2=BMT155760307.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 380956
+open line.CTR870338 term=1
+new line.CTR870345 bus1=BMT155760490.1.2.3,bus2=BMT170549279.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 380955
+new line.CTR870347 bus1=BMT170549181.1.2.3,bus2=BMT166837978.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 380954
+new line.CTR870348 bus1=BMT170549013.1.2.3,bus2=BMT166838473.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 380953
+new line.CTR870349 bus1=BMT155760879.1.2.3,bus2=BMT170549012.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 380952
+new line.CTR870363 bus1=BMT160918998.1.2.3,bus2=BMT160383944.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 374578
+new line.CTR709822 bus1=BMT101930642.1.2.3,bus2=BMT101930719.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 218600
+new line.CTR711523 bus1=BMT101919253.1.2.3,bus2=BMT176520497.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 215737
+new line.CTR714645 bus1=BMT101929977.1.2.3,bus2=BMT161335823.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 205869
+new line.CTR714673 bus1=BMT101927093.1.2.3,bus2=BMT165138970.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 215726
+new line.CTR73473 bus1=BMT101920653.2,bus2=BMT101921024.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 90238
+new line.CTR736436 bus1=BMT101919092.1.2.3,bus2=BMT163909044.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 209644
+new line.CTR853921 bus1=BMT151040437.1.2.3,bus2=BMT161717505.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 381616
+new line.CTR854262 bus1=BMT170218591.1.2.3,bus2=BMT170218592.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 150083
+new line.CTR854404 bus1=BMT170218363.1.2.3,bus2=BMT170218377.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 286163
+new line.CTR866735 bus1=BMT170218768.1.2.3,bus2=BMT170218772.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 235826
+new line.CTR866765 bus1=BMT170886767.1.2.3,bus2=BMT170886762.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 380944
+open line.CTR866765 term=1
+new line.CTR867106 bus1=BMT170218223.1.2.3,bus2=BMT154824818.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 381761
+open line.CTR867106 term=1
+new line.CTR867122 bus1=BMT173555417.1.2.3,bus2=BMT170886932.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 381760
+new line.CTR867135 bus1=BMT170886916.1.2.3,bus2=BMT170886917.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 381765
+new line.CTR867137 bus1=BMT170218225.1.2.3,bus2=BMT171861873.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 381764
+new line.CTR867139 bus1=BMT173555416.1.2.3,bus2=BMT170886930.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 381762
+new line.CTR867145 bus1=BMT170886644.1.2.3,bus2=BMT170886645.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 381763
+new line.CTR867160 bus1=BMT170886914.1.2.3,bus2=BMT170886915.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 384183
+new line.CTR867232 bus1=BMT170886705.1.2.3,bus2=BMT155056675.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 116237
+open line.CTR867232 term=1
+new line.CTR867235 bus1=BMT170218323.1.2.3,bus2=BMT175964698.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 116233
+new line.CTR867252 bus1=BMT170218940.1.2.3,bus2=BMT175964650.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 116293
+new line.CTR867406 bus1=BMT165801341.1.2.3,bus2=BMT154940216.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 241482
+new line.CTR867607 bus1=BMT154970611.1.2.3,bus2=BMT165332608.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 238484
+new line.CTR868169 bus1=BMT170218737.1.2.3,bus2=BMT170218736.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 240949
+new line.CTR873832 bus1=BMT176709396.1.2.3,bus2=BMT170218257.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 251539
+open line.CTR873832 term=1
+new line.CTR873833 bus1=BMT170218258.1.2.3,bus2=BMT170218246.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 115500
+open line.CTR873833 term=1
+new line.CTR873835 bus1=BMT176258342.1.2.3,bus2=BMT176704905.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 115498
+new line.CTR873836 bus1=BMT176707020.1.2.3,bus2=BMT176706173.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 251540
+new line.CTR878771 bus1=BMT170886776.1.2.3,bus2=BMT175477251.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 380946
+new line.CTR881347 bus1=BMT170218247.1.2.3,bus2=BMT176708686.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 115868
+new line.CTR894114 bus1=BMT164553209.1.2.3,bus2=BMT164553210.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 260017
+new line.CTR895688 bus1=BMT170218431.1.2.3,bus2=BMT170837104.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 304237
+new line.CTR895689 bus1=BMT175965085.1.2.3,bus2=BMT175965084.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 270377
+new line.CTR898272 bus1=BMT170218654.3,bus2=BMT173823224.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 402585
+new line.CTR918068 bus1=BMT172701482.1.2.3,bus2=BMT172701521.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 326030
+new line.CTR918214 bus1=BMT173312616.1.2.3,bus2=BMT172726082.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 381701
+open line.CTR918214 term=1
+new line.CTR918215 bus1=BMT173312615.1.2.3,bus2=BMT172726126.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 381700
+new line.CTR918216 bus1=BMT174176204.1.2.3,bus2=BMT174176205.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 381702
+new line.CTR918219 bus1=BMT176709389.1.2.3,bus2=BMT176709391.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 327900
+open line.CTR918219 term=1
+new line.CTR918246 bus1=BMT172737080.1.2.3,bus2=BMT174176203.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 381699
+new line.CTR918287 bus1=BMT172747715.1.2.3,bus2=BMT172747747.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 327902
+new line.CTR918288 bus1=BMT172747748.1.2.3,bus2=BMT172747744.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 327903
+new line.CTR918292 bus1=BMT172748435.1.2.3,bus2=BMT172748436.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 327906
+open line.CTR918292 term=1
+new line.CTR918294 bus1=BMT174063838.1.2.3,bus2=BMT174063839.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 327907
+open line.CTR918294 term=1
+new line.CTR918295 bus1=BMT173422859.1.2.3,bus2=BMT173944843.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 327908
+open line.CTR918295 term=1
+new line.CTR918388 bus1=BMT172776560.1.2.3,bus2=BMT2800911.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 304234
+open line.CTR918388 term=1
+new line.CTR927534 bus1=BMT174714917.2,bus2=BMT174714920.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 254573
+new line.CTR874069 bus1=BMT160881939.1.2.3,bus2=BMT160882016.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 384334
+new line.CTR874112 bus1=BMT156897757.3,bus2=BMT170020899.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 235766
+new line.CTR875144 bus1=BMT157220993.1.2.3,bus2=BMT161627423.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 248771
+new line.CTR883853 bus1=BMT160385219.1.2.3,bus2=BMT160385220.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 257411
+new line.CTR884211 bus1=BMT160629055.1.2.3,bus2=BMT164747648.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 254492
+new line.CTR884222 bus1=BMT160637304.1.2.3,bus2=BMT162680568.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 254491
+new line.CTR890994 bus1=BMT165023468.1.2.3,bus2=BMT170218454.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 304241
+new line.CTR890996 bus1=BMT170218451.1.2.3,bus2=BMT170218448.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 304242
+open line.CTR890996 term=1
+new line.CTR890997 bus1=BMT170218335.1.2.3,bus2=BMT170218446.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 304239
+new line.CTR890998 bus1=BMT165576689.1.2.3,bus2=BMT172836429.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 304238
+new line.CTR890999 bus1=BMT170837100.1.2.3,bus2=BMT170218437.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 304243
+open line.CTR890999 term=1
+new line.CTR891600 bus1=BMT163797269.1.2.3,bus2=BMT163799710.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 259707
+new line.CTR891648 bus1=BMT163811774.1.2.3,bus2=BMT164891082.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 265333
+new line.CTR891708 bus1=BMT163823054.1.2.3,bus2=BMT164695264.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 265335
+new line.CTR897236 bus1=BMT165636668.1.2.3,bus2=BMT166273806.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 315791
+new line.CTR897238 bus1=BMT166273811.1.2.3,bus2=BMT165636729.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 238490
+new line.CTR901371 bus1=BMT170218207.1.2.3,bus2=BMT174142496.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 381695
+new line.CTR901373 bus1=BMT174142498.1.2.3,bus2=BMT167074745.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 381692
+open line.CTR901373 term=1
+new line.CTR901389 bus1=BMT170886619.1.2.3,bus2=BMT174064430.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 299177
+new line.CTR901394 bus1=BMT174064431.1.2.3,bus2=BMT174063948.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 381693
+new line.CTR90672 bus1=BMT170886707.1.2.3,bus2=BMT170886708.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 8600
+new line.CTR923722 bus1=BMT174182649.2,bus2=BMT174182651.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 149467
+new line.CTR923723 bus1=BMT174182718.1.2.3,bus2=BMT174182719.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 327535
+new line.CTR923855 bus1=BMT174202962.1.2.3,bus2=BMT174202963.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 235111
+new line.CTR924009 bus1=BMT174219174.1.2.3,bus2=BMT174219175.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 376664
+new line.CTR931593 bus1=BMT175477253.1.2.3,bus2=BMT175477254.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 346490
+new line.CTR931828 bus1=BMT175517656.1.2.3,bus2=BMT175517662.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 346494
+new line.CTR927742 bus1=BMT174739966.1.2.3,bus2=BMT176297961.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 342837
+new line.CTR927744 bus1=BMT174740411.1.2.3,bus2=BMT176299602.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 330360
+new line.CTR927867 bus1=BMT174761805.1.2.3,bus2=BMT174761806.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 342839
+new line.CTR928790 bus1=BMT174948261.2,bus2=BMT174948266.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 338655
+new line.CTR937713 bus1=BMT176708688.1.2.3,bus2=BMT176709388.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 302265
+new line.CTRR11222 bus1=BMT170218469.1.2.3,bus2=BMT170218470.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 10854
+new line.CTRR12020 bus1=BMT134563032.1.2.3,bus2=BMT151766478.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 309071
+new line.CTRR13084 bus1=BMT170218630.3,bus2=BMT170218632.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 204728
+new line.CTRR13154 bus1=BMT170218684.1,bus2=BMT170218686.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 206432
+new line.CTRR34397 bus1=BMT161336034.1.2.3,bus2=BMT155646089.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 115442
+open line.CTRR34397 term=1
+new line.CTRR34399 bus1=BMT165417330.1.2.3,bus2=BMT155756324.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 205868
+open line.CTRR34399 term=1
+new line.CTRR34577 bus1=BMT161353677.1.2.3,bus2=BMT161354795.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 205867
+new line.CTRR35022 bus1=BMT101920646.1.2.3,bus2=BMT174642594.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 124555
+new line.CTRR39000 bus1=BMT101927254.1.2.3,bus2=BMT101927261.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 205874
+open line.CTRR39000 term=1
+new line.CTRR39141 bus1=BMT159034726.1.2.3,bus2=BMT101925294.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 150358
+new line.CTRR39445 bus1=BMT170886850.1.2.3,bus2=BMT170886851.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 191831
+new line.CTRR39848 bus1=BMT170886695.1.2.3,bus2=BMT170886696.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 271713
+new line.CTRR43041 bus1=BMT172589448.1.2.3,bus2=BMT172590003.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 292539
+new line.CTRR43138 bus1=BMT162020652.1.2.3,bus2=BMT90073762.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 218731
+open line.CTRR43138 term=1
+new line.CTRR43148 bus1=BMT172718610.1.2.3,bus2=BMT172718309.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 323661
+new line.CTRR43161 bus1=BMT173341511.1.2.3,bus2=BMT165578444.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 304240
+open line.CTRR43161 term=1
+new line.CTR828787 bus1=BMT170886765.1.2.3,bus2=BMT170886766.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 309062
+new line.CTR828815 bus1=BMT170886826.1.2.3,bus2=BMT170886828.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 309067
+new line.CTR830355 bus1=BMT170886801.1.2.3,bus2=BMT135661507.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 312941
+open line.CTR830355 term=1
+new line.CTR830915 bus1=BMT135840021.1.2.3,bus2=BMT161881491.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 309060
+new line.CTR830929 bus1=BMT176519408.1.2.3,bus2=BMT135840511.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 309061
+new line.CTR830936 bus1=BMT161881501.1.2.3,bus2=BMT135841981.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 309059
+open line.CTR830936 term=1
+new line.CTR840407 bus1=BMT149008752.1.2.3,bus2=BMT153243034.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 317111
+new line.CTR842801 bus1=BMT153243039.1.2.3,bus2=BMT139603795.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 315871
+new line.CTR843354 bus1=BMT139753987.1.2.3,bus2=BMT139754204.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 315885
+new line.CTR855884 bus1=BMT151603626.1.2.3,bus2=BMT173984913.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 376657
+new line.CTR856726 bus1=BMT151842372.1,bus2=BMT151868583.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 378688
+new line.CTR892274 bus1=BMT164018139.1.2.3,bus2=BMT166215471.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 315786
+new line.CTR900487 bus1=BMT169364676.1.2.3,bus2=BMT166812542.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 381687
+open line.CTR900487 term=1
+new line.CTR900490 bus1=BMT173923543.1.2.3,bus2=BMT166909051.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 381689
+open line.CTR900490 term=1
+new line.CTR900491 bus1=BMT174063840.1.2.3,bus2=BMT173944845.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 381697
+open line.CTR900491 term=1
+new line.CTR904080 bus1=BMT170218274.1.2.3,bus2=BMT170218303.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 273742
+new line.CTR90427 bus1=BMT153451874.1.2.3,bus2=BMT4823015.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 9653
+open line.CTR90427 term=1
+new line.CTR905695 bus1=BMT175966704.1.2.3,bus2=BMT170886807.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 380812
+new line.CTR905697 bus1=BMT170886756.1.2.3,bus2=BMT170886757.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 380811
+open line.CTR905697 term=1
+new line.CTR905700 bus1=BMT175966707.1.2.3,bus2=BMT170886722.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 304248
+open line.CTR905700 term=1
+new line.CTR908208 bus1=BMT170886731.1.2.3,bus2=BMT171728339.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 276928
+new line.CTR908607 bus1=BMT170886923.1.2.3,bus2=BMT170886924.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 115495
+new line.CTR908685 bus1=BMT170886659.1.2.3,bus2=BMT170886660.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 115496
+open line.CTR908685 term=1
+new line.CTR920327 bus1=BMT173596286.1.2.3,bus2=BMT173312831.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 381686
+open line.CTR920327 term=1
+new line.CTR920541 bus1=BMT174376952.1.2.3,bus2=BMT173923541.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 272678
+open line.CTR920541 term=1
+new line.CTR920543 bus1=BMT173923479.1.2.3,bus2=BMT174376949.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 381688
+new line.CTRR20385 bus1=BMT101926211.3,bus2=BMT157665288.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 191964
+new line.CTRR23017 bus1=BMT104265702.1.2.3,bus2=BMT104265758.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 218737
+new line.CTRR23360 bus1=BMT170886716.1.2.3,bus2=BMT170886717.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 218762
+new line.CTRR23367 bus1=BMT172701454.1.2.3,bus2=BMT172701481.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 218763
+new line.CTRR23486 bus1=BMT170218340.1.2.3,bus2=BMT170218341.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 218765
+new line.CTRR23493 bus1=BMT170218267.1.2.3,bus2=BMT170218272.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 218774
+new line.CTRR24522 bus1=BMT109981230.1.2.3,bus2=BMT119658849.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 148819
+new line.CTRR27364 bus1=BMT170218520.1.2.3,bus2=BMT170218523.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 139940
+new line.CTRR27371 bus1=BMT128514605.1.2.3,bus2=BMT160314953.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 304956
+new line.CTRR27399 bus1=BMT174620588.1.2.3,bus2=BMT161334128.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 306305
+open line.CTRR27399 term=1
+new line.CTRR27707 bus1=BMT170218626.1.2.3,bus2=BMT4352419.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 306294
+open line.CTRR27707 term=1
+new line.CTRR27721 bus1=BMT170218710.1.2.3,bus2=BMT170218711.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 306302
+new line.CTRR37383 bus1=BMT163092067.1.2.3,bus2=BMT4664360.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 150065
+open line.CTRR37383 term=1
+new line.CTRR45663 bus1=BMT101920030.2,bus2=BMT157370671.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 10113
+new line.CTRR46006 bus1=BMT174317884.1.2.3,bus2=BMT174317885.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 336276
+new line.CTRR46137 bus1=BMT163822911.1,bus2=BMT163822913.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 265334
+new line.CTRR46322 bus1=BMT174714893.2,bus2=BMT174714895.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 143114
+new line.CTRR575 bus1=BMT176520156.1.2.3,bus2=BMT101919967.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 90982
+new line.CTRR7043 bus1=BMT101927275.1.2.3,bus2=BMT101927282.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 215798
+new line.CTR851395 bus1=BMT170886901.1.2.3,bus2=BMT170886902.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 381672
+new line.CTR851792 bus1=BMT150380421.1.2.3,bus2=BMT174219172.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 381617
+new line.CTR851794 bus1=BMT150380613.1.2.3,bus2=BMT170739589.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 381618
+new line.CTR865484 bus1=BMT154398402.1.2.3,bus2=BMT165808498.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 380940
+new line.CTR865536 bus1=BMT165808504.1.2.3,bus2=BMT154700300.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 380942
+new line.CTR865840 bus1=BMT170218732.1.2.3,bus2=BMT170218731.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 235827
+new line.CTR865921 bus1=BMT166836039.1.2.3,bus2=BMT154549523.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 380943
+open line.CTR865921 term=1
+new line.CTR871741 bus1=BMT156237897.1.2.3,bus2=BMT165417328.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 115440
+new line.CTR877247 bus1=BMT157955113.2,bus2=BMT163795612.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 191848
+new line.CTR877410 bus1=BMT158010706.3,bus2=BMT159808682.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 240951
+new line.CTR877420 bus1=BMT159808059.3,bus2=BMT159809083.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 240952
+new line.CTR884792 bus1=BMT160919133.2,bus2=BMT160920310.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 263454
+new line.CTR885922 bus1=BMT161350954.2,bus2=BMT163155502.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 249431
+new line.CTR886182 bus1=BMT161450617.1.2.3,bus2=BMT175913907.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 259528
+new line.CTR888765 bus1=BMT170886699.1.2.3,bus2=BMT170886714.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 402361
+new line.CTR910228 bus1=BMT170156820.1.2.3,bus2=BMT170566516.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 380958
+new line.CTR910246 bus1=BMT170566817.1.2.3,bus2=BMT170566818.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 218743
+new line.CTR910362 bus1=BMT170549413.1.2.3,bus2=BMT170193206.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 380959
+new line.CTR911295 bus1=BMT170521964.1.2.3,bus2=BMT170521966.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 304249
+new line.CTR916263 bus1=BMT172100855.1.2.3,bus2=BMT172100858.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 304235
+new line.CTR916648 bus1=BMT172771541.1.2.3,bus2=BMT175965088.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 325876
+new line.CTR921031 bus1=BMT173555414.1.2.3,bus2=BMT173555426.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 327558
+new line.CTR922027 bus1=BMT173823239.3,bus2=BMT173823249.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 329848
+new line.CTR929932 bus1=BMT175793500.1.2.3,bus2=BMT175793502.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 346453
+new line.CTR930509 bus1=BMT175276456.1.2.3,bus2=BMT175277492.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 330986
+new line.CTR930513 bus1=BMT175277496.1.2.3,bus2=BMT175278110.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 330987
+new line.CTR935574 bus1=BMT176709915.1.2.3,bus2=BMT176258293.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 116230
+new line.CTRR13504 bus1=BMT170218519.1.2.3,bus2=BMT170218578.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 142572
+new line.CTRR18621 bus1=BMT101921199.3,bus2=BMT175264820.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 218560
+new line.CTRR18768 bus1=BMT170218893.2,bus2=BMT170218894.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ 218754
+new line.CTRR32143 bus1=BMT170739598.1.2.3,bus2=BMT150381038.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 381615
+open line.CTRR32143 term=1
+new line.CTRR33846 bus1=BMT170886827.1.2.3,bus2=BMT154398585.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 380941
+open line.CTRR33846 term=1
+new line.CTRR40095 bus1=BMT101929620.1.2.3,bus2=BMT174391563.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 267491
+new line.CTRR40274 bus1=BMT167665960.1.2.3,bus2=BMT176519313.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 273106
+new line.CTRR40522 bus1=BMT166909057.1.2.3,bus2=BMT166812587.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 381685
+new line.CTRR41321 bus1=BMT170886802.1.2.3,bus2=BMT170886773.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 380814
+new line.CTRR41323 bus1=BMT170886758.1.2.3,bus2=BMT170886759.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 380809
+new line.CTRR41362 bus1=BMT170218458.1.2.3,bus2=BMT5049913.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 150320
+open line.CTRR41362 term=1
+new line.CTRR41613 bus1=BMT170218569.1.2.3,bus2=BMT170218570.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 277626
+open line.CTRR41613 term=1
+new line.CTRR41693 bus1=BMT175482516.1.2.3,bus2=BMT169316021.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 379630
+open line.CTRR41693 term=1
+new line.CTRR41695 bus1=BMT169317258.1.2.3,bus2=BMT175482514.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ 379628

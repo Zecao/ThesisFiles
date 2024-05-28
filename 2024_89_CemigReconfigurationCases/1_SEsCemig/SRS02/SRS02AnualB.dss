@@ -1,0 +1,13 @@
+!manobra 79790	330241
+!SRS02	1.04	10082614.5 (GD)	612609.5	6.076%	Mensal
+!SRS02	1.04	10071566.3 (GD)	602444.9	5.982%	Mensal
+close line.CTR138754 term=1 !79790
+open line.CTR919605 term=1 !330241
+
+new energymeter.carga element=line.TRfic4,terminal=2
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+Set tolerance = 0.001
+Set MaxIter = 400
+Set MaxControlIter = 400

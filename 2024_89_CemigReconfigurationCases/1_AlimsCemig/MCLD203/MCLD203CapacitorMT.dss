@@ -1,0 +1,3 @@
+new capacitor.CAP24765-1 bus1=BMT123080479.1.0,Phases=1,Conn=LN,Kvar=200,Kv=13.8
+new capacitor.CAP24765-2 bus1=BMT123080479.2.0,Phases=1,Conn=LN,Kvar=200,Kv=13.8
+new capacitor.CAP24765-3 bus1=BMT123080479.3.0,Phases=1,Conn=LN,Kvar=200,Kv=13.8

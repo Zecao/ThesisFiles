@@ -1,0 +1,22 @@
+clear
+new circuit.alimPPS10 bus1=BMT164367369.1.2.3,basekv=13.800000000,pu=1.040000000
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect PPS10SegmentosMT.dss
+Redirect PPS10ChavesMT.dss
+Redirect PPS10Reguladores.dss
+Redirect PPS10Transformadores.dss
+Redirect PPS10SegmentosBT.dss
+Redirect PPS10Ramais.dss
+Redirect PPS10CargaMT_Dez.dss
+Redirect PPS10CargaBT_Dez.dss
+
+new energymeter.carga element=line.TR8162050,terminal=1
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+! BusCoords PPS10CoordMT.csv

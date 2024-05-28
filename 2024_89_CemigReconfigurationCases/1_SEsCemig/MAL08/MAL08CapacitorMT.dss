@@ -1,0 +1,15 @@
+new capacitor.CAP70637-1 bus1=BMT101610427.1.0,Phases=1,Conn=LN,Kvar=200,Kv=13.8
+new capacitor.CAP70637-2 bus1=BMT101610427.2.0,Phases=1,Conn=LN,Kvar=200,Kv=13.8
+new capacitor.CAP70637-3 bus1=BMT101610427.3.0,Phases=1,Conn=LN,Kvar=200,Kv=13.8
+new capacitor.CAP225760-1 bus1=BMT101597533.1.0,Phases=1,Conn=LN,Kvar=100,Kv=13.8
+new capacitor.CAP225760-2 bus1=BMT101597533.2.0,Phases=1,Conn=LN,Kvar=100,Kv=13.8
+new capacitor.CAP225760-3 bus1=BMT101597533.3.0,Phases=1,Conn=LN,Kvar=100,Kv=13.8
+new capacitor.CAP225761-1 bus1=BMT105948453.1.0,Phases=1,Conn=LN,Kvar=100,Kv=13.8
+new capacitor.CAP225761-2 bus1=BMT105948453.2.0,Phases=1,Conn=LN,Kvar=100,Kv=13.8
+new capacitor.CAP225761-3 bus1=BMT105948453.3.0,Phases=1,Conn=LN,Kvar=100,Kv=13.8
+new capacitor.CAP232844-1 bus1=BMT163571484.1.0,Phases=1,Conn=LN,Kvar=100,Kv=13.8
+new capacitor.CAP232844-2 bus1=BMT163571484.2.0,Phases=1,Conn=LN,Kvar=100,Kv=13.8
+new capacitor.CAP232844-3 bus1=BMT163571484.3.0,Phases=1,Conn=LN,Kvar=100,Kv=13.8
+new capacitor.CAP234105-1 bus1=BMT163571502.1.0,Phases=1,Conn=LN,Kvar=100,Kv=13.8
+new capacitor.CAP234105-2 bus1=BMT163571502.2.0,Phases=1,Conn=LN,Kvar=100,Kv=13.8
+new capacitor.CAP234105-3 bus1=BMT163571502.3.0,Phases=1,Conn=LN,Kvar=100,Kv=13.8

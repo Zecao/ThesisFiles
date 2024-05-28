@@ -1,0 +1,9 @@
+close line.CTR235113 term=1 !188470
+open line.CTR228624 term=1 !188486
+
+new energymeter.carga element=line.SMT_1887729,terminal=1
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+Set MaxIter = 150
+Set MaxControlIter = 40

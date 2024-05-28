@@ -1,0 +1,22 @@
+clear
+new circuit.alimDVLU13 bus1=BMT148371443.1.2.3,basekv=13.800000000,pu=1.040000000
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect DVLU13SegmentosMT.dss
+Redirect DVLU13ChavesMT.dss
+Redirect DVLU13Reguladores.dss
+Redirect DVLU13Transformadores.dss
+Redirect DVLU13SegmentosBT.dss
+Redirect DVLU13Ramais.dss
+Redirect DVLU13CargaMT_Dez.dss
+Redirect DVLU13CargaBT_Dez.dss
+
+new energymeter.carga element=line.TR12116043,terminal=1
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+! BusCoords DVLU13CoordMT.csv

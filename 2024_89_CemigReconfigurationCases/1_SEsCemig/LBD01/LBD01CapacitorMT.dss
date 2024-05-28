@@ -1,0 +1,4 @@
+!new capacitor.CAP292372 bus1=BMT144093632.1.2.3.0,Phases=3,Conn=wye,Kvar=300,Kv=15.0
+new capacitor.CAP292372a bus1=BMT144093632.1.0,Phases=1,Conn=LN,Kvar=100,Kv=13.8
+new capacitor.CAP292372b bus1=BMT144093632.2.0,Phases=1,Conn=LN,Kvar=100,Kv=13.8
+new capacitor.CAP292372c bus1=BMT144093632.3.0,Phases=1,Conn=LN,Kvar=100,Kv=13.8

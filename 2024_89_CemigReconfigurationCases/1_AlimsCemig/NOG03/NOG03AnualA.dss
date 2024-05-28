@@ -1,0 +1,21 @@
+clear
+new circuit.alimNOG03 bus1=BMT101957648.1.2.3,basekv=13.800000000,pu=1.040000000,r1=0,x1=0.0001
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect NOG03SegmentosMT.dss
+Redirect NOG03ChavesMT.dss
+Redirect NOG03Transformadores.dss
+Redirect NOG03SegmentosBT.dss
+Redirect NOG03Ramais.dss
+Redirect NOG03CargaMT_Nov.dss
+Redirect NOG03CargaBT_Nov.dss
+
+new energymeter.carga element=line.TR5405198,terminal=1
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+BusCoords NOG03CoordMT.csv

@@ -1,0 +1,110 @@
+new transformer.RT1078-1 Phases=1,windings=2,buses=[BMT122766767.1.0 BMT122766781.1.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC1078-1 transformer=RT1078-1,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:91450
+new transformer.RT1078-2 Phases=1,windings=2,buses=[BMT122766767.2.0 BMT122766781.2.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC1078-2 transformer=RT1078-2,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:91450
+new transformer.RT1078-3 Phases=1,windings=2,buses=[BMT122766767.3.0 BMT122766781.3.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC1078-3 transformer=RT1078-3,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:91450
+new transformer.RT1155-1 Phases=1,windings=2,buses=[BMT179672028.1.0 BMT176617984.1.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC1155-1 transformer=RT1155-1,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:131191
+new transformer.RT1155-2 Phases=1,windings=2,buses=[BMT179672028.2.0 BMT176617984.2.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC1155-2 transformer=RT1155-2,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:131191
+new transformer.RT1155-3 Phases=1,windings=2,buses=[BMT179672028.3.0 BMT176617984.3.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC1155-3 transformer=RT1155-3,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:131191
+new transformer.RT1162-1 Phases=1,windings=2,buses=[BMT150311383.1.0 BMT171681465.1.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC1162-1 transformer=RT1162-1,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:85516
+new transformer.RT1162-2 Phases=1,windings=2,buses=[BMT150311383.2.0 BMT171681465.2.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC1162-2 transformer=RT1162-2,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:85516
+new transformer.RT1162-3 Phases=1,windings=2,buses=[BMT150311383.3.0 BMT171681465.3.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC1162-3 transformer=RT1162-3,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:85516
+new transformer.RT1239-1 Phases=1,windings=2,buses=[BMT122799716.1.0 BMT146177427.1.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[1670.000000000 1670.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0299
+new RegControl.RC1239-1 transformer=RT1239-1,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:127678
+new transformer.RT1239-2 Phases=1,windings=2,buses=[BMT122799716.2.0 BMT146177427.2.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[1670.000000000 1670.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0299
+new RegControl.RC1239-2 transformer=RT1239-2,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:127678
+new transformer.RT1239-3 Phases=1,windings=2,buses=[BMT122799716.3.0 BMT146177427.3.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[1670.000000000 1670.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0299
+new RegControl.RC1239-3 transformer=RT1239-3,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:127678
+new transformer.RT189-1 Phases=1,windings=2,buses=[BMT153929614.1.0 BMT153929843.1.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC189-1 transformer=RT189-1,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:236634
+new transformer.RT189-2 Phases=1,windings=2,buses=[BMT153929614.2.0 BMT153929843.2.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC189-2 transformer=RT189-2,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:236634
+new transformer.RT189-3 Phases=1,windings=2,buses=[BMT153929614.3.0 BMT153929843.3.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC189-3 transformer=RT189-3,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:236634
+new transformer.RT3569-1 Phases=1,windings=2,buses=[BMT150313589.1.0 BMT172876230.1.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC3569-1 transformer=RT3569-1,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:292392
+new transformer.RT3569-2 Phases=1,windings=2,buses=[BMT150313589.2.0 BMT172876230.2.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC3569-2 transformer=RT3569-2,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:292392
+new transformer.RT3569-3 Phases=1,windings=2,buses=[BMT150313589.3.0 BMT172876230.3.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC3569-3 transformer=RT3569-3,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:292392
+new transformer.RT420-1 Phases=1,windings=2,buses=[BMT122799226.1.0 BMT169986995.1.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC420-1 transformer=RT420-1,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:174721
+new transformer.RT420-2 Phases=1,windings=2,buses=[BMT122799226.2.0 BMT169986995.2.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC420-2 transformer=RT420-2,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:174721
+new transformer.RT420-3 Phases=1,windings=2,buses=[BMT122799226.3.0 BMT169986995.3.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC420-3 transformer=RT420-3,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:174721
+new transformer.RT6244-1 Phases=1,windings=2,buses=[BMT160874619.1.0 BMT179238136.1.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC6244-1 transformer=RT6244-1,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:288488
+new transformer.RT6244-2 Phases=1,windings=2,buses=[BMT160874619.2.0 BMT179238136.2.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC6244-2 transformer=RT6244-2,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:288488
+new transformer.RT6244-3 Phases=1,windings=2,buses=[BMT160874619.3.0 BMT179238136.3.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC6244-3 transformer=RT6244-3,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:288488
+new transformer.RT6248-1 Phases=1,windings=2,buses=[BMT150311544.1.0 BMT160129785.1.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC6248-1 transformer=RT6248-1,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:377766
+new transformer.RT6248-2 Phases=1,windings=2,buses=[BMT150311544.2.0 BMT160129785.2.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC6248-2 transformer=RT6248-2,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:377766
+new transformer.RT6248-3 Phases=1,windings=2,buses=[BMT150311544.3.0 BMT160129785.3.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC6248-3 transformer=RT6248-3,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:377766
+new transformer.RT6588-1 Phases=1,windings=2,buses=[BMT174640854.1.0 BMT174640855.1.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC6588-1 transformer=RT6588-1,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:332112
+new transformer.RT6588-2 Phases=1,windings=2,buses=[BMT174640854.2.0 BMT174640855.2.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC6588-2 transformer=RT6588-2,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:332112
+new transformer.RT6588-3 Phases=1,windings=2,buses=[BMT174640854.3.0 BMT174640855.3.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC6588-3 transformer=RT6588-3,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:332112
+new transformer.6845 Phases=1,windings=2,buses=[BMT171446287.1.0 BMT171446288.1.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.6845 transformer=6845,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004
+new transformer.RT6872-1 Phases=1,windings=2,buses=[BMT169302833.1.0 BMT179784526.1.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[2500.000000000 2500.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.03
+new RegControl.RC6872-1 transformer=RT6872-1,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:277390
+new transformer.RT6872-2 Phases=1,windings=2,buses=[BMT169302833.2.0 BMT179784526.2.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[2500.000000000 2500.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.03
+new RegControl.RC6872-2 transformer=RT6872-2,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:277390
+new transformer.RT6872-3 Phases=1,windings=2,buses=[BMT169302833.3.0 BMT179784526.3.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[2500.000000000 2500.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.03
+new RegControl.RC6872-3 transformer=RT6872-3,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:277390
+new transformer.RT7043-1 Phases=1,windings=2,buses=[BMT173001034.1.0 BMT176675583.1.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[1670.000000000 1670.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0299
+new RegControl.RC7043-1 transformer=RT7043-1,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:325383
+new transformer.RT7043-2 Phases=1,windings=2,buses=[BMT173001034.2.0 BMT176675583.2.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[1670.000000000 1670.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0299
+new RegControl.RC7043-2 transformer=RT7043-2,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:325383
+new transformer.RT7043-3 Phases=1,windings=2,buses=[BMT173001034.3.0 BMT176675583.3.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[1670.000000000 1670.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0299
+new RegControl.RC7043-3 transformer=RT7043-3,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:325383
+new transformer.RT7044-1 Phases=1,windings=2,buses=[BMT173096017.1.0 BMT173096015.1.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[1670.000000000 1670.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0299
+new RegControl.RC7044-1 transformer=RT7044-1,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:320408
+new transformer.RT7044-2 Phases=1,windings=2,buses=[BMT173096017.2.0 BMT173096015.2.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[1670.000000000 1670.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0299
+new RegControl.RC7044-2 transformer=RT7044-2,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:320408
+new transformer.RT7044-3 Phases=1,windings=2,buses=[BMT173096017.3.0 BMT173096015.3.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[1670.000000000 1670.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0299
+new RegControl.RC7044-3 transformer=RT7044-3,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:320408
+new transformer.RT7317-1 Phases=1,windings=2,buses=[BMT179766712.1.0 BMT179766713.1.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[1670.000000000 1670.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0299
+new RegControl.RC7317-1 transformer=RT7317-1,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:370779
+new transformer.RT7317-2 Phases=1,windings=2,buses=[BMT179766712.2.0 BMT179766713.2.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[1670.000000000 1670.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0299
+new RegControl.RC7317-2 transformer=RT7317-2,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:370779
+new transformer.RT7317-3 Phases=1,windings=2,buses=[BMT179766712.3.0 BMT179766713.3.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[1670.000000000 1670.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0299
+new RegControl.RC7317-3 transformer=RT7317-3,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:370779
+new transformer.RT77-1 Phases=1,windings=2,buses=[BMT150312581.1.0 BMT159933256.1.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC77-1 transformer=RT77-1,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:130115
+new transformer.RT77-2 Phases=1,windings=2,buses=[BMT150312581.2.0 BMT159933256.2.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC77-2 transformer=RT77-2,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:130115
+new transformer.RT77-3 Phases=1,windings=2,buses=[BMT150312581.3.0 BMT159933256.3.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC77-3 transformer=RT77-3,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:130115
+new transformer.RT91-1 Phases=1,windings=2,buses=[BMT150313407.1.0 BMT179620703.1.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[1670.000000000 1670.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0299
+new RegControl.RC91-1 transformer=RT91-1,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:144231
+new transformer.RT91-2 Phases=1,windings=2,buses=[BMT150313407.2.0 BMT179620703.2.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[1670.000000000 1670.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0299
+new RegControl.RC91-2 transformer=RT91-2,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:144231
+new transformer.RT91-3 Phases=1,windings=2,buses=[BMT150313407.3.0 BMT179620703.3.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[1670.000000000 1670.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0299
+new RegControl.RC91-3 transformer=RT91-3,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:144231
+new transformer.RT945-1 Phases=1,windings=2,buses=[BMT175860598.1.0 BMT168456211.1.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC945-1 transformer=RT945-1,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:102374
+new transformer.RT945-2 Phases=1,windings=2,buses=[BMT175860598.2.0 BMT168456211.2.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC945-2 transformer=RT945-2,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:102374
+new transformer.RT945-3 Phases=1,windings=2,buses=[BMT175860598.3.0 BMT168456211.3.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC945-3 transformer=RT945-3,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:102374
+new transformer.RT987-1 Phases=1,windings=2,buses=[BMT149014583.1.0 BMT172295692.1.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC987-1 transformer=RT987-1,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:209823
+new transformer.RT987-2 Phases=1,windings=2,buses=[BMT149014583.2.0 BMT172295692.2.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC987-2 transformer=RT987-2,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:209823
+new transformer.RT987-3 Phases=1,windings=2,buses=[BMT149014583.3.0 BMT172295692.3.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC987-3 transformer=RT987-3,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:209823

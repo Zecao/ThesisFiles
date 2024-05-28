@@ -1,0 +1,21 @@
+clear
+new circuit.alimPRRU09 bus1=BMT124252741.1.2.3,basekv=13.800000000,pu=1.040000000
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect PRRU09SegmentosMT.dss
+Redirect PRRU09ChavesMT.dss
+Redirect PRRU09Transformadores.dss
+Redirect PRRU09SegmentosBT.dss
+Redirect PRRU09Ramais.dss
+Redirect PRRU09CargaMT_Dez.dss
+Redirect PRRU09CargaBT_Dez.dss
+
+new energymeter.carga element=line.TR1356865,terminal=1
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+! BusCoords PRRU09CoordMT.csv

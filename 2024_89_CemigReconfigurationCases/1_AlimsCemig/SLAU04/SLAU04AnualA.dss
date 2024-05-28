@@ -1,0 +1,21 @@
+clear
+new circuit.alimSLAU04 bus1=BMT158163007.1.2.3,basekv=13.800000000,pu=1.040000000
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect SLAU04SegmentosMT.dss
+Redirect SLAU04ChavesMT.dss
+Redirect SLAU04Transformadores.dss
+Redirect SLAU04SegmentosBT.dss
+Redirect SLAU04Ramais.dss
+Redirect SLAU04CargaMT_Dez.dss
+Redirect SLAU04CargaBT_Dez.dss
+
+new energymeter.carga element=line.TR12161073,terminal=1
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+! BusCoords SLAU04CoordMT.csv

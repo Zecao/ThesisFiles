@@ -1,0 +1,3 @@
+new capacitor.CAP29844-1 bus1=BMT155973378.1.0,Phases=1,Conn=LN,Kvar=100,Kv=13.8
+new capacitor.CAP29844-2 bus1=BMT155973378.2.0,Phases=1,Conn=LN,Kvar=100,Kv=13.8
+new capacitor.CAP29844-3 bus1=BMT155973378.3.0,Phases=1,Conn=LN,Kvar=100,Kv=13.8

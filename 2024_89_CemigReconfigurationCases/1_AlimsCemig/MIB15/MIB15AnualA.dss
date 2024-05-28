@@ -1,0 +1,25 @@
+clear
+new circuit.alimMIB15 bus1=BMT123269325.1.2.3,basekv=13.800000000,pu=1.040000000
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect MIB15SegmentosMT.dss
+Redirect MIB15ChavesMT.dss
+Redirect MIB15Reguladores.dss
+Redirect MIB15Transformadores.dss
+Redirect MIB15SegmentosBT.dss
+Redirect MIB15Ramais.dss
+Redirect MIB15CargaMT_Dez.dss
+Redirect MIB15CargaBT_Dez.dss
+Redirect MIB15GeradorMT_Dez.dss
+
+new energymeter.carga element=line.TR204609,terminal=1
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+Set MaxIter = 150
+Set MaxControlIter = 20
+
+Solve mode=daily,hour=0,number=24,stepsize=1h
+
+! BusCoords MIB15CoordMT.csv

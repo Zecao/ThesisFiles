@@ -1,0 +1,23 @@
+clear
+new circuit.alimIIGD210 bus1=BMTFIC.1.2.3,basekv=13.800000000,pu=1.040000000
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect IIGD210SegmentosMT.dss
+Redirect IIGD210ChavesMT.dss
+Redirect IIGD210Reguladores.dss
+Redirect IIGD210Transformadores.dss
+Redirect IIGD210SegmentosBT.dss
+Redirect IIGD210Ramais.dss
+Redirect IIGD210CargaMT_Dez.dss
+Redirect IIGD210CargaBT_Dez.dss
+! Redirect IIGD210CapacitorMTDez.dss
+
+new energymeter.carga element=line.TRfic8,terminal=2
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+! BusCoords IIGD210CoordMT.csv

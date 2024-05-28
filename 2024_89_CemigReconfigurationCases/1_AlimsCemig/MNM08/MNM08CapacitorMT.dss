@@ -1,0 +1,3 @@
+new capacitor.CAP325029-1 bus1=BMT175582004.1.0,Phases=1,Conn=LN,Kvar=100,Kv=13.8
+new capacitor.CAP325029-2 bus1=BMT175582004.2.0,Phases=1,Conn=LN,Kvar=100,Kv=13.8
+new capacitor.CAP325029-3 bus1=BMT175582004.3.0,Phases=1,Conn=LN,Kvar=100,Kv=13.8

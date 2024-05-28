@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuracoes>
+  <CaminhoMensais>F:\DropboxZecao\Dropbox\0doutorado\0soft\0alimCemig\_Tese89casos\1_art2023_4emDiante\</CaminhoMensais>
+  <CaminhoRecPerm>F:\DropboxZecao\Dropbox\0doutorado\0soft\0alimCemig\_Tese89casos\0PermRes\</CaminhoRecPerm>
+  <Mes>Dezembro</Mes>
+  <Ano>2022</Ano>
+  <AllowForms>true</AllowForms>
+  <TipoFluxo>Monthly</TipoFluxo>
+  <TipoDia>Dia útil</TipoDia>
+  <OtmChecked>false</OtmChecked>
+  <OtmEnergiaChecked>false</OtmEnergiaChecked>
+  <SimplificaMesComDUCheckBox>false</SimplificaMesComDUCheckBox>
+  <IncrementoAjuste>10</IncrementoAjuste>
+  <UsarTensaoBar>true</UsarTensaoBar>
+  <TensaoPUDefault>1.04</TensaoPUDefault>
+  <loadMultAlternativo>0.5</loadMultAlternativo>
+  <Hora>20</Hora>
+  <CalculaDRPDRC>false</CalculaDRPDRC>
+  <CalculaPUOtm>false</CalculaPUOtm>
+  <CalcTensaoBarTrafo>false</CalcTensaoBarTrafo>
+  <VerifCargaIsolada>false</VerifCargaIsolada>
+  <IncluirCapMT>true</IncluirCapMT>
+  <RelatorioTapsRTs>false</RelatorioTapsRTs>
+  <StringBatchEdit>! BatchEdit </StringBatchEdit>
+</Configuracoes>

@@ -1,0 +1,6 @@
+new transformer.RT6625-1 Phases=1,windings=2,buses=[BMT165372110.1.0 BMT172235756.1.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC6625-1 transformer=RT6625-1,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:253565
+new transformer.RT6625-2 Phases=1,windings=2,buses=[BMT165372110.2.0 BMT172235756.2.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC6625-2 transformer=RT6625-2,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:253565
+new transformer.RT6625-3 Phases=1,windings=2,buses=[BMT165372110.3.0 BMT172235756.3.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[760.000000000 760.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0329
+new RegControl.RC6625-3 transformer=RT6625-3,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:253565

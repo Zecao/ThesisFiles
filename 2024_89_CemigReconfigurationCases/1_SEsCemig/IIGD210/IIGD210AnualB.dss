@@ -1,0 +1,12 @@
+! manobra IIGD220/221
+close line.CTRR42939 term=1
+open line.CTR876880 term=1
+
+! manobra IIGD210/222
+!close line.CTR238141 term=1
+!open line.CTRR4978 term=1
+new energymeter.carga element=line.TRfic8,terminal=2
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+Set tolerance = 0.001

@@ -1,0 +1,32 @@
+clear
+new circuit.alimJFAO803 bus1=BMT175928978,basekv=22.000000000,pu=1.040000000,r1=0,x1=0.0001
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect JFAO803SegmentosMT.dss
+Redirect JFAO803ChavesMT.dss
+Redirect JFAO803Reguladores.dss
+Redirect JFAO803Transformadores.dss
+Redirect JFAO803SegmentosBT.dss
+Redirect JFAO803Ramais.dss
+Redirect JFAO803CargaMT_Dez.dss
+Redirect JFAO803CargaBT_Dez.dss
+Redirect JFAO803CapacitorMT.dss
+Redirect JFAO803GeradorMT_Dez.dss
+
+new energymeter.carga element=line.SMT_12658751,terminal=1
+
+Set voltagebases=[22.000000000 0.24 0.22]
+CalcVoltageBases
+Set MaxIter = 150
+Set MaxControlIter = 40
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+
+! BusCoords JFAO803CoordMT.csv
+ClearBusMarkers
+! AddBusMarker Bus= ,code=12,color=Green,size=5 ! substation
+! AddBusMarker bus= ,code=27,color=Green,size=3 ! NC switch in Green
+! AddBusMarker bus= ,code=27,color=Yellow,size=3 ! Yellow circle = NO switch to be closed
+! plot circuit quantity=power,dots=n,labels=n,subs=y,showloops=n,C1=Blue,C2=Blue,C3=Red,R2=0.95,R3=0.90

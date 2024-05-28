@@ -1,0 +1,22 @@
+clear
+new circuit.alimINPD215 bus1=BMT127241025.1.2.3,basekv=13.800000000,pu=1.040000000,r1=0,x1=0.0001
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect INPD215SegmentosMT.dss
+Redirect INPD215ChavesMT.dss
+Redirect INPD215Reguladores.dss
+Redirect INPD215Transformadores.dss
+Redirect INPD215SegmentosBT.dss
+Redirect INPD215Ramais.dss
+Redirect INPD215CargaMT_Nov.dss
+Redirect INPD215CargaBT_Nov.dss
+
+new energymeter.carga element=line.TR12009397,terminal=1
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+BusCoords INPD215CoordMT.csv

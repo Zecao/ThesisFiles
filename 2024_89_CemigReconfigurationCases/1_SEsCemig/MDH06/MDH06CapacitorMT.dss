@@ -1,0 +1,3 @@
+new capacitor.CAP225646-1 bus1=BMT179220608.1.0,Phases=1,Conn=LN,Kvar=100,Kv=13.8
+new capacitor.CAP225646-2 bus1=BMT179220608.2.0,Phases=1,Conn=LN,Kvar=100,Kv=13.8
+new capacitor.CAP225646-3 bus1=BMT179220608.3.0,Phases=1,Conn=LN,Kvar=100,Kv=13.8

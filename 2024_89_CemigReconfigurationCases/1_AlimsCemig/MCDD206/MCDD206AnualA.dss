@@ -1,0 +1,22 @@
+clear
+new circuit.alimMCDD206 bus1=BMT169014303.1.2.3,basekv=13.800000000,pu=1.040000000
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect MCDD206SegmentosMT.dss
+Redirect MCDD206ChavesMT.dss
+Redirect MCDD206Reguladores.dss
+Redirect MCDD206Transformadores.dss
+Redirect MCDD206SegmentosBT.dss
+Redirect MCDD206Ramais.dss
+Redirect MCDD206CargaMT_Dez.dss
+Redirect MCDD206CargaBT_Dez.dss
+
+new energymeter.carga element=line.TR12676187,terminal=1
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+! BusCoords MCDD206CoordMT.csv

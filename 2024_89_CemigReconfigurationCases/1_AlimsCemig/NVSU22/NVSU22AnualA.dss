@@ -1,0 +1,31 @@
+clear
+new circuit.alimNVSU22 bus1=BMT165371397,basekv=13.800000000,pu=1.040000000,r1=0,x1=0.0001
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect NVSU22SegmentosMT.dss
+Redirect NVSU22ChavesMT.dss
+Redirect NVSU22Reguladores.dss
+Redirect NVSU22Transformadores.dss
+Redirect NVSU22SegmentosBT.dss
+Redirect NVSU22Ramais.dss
+Redirect NVSU22CargaMT_Dez.dss
+Redirect NVSU22CargaBT_Dez.dss
+Redirect NVSU22CapacitorMT.dss
+
+new energymeter.carga element=line.SMT_361859,terminal=1
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+Set MaxIter = 150
+Set MaxControlIter = 40
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+
+! BusCoords NVSU22CoordMT.csv
+ClearBusMarkers
+! AddBusMarker Bus= ,code=12,color=Green,size=5 ! substation
+! AddBusMarker bus= ,code=27,color=Green,size=3 ! NC switch in Green
+! AddBusMarker bus= ,code=27,color=Yellow,size=3 ! Yellow circle = NO switch to be closed
+! plot circuit quantity=power,dots=n,labels=n,subs=y,showloops=n,C1=Blue,C2=Blue,C3=Red,R2=0.95,R3=0.90

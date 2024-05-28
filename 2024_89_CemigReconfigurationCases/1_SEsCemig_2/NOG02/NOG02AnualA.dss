@@ -1,0 +1,22 @@
+clear
+new circuit.alimNOG02 bus1=BMTFIC.1.2.3,basekv=13.800000000,pu=1.040000000
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect NOG02SegmentosMT.dss
+Redirect NOG02ChavesMT.dss
+Redirect NOG02Reguladores.dss
+Redirect NOG02Transformadores.dss
+Redirect NOG02SegmentosBT.dss
+Redirect NOG02Ramais.dss
+Redirect NOG02CargaMT_Dez.dss
+Redirect NOG02CargaBT_Dez.dss
+
+new energymeter.carga element=line.TRfic9,terminal=2
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+! BusCoords NOG02CoordMT.csv

@@ -1,0 +1,22 @@
+clear
+new circuit.alimMAGC513 bus1=BMT122936741.1.2.3,basekv=13.800000000,pu=1.040000000,r1=0,x1=0.0001
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect MAGC513SegmentosMT.dss
+Redirect MAGC513ChavesMT.dss
+Redirect MAGC513Reguladores.dss
+Redirect MAGC513Transformadores.dss
+Redirect MAGC513SegmentosBT.dss
+Redirect MAGC513Ramais.dss
+Redirect MAGC513CargaMT_Nov.dss
+Redirect MAGC513CargaBT_Nov.dss
+
+new energymeter.carga element=line.TR971550,terminal=1
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+BusCoords MAGC513CoordMT.csv

@@ -1,0 +1,438 @@
+new line.CTR133712 bus1=BMT175929959.2,bus2=BMT175930012.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:153527  - Data de conexão anterior06/2011.
+new line.CTR134755 bus1=BMT175930557.1.2.3,bus2=BMT175930666.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:140160  - Data de conexão anterior06/2011.
+new line.CTR134762 bus1=BMT175930423.1.2.3,bus2=BMT178890747.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:140159  - Data de conexão anterior06/2011.
+new line.CTR134769 bus1=BMT175930691.1.2.3,bus2=BMT175929681.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:128316  - Data de conexão anterior06/2011.
+open line.CTR134769 term=1
+new line.CTR134776 bus1=BMT175929679.1.2.3,bus2=BMT175929683.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:140158  - Data de conexão anterior06/2011.
+new line.CTR134783 bus1=BMT175929663.1.2.3,bus2=BMT175929689.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:139852  - Data de conexão anterior06/2011.
+new line.CTR134790 bus1=BMT175929660.1.2.3,bus2=BMT175929691.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:140157  - Data de conexão anterior06/2011.
+new line.CTR134797 bus1=BMT175929545.1.2.3,bus2=BMT175929549.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:154468  - Data de conexão anterior06/2011.
+new line.CTR134804 bus1=BMT175929544.1.2.3,bus2=BMT179423564.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:140205  - Data de conexão anterior06/2011.
+new line.CTR134811 bus1=BMT175929529.1.2.3,bus2=BMT175929557.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:140204  - Data de conexão anterior06/2011.
+new line.CTR135210 bus1=BMT175930220.1,bus2=BMT175930222.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:124770  - Data de conexão anterior06/2011.
+new line.CTR151170 bus1=BMT175928995.1.2.3,bus2=BMT175929091.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:155641  - Data de conexão anterior06/2011.
+new line.CTR162398 bus1=BMT122298327.1.2.3,bus2=BMT122298866.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:116556  - Data de conexão anterior06/2011.
+new line.CTR177749 bus1=BMT175929875.1,bus2=BMT175929882.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:140760  - Data de conexão anterior06/2011.
+new line.CTR178190 bus1=BMT175929867.1,bus2=BMT175929870.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:152760  - Data de conexão anterior06/2011.
+new line.CTR179450 bus1=BMT175929285.1.2.3,bus2=BMT178120121.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:140206  - Data de conexão anterior06/2011.
+new line.CTR195748 bus1=BMT175930574.1.2.3,bus2=BMT175930586.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:224721  - Data de conexão anterior06/2011.
+new line.CTR21999 bus1=BMT122298362.1.2.3,bus2=BMT157956427.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:131259  - Data de conexão anterior06/2011.
+new line.CTR32870 bus1=BMT175929907.1,bus2=BMT175930217.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:154369  - Data de conexão anterior06/2011.
+new line.CTR376823 bus1=BMT175929970.2,bus2=BMT175929971.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:224555  - Data de conexão anterior06/2011.
+new line.CTR446830 bus1=BMT175929061.1.2.3,bus2=BMT177707886.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:302885  - Data de conexão anterior06/2011.
+new line.CTR448853 bus1=BMT175930460.1.2.3,bus2=BMT175930472.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:312043  - Data de conexão anterior06/2011.
+new line.CTR448867 bus1=BMT177853071.2,bus2=BMT175929426.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:308384  - Data de conexão anterior06/2011.
+open line.CTR448867 term=1
+new line.CTR50258 bus1=BMT175929630.1.2.3,bus2=BMT178109163.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57100  - Data de conexão anterior06/2011.
+new line.CTR5045 bus1=BMT175930330.1.2.3,bus2=BMT175930364.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:124648  - Data de conexão anterior06/2011.
+new line.CTR61983 bus1=BMT175930571.1.2.3,bus2=BMT175930579.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:107192  - Data de conexão anterior06/2011.
+new line.CTR75731 bus1=BMT175930893.2,bus2=BMT175930906.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57644  - Data de conexão anterior06/2011.
+new line.CTR75738 bus1=BMT175929008.1.2.3,bus2=BMT175929009.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57344  - Data de conexão anterior06/2011.
+new line.CTR75759 bus1=BMT175930310.1.2.3,bus2=BMT175930326.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:18  - Data de conexão anterior06/2011.
+new line.CTR75766 bus1=BMT175930311.1.2.3,bus2=BMT175930329.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57212  - Data de conexão anterior06/2011.
+new line.CTR75780 bus1=BMT175930594.2,bus2=BMT175930656.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:51  - Data de conexão anterior06/2011.
+new line.CTR75794 bus1=BMT175929761.1.2.3,bus2=BMT179731653.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:363351  - Data de conexão anterior06/2011.
+new line.CTR75801 bus1=BMT175929763.1.2.3,bus2=BMT175930264.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:25994  - Data de conexão anterior06/2011.
+new line.CTR75815 bus1=BMT175929765.1.2.3,bus2=BMT178154367.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:346769  - Data de conexão anterior06/2011.
+new line.CTR75843 bus1=BMT178154553.1.2.3,bus2=BMT175929796.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:60033  - Data de conexão anterior06/2011.
+open line.CTR75843 term=1
+new line.CTR75864 bus1=BMT175929845.1.2.3,bus2=BMT178155800.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:363352  - Data de conexão anterior06/2011.
+new line.CTR75871 bus1=BMT175929914.1.2.3,bus2=BMT180150054.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:58494  - Data de conexão anterior06/2011.
+new line.CTR75885 bus1=BMT175930148.2,bus2=BMT175930192.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:59571  - Data de conexão anterior06/2011.
+new line.CTR75892 bus1=BMT175930149.2,bus2=BMT175930151.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:59159  - Data de conexão anterior06/2011.
+new line.CTR75899 bus1=BMT175929909.3,bus2=BMT175930079.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:59788  - Data de conexão anterior06/2011.
+new line.CTR75906 bus1=BMT179122435.1.2.3,bus2=BMT179842350.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57160  - Data de conexão anterior06/2011.
+new line.CTR75913 bus1=BMT175929922.1.2.3,bus2=BMT175929932.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:59330  - Data de conexão anterior06/2011.
+new line.CTR75920 bus1=BMT175930017.1,bus2=BMT175930032.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:59633  - Data de conexão anterior06/2011.
+new line.CTR75927 bus1=BMT175929934.2,bus2=BMT175930034.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:58771  - Data de conexão anterior06/2011.
+new line.CTR75934 bus1=BMT175929941.2,bus2=BMT175929944.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:59747  - Data de conexão anterior06/2011.
+new line.CTR75948 bus1=BMT175929973.2,bus2=BMT175930004.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:59365  - Data de conexão anterior06/2011.
+new line.CTR75955 bus1=BMT175929972.2,bus2=BMT175929999.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:59158  - Data de conexão anterior06/2011.
+new line.CTR75962 bus1=BMT175929975.2,bus2=BMT179317230.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:59140  - Data de conexão anterior06/2011.
+new line.CTR11457 bus1=BMT175930406.2,bus2=BMT175930696.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:128297  - Data de conexão anterior06/2011.
+new line.CTR11527 bus1=BMT178135720.1.2.3,bus2=BMT175930395.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:101008  - Data de conexão anterior06/2011.
+new line.CTR147474 bus1=BMT122293448.2,bus2=BMT122293455.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:143442  - Data de conexão anterior06/2011.
+new line.CTR158051 bus1=BMT175929045.1.2.3,bus2=BMT175929046.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:302893  - Data de conexão anterior06/2011.
+new line.CTR158072 bus1=BMT175929521.1.2.3,bus2=BMT175929559.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57873  - Data de conexão anterior06/2011.
+new line.CTR158471 bus1=BMT175929412.2,bus2=BMT175929440.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:124699  - Data de conexão anterior06/2011.
+new line.CTR158478 bus1=BMT175929304.1,bus2=BMT175929305.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:124701  - Data de conexão anterior06/2011.
+new line.CTR158485 bus1=BMT175929281.1.2.3,bus2=BMT175929298.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:124702  - Data de conexão anterior06/2011.
+new line.CTR158723 bus1=BMT175929432.2,bus2=BMT175929434.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:126565  - Data de conexão anterior06/2011.
+new line.CTR158786 bus1=BMT175929420.2,bus2=BMT175929438.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:124698  - Data de conexão anterior06/2011.
+new line.CTR15916 bus1=BMT175929076.1.2.3,bus2=BMT175929078.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:136313  - Data de conexão anterior06/2011.
+new line.CTR15923 bus1=BMT175929016.1.2.3,bus2=BMT175929075.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:137901  - Data de conexão anterior06/2011.
+new line.CTR15937 bus1=BMT179731568.1.2.3,bus2=BMT179731570.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:137564  - Data de conexão anterior06/2011.
+new line.CTR174221 bus1=BMT175929730.1.2.3,bus2=BMT175929731.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:152956  - Data de conexão anterior06/2011.
+new line.CTR174312 bus1=BMT175930172.2,bus2=BMT175930173.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:131116  - Data de conexão anterior06/2011.
+new line.CTR20809 bus1=BMT175930484.3,bus2=BMT175930486.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:58989  - Data de conexão anterior06/2011.
+new line.CTR30644 bus1=BMT175929811.1.2.3,bus2=BMT175930244.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:101393  - Data de conexão anterior06/2011.
+new line.CTR34676 bus1=BMT175929657.1.2.3,bus2=BMT175929693.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:128241  - Data de conexão anterior06/2011.
+new line.CTR41781 bus1=BMT175929160.1.2.3,bus2=BMT175929161.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:192254  - Data de conexão anterior06/2011.
+new line.CTR451919 bus1=BMT175929509.1.2.3,bus2=BMT175930942.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:309547  - Data de conexão anterior06/2011.
+new line.CTR45218 bus1=BMT175929756.1.2.3,bus2=BMT175930266.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:155378  - Data de conexão anterior06/2011.
+new line.CTR452871 bus1=BMT175930443.1.2.3,bus2=BMT175930525.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:315378  - Data de conexão anterior06/2011.
+new line.CTR452878 bus1=BMT175930441.1.2.3,bus2=BMT176710859.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:312044  - Data de conexão anterior06/2011.
+new line.CTR45358 bus1=BMT175929616.1.2.3,bus2=BMT175929617.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:58504  - Data de conexão anterior06/2011.
+new line.CTR5052 bus1=BMT175930341.2,bus2=BMT175930356.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:124649  - Data de conexão anterior06/2011.
+new line.CTR5059 bus1=BMT175930346.2,bus2=BMT175930354.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:124650  - Data de conexão anterior06/2011.
+new line.CTR5066 bus1=BMT175930349.1,bus2=BMT175930352.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:124740  - Data de conexão anterior06/2011.
+new line.CTR5073 bus1=BMT175929808.2,bus2=BMT175930260.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:124741  - Data de conexão anterior06/2011.
+new line.CTR5080 bus1=BMT175929809.1,bus2=BMT175930258.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:124742  - Data de conexão anterior06/2011.
+new line.CTR5094 bus1=BMT175929831.1.2.3,bus2=BMT175930230.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:124745  - Data de conexão anterior06/2011.
+new line.CTR5108 bus1=BMT175930448.3,bus2=BMT175930500.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:124747  - Data de conexão anterior06/2011.
+new line.CTR853862 bus1=BMT175929031.1.2.3,bus2=BMT175929071.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:381394  - Data de conexão anterior06/2011.
+new line.CTR865818 bus1=BMT175930855.1.2.3,bus2=BMT175930928.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:385029  - Data de conexão anterior06/2011.
+new line.CTR865820 bus1=BMT175930931.1.2.3,bus2=BMT175930932.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:385030  - Data de conexão anterior06/2011.
+new line.CTR879703 bus1=BMT175929097.1.2.3,bus2=BMT175929098.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:385727  - Data de conexão anterior06/2011.
+new line.CTR879705 bus1=BMT175929094.1.2.3,bus2=BMT175929095.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:385725  - Data de conexão anterior06/2011.
+open line.CTR879705 term=1
+new line.CTR879733 bus1=BMT175928981.1.2.3,bus2=BMT175929319.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:143958  - Data de conexão anterior06/2011.
+new line.CTR879734 bus1=BMT175928980.1.2.3,bus2=BMT175928982.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:143959  - Data de conexão anterior06/2011.
+new line.CTR879741 bus1=BMT175929322.1.2.3,bus2=BMT175929323.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:152899  - Data de conexão anterior06/2011.
+new line.CTR879742 bus1=BMT175928985.1.2.3,bus2=BMT175928986.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:152914  - Data de conexão anterior06/2011.
+new line.CTR879753 bus1=BMT175928988.1.2.3,bus2=BMT175928989.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:152922  - Data de conexão anterior06/2011.
+new line.CTR879785 bus1=BMT175929324.1.2.3,bus2=BMT175928987.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:143970  - Data de conexão anterior06/2011.
+open line.CTR879785 term=1
+new line.CTR879820 bus1=BMT177861988.1.2.3,bus2=BMT175930721.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:155403  - Data de conexão anterior06/2011.
+new line.CTR879821 bus1=BMT175930402.1.2.3,bus2=BMT176160510.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:155407  - Data de conexão anterior06/2011.
+new line.CTR879823 bus1=BMT178135722.1.2.3,bus2=BMT175930386.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:155408  - Data de conexão anterior06/2011.
+new line.CTR879824 bus1=BMT175930715.1.2.3,bus2=BMT177806672.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:155409  - Data de conexão anterior06/2011.
+new line.CTR894755 bus1=BMT175930757.1.2.3,bus2=BMT175930758.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:268709  - Data de conexão anterior06/2011.
+new line.CTR133222 bus1=BMT175929474.1.2.3,bus2=BMT175929480.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:154303  - Data de conexão anterior06/2011.
+new line.CTR133271 bus1=BMT175929733.1.2.3,bus2=BMT175930299.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:154100  - Data de conexão anterior06/2011.
+new line.CTR14950 bus1=BMT175930728.1.2.3,bus2=BMT175930740.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:134676  - Data de conexão anterior06/2011.
+new line.CTR160424 bus1=BMT177633602.1.2.3,bus2=BMT180150759.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:139843  - Data de conexão anterior06/2011.
+new line.CTR160879 bus1=BMT175930626.3,bus2=BMT175930649.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:59555  - Data de conexão anterior06/2011.
+new line.CTR161313 bus1=BMT175930105.3,bus2=BMT175930114.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:201259  - Data de conexão anterior06/2011.
+new line.CTR161439 bus1=BMT175930849.1.2.3,bus2=BMT175930850.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:201483  - Data de conexão anterior06/2011.
+new line.CTR192162 bus1=BMT175930588.1,bus2=BMT175930662.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:224722  - Data de conexão anterior06/2011.
+new line.CTR387764 bus1=BMT149232899.1.2.3,bus2=BMT141270371.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:293571  - Data de conexão anterior06/2011.
+new line.CTR39233 bus1=BMT175929006.1.2.3,bus2=BMT175929086.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:192262  - Data de conexão anterior06/2011.
+new line.CTR427097 bus1=BMT175930748.1.2.3,bus2=BMT175929536.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:308448  - Data de conexão anterior06/2011.
+open line.CTR427097 term=1
+new line.CTR427104 bus1=BMT175929530.1.2.3,bus2=BMT175929533.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:308449  - Data de conexão anterior06/2011.
+new line.CTR428987 bus1=BMT175930591.1.2.3,bus2=BMT175930592.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:224723  - Data de conexão anterior06/2011.
+new line.CTR467144 bus1=BMT175929579.1.2.3,bus2=BMT175929614.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:305300  - Data de conexão anterior06/2011.
+new line.CTR467165 bus1=BMT175929055.1.2.3,bus2=BMT175929056.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:305301  - Data de conexão anterior06/2011.
+new line.CTR467249 bus1=BMT177707887.1.2.3,bus2=BMT179988682.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:302886  - Data de conexão anterior06/2011.
+new line.CTR467305 bus1=BMT179988611.1.2.3,bus2=BMT175930791.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:302887  - Data de conexão anterior06/2011.
+new line.CTR5276 bus1=BMT175930092.2,bus2=BMT175930130.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:124767  - Data de conexão anterior06/2011.
+new line.CTR5283 bus1=BMT175930086.2,bus2=BMT175930143.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:124768  - Data de conexão anterior06/2011.
+new line.CTR5290 bus1=BMT175929836.1,bus2=BMT175930219.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:124771  - Data de conexão anterior06/2011.
+new line.CTR5297 bus1=BMT175929859.1.2.3,bus2=BMT175929862.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:124772  - Data de conexão anterior06/2011.
+new line.CTR64888 bus1=BMT122298376.1.2.3,bus2=BMT122298775.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:189852  - Data de conexão anterior06/2011.
+new line.CTR77019 bus1=BMT175929355.1.2.3,bus2=BMT175929462.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57915  - Data de conexão anterior06/2011.
+new line.CTR77033 bus1=BMT175929367.2,bus2=BMT175929372.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57916  - Data de conexão anterior06/2011.
+new line.CTR77040 bus1=BMT175929363.1.2.3,bus2=BMT175929364.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57364  - Data de conexão anterior06/2011.
+new line.CTR77054 bus1=BMT175929422.2,bus2=BMT175929427.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:58552  - Data de conexão anterior06/2011.
+new line.CTR77061 bus1=BMT175930485.1.2.3,bus2=BMT176388368.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:308385  - Data de conexão anterior06/2011.
+new line.CTR77117 bus1=BMT175929479.1.2.3,bus2=BMT175929483.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:25995  - Data de conexão anterior06/2011.
+new line.CTR77131 bus1=BMT175929102.1.2.3,bus2=BMT175929310.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:58967  - Data de conexão anterior06/2011.
+new line.CTR77138 bus1=BMT175929105.1.2.3,bus2=BMT175929278.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:58068  - Data de conexão anterior06/2011.
+new line.CTR77145 bus1=BMT175929104.1.2.3,bus2=BMT175929106.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:385724  - Data de conexão anterior06/2011.
+new line.CTR77159 bus1=BMT175929014.1.2.3,bus2=BMT175929080.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57869  - Data de conexão anterior06/2011.
+new line.CTR77166 bus1=BMT175929010.1.2.3,bus2=BMT175929018.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57343  - Data de conexão anterior06/2011.
+new line.CTR77187 bus1=BMT175929524.1.2.3,bus2=BMT176416962.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:58016  - Data de conexão anterior06/2011.
+new line.CTR77194 bus1=BMT175929537.1.2.3,bus2=BMT178663684.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:59011  - Data de conexão anterior06/2011.
+new line.CTR854733 bus1=BMT175930210.1,bus2=BMT175930213.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:305434  - Data de conexão anterior06/2011.
+new line.CTR855453 bus1=BMT175930846.1.2.3,bus2=BMT175930847.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:209684  - Data de conexão anterior06/2011.
+new line.CTR855456 bus1=BMT175930857.1.2.3,bus2=BMT175930858.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:384833  - Data de conexão anterior06/2011.
+new line.CTR856077 bus1=BMT175930882.1.2.3,bus2=BMT175930888.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:384771  - Data de conexão anterior06/2011.
+new line.CTR869689 bus1=BMT175930773.1.2.3,bus2=BMT175930778.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:238603  - Data de conexão anterior06/2011.
+new line.CTR883201 bus1=BMT175928991.1.2.3,bus2=BMT175928992.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:141006  - Data de conexão anterior06/2011.
+new line.CTR88331 bus1=BMT175930413.1.2.3,bus2=BMT175930419.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:126913  - Data de conexão anterior06/2011.
+new line.CTR883984 bus1=BMT175929755.1.2.3,bus2=BMT175930268.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:154808  - Data de conexão anterior06/2011.
+new line.CTR884094 bus1=BMT175929325.1.2.3,bus2=BMT175929326.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:152931  - Data de conexão anterior06/2011.
+new line.CTR899191 bus1=BMT175929024.1.2.3,bus2=BMT175929025.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:142220  - Data de conexão anterior06/2011.
+open line.CTR899191 term=1
+new line.CTR899447 bus1=BMT175929498.1.2.3,bus2=BMT178086946.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:141172  - Data de conexão anterior06/2011.
+new line.CTR899448 bus1=BMT175929337.1.2.3,bus2=BMT175929495.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:141171  - Data de conexão anterior06/2011.
+new line.CTR10715 bus1=BMT175929374.2,bus2=BMT175929389.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:128856  - Data de conexão anterior06/2011.
+new line.CTR164428 bus1=BMT175929788.1.2.3,bus2=BMT177613820.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:346768  - Data de conexão anterior06/2011.
+new line.CTR24225 bus1=BMT175929406.2,bus2=BMT175929444.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:214745  - Data de conexão anterior06/2011.
+new line.CTR399398 bus1=BMT176388371.1.2.3,bus2=BMT176388324.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:194399  - Data de conexão anterior06/2011.
+open line.CTR399398 term=1
+new line.CTR40038 bus1=BMT175929111.1.2.3,bus2=BMT175929112.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:192253  - Data de conexão anterior06/2011.
+new line.CTR40059 bus1=BMT176527068.1.2.3,bus2=BMT176527069.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:151761  - Data de conexão anterior06/2011.
+new line.CTR40066 bus1=BMT175929163.1.2.3,bus2=BMT175929164.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:192255  - Data de conexão anterior06/2011.
+new line.CTR439893 bus1=BMT175929449.1.2.3,bus2=BMT175929450.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:295006  - Data de conexão anterior06/2011.
+new line.CTR440096 bus1=BMT175930245.2,bus2=BMT175930254.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:308537  - Data de conexão anterior06/2011.
+new line.CTR66939 bus1=BMT175930578.1.2.3,bus2=BMT175930583.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:128304  - Data de conexão anterior06/2011.
+new line.CTR75290 bus1=BMT175930842.1.2.3,bus2=BMT122285433.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:23951  - Data de conexão anterior06/2011.
+open line.CTR75290 term=1
+new line.CTR75304 bus1=BMT175930829.1.2.3,bus2=BMT175930830.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57054  - Data de conexão anterior06/2011.
+new line.CTR75353 bus1=BMT175929063.1.2.3,bus2=BMT175929069.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57345  - Data de conexão anterior06/2011.
+new line.CTR75388 bus1=BMT175929638.1.2.3,bus2=BMT175929641.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:58963  - Data de conexão anterior06/2011.
+new line.CTR75430 bus1=BMT175929666.1.2.3,bus2=BMT175929667.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57687  - Data de conexão anterior06/2011.
+new line.CTR75444 bus1=BMT175929670.1.2.3,bus2=BMT175929685.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:58201  - Data de conexão anterior06/2011.
+new line.CTR75479 bus1=BMT175930382.1.2.3,bus2=BMT175930381.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57878  - Data de conexão anterior06/2011.
+new line.CTR75486 bus1=BMT175930383.1.2.3,bus2=BMT175930780.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57879  - Data de conexão anterior06/2011.
+new line.CTR75500 bus1=BMT176529250.1.2.3,bus2=BMT175930391.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57880  - Data de conexão anterior06/2011.
+new line.CTR75528 bus1=BMT175930415.1.2.3,bus2=BMT175930417.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:58257  - Data de conexão anterior06/2011.
+new line.CTR75535 bus1=BMT175930411.1.2.3,bus2=BMT175930421.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57882  - Data de conexão anterior06/2011.
+new line.CTR75542 bus1=BMT175930422.1.2.3,bus2=BMT175930535.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57350  - Data de conexão anterior06/2011.
+new line.CTR75549 bus1=BMT175930541.1.2.3,bus2=BMT175930542.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:58198  - Data de conexão anterior06/2011.
+new line.CTR75563 bus1=BMT175930546.1.2.3,bus2=BMT175930548.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57997  - Data de conexão anterior06/2011.
+new line.CTR75570 bus1=BMT175930556.1,bus2=BMT175930669.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57917  - Data de conexão anterior06/2011.
+new line.CTR75577 bus1=BMT175930672.1,bus2=BMT175930674.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:58273  - Data de conexão anterior06/2011.
+new line.CTR75605 bus1=BMT175930632.3,bus2=BMT175930640.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:59553  - Data de conexão anterior06/2011.
+new line.CTR75612 bus1=BMT175930427.1.2.3,bus2=BMT175930530.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:58057  - Data de conexão anterior06/2011.
+new line.CTR75619 bus1=BMT178889563.1.2.3,bus2=BMT178889565.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57643  - Data de conexão anterior06/2011.
+new line.CTR75626 bus1=BMT175930431.1.2.3,bus2=BMT178891525.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57996  - Data de conexão anterior06/2011.
+new line.CTR75633 bus1=BMT175930445.1.2.3,bus2=BMT175930504.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57656  - Data de conexão anterior06/2011.
+new line.CTR75647 bus1=BMT175930449.1.2.3,bus2=BMT178057828.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:313295  - Data de conexão anterior06/2011.
+new line.CTR75654 bus1=BMT175929633.1.2.3,bus2=BMT175929632.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:302891  - Data de conexão anterior06/2011.
+open line.CTR75654 term=1
+new line.CTR75661 bus1=BMT175930788.1.2.3,bus2=BMT175929637.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:302889  - Data de conexão anterior06/2011.
+new line.CTR75675 bus1=BMT175930801.2,bus2=BMT175930811.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57918  - Data de conexão anterior06/2011.
+new line.CTR75682 bus1=BMT175930833.1.2.3,bus2=BMT175930836.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:59527  - Data de conexão anterior06/2011.
+new line.CTR75689 bus1=BMT175930839.1.2.3,bus2=BMT175930843.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57557  - Data de conexão anterior06/2011.
+new line.CTR75696 bus1=BMT175929721.1.2.3,bus2=BMT175929722.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57914  - Data de conexão anterior06/2011.
+new line.CTR83753 bus1=BMT175929165.1.2.3,bus2=BMT175929166.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:152042  - Data de conexão anterior06/2011.
+new line.CTR843538 bus1=BMT175930790.1.2.3,bus2=BMT175930789.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:302888  - Data de conexão anterior06/2011.
+new line.CTR843564 bus1=BMT175929561.1.2.3,bus2=BMT175929562.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:302883  - Data de conexão anterior06/2011.
+new line.CTR881208 bus1=BMT175929117.1.2.3,bus2=BMT175929119.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:385723  - Data de conexão anterior06/2011.
+new line.CTR881822 bus1=BMT175929327.1.2.3,bus2=BMT175929328.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:140881  - Data de conexão anterior06/2011.
+new line.CTR897575 bus1=BMT175929770.1.2.3,bus2=BMT175929771.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:268616  - Data de conexão anterior06/2011.
+new line.CTR897576 bus1=BMT175929775.1.2.3,bus2=BMT175929777.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:268617  - Data de conexão anterior06/2011.
+new line.CTR897808 bus1=BMT175929505.1.2.3,bus2=BMT175930955.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:270400  - Data de conexão anterior06/2011.
+new line.CTR898148 bus1=BMT175929000.1.2.3,bus2=BMT175929004.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:194818  - Data de conexão anterior06/2011.
+new line.CTR898352 bus1=BMT175929501.1.2.3,bus2=BMT180027296.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:271607  - Data de conexão anterior06/2011.
+new line.CTR75976 bus1=BMT175930019.1.2.3,bus2=BMT175930030.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:25845  - Data de conexão anterior06/2011.
+new line.CTR75983 bus1=BMT175929942.1.2.3,bus2=BMT175930015.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:98830  - Data de conexão anterior06/2011.
+new line.CTR75997 bus1=BMT175929847.1.2.3,bus2=BMT175929856.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:23905  - Data de conexão anterior06/2011.
+new line.CTR76207 bus1=BMT179698019.1.2.3,bus2=BMT122298348.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:58832  - Data de conexão anterior06/2011.
+new line.CTR76214 bus1=BMT122298369.1.2.3,bus2=BMT122298789.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:59183  - Data de conexão anterior06/2011.
+new line.CTR76228 bus1=BMT122298404.1.2.3,bus2=BMT178637128.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:58503  - Data de conexão anterior06/2011.
+new line.CTR76235 bus1=BMT149232628.1.2.3,bus2=BMT122298411.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:58502  - Data de conexão anterior06/2011.
+new line.CTR76242 bus1=BMT149232900.1.2.3,bus2=BMT149233442.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:58501  - Data de conexão anterior06/2011.
+new line.CTR76256 bus1=BMT122298488.1.2.3,bus2=BMT138734887.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:65  - Data de conexão anterior06/2011.
+new line.CTR872497 bus1=BMT175929342.1.2.3,bus2=BMT175929468.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:139690  - Data de conexão anterior06/2011.
+new line.CTR887035 bus1=BMT175930369.1.2.3,bus2=BMT175930370.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:155126  - Data de conexão anterior06/2011.
+new line.CTR888156 bus1=BMT175930157.2,bus2=BMT175930190.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:192260  - Data de conexão anterior06/2011.
+new line.CTR902648 bus1=BMT175930099.1.2.3,bus2=BMT175930122.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:272173  - Data de conexão anterior06/2011.
+new line.CTR902650 bus1=BMT175930126.1.2.3,bus2=BMT175930127.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:272171  - Data de conexão anterior06/2011.
+new line.CTR902997 bus1=BMT175930238.1,bus2=BMT175930240.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:201564  - Data de conexão anterior06/2011.
+new line.CTR903041 bus1=BMT175929774.1.2.3,bus2=BMT175929776.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:275617  - Data de conexão anterior06/2011.
+new line.CTR904082 bus1=BMT175929897.1.2.3,bus2=BMT175929898.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:276359  - Data de conexão anterior06/2011.
+new line.CTR904084 bus1=BMT175929902.1.2.3,bus2=BMT179122426.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:276360  - Data de conexão anterior06/2011.
+new line.CTR919557 bus1=BMT175930050.2,bus2=BMT175930075.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:320578  - Data de conexão anterior06/2011.
+new line.CTR920723 bus1=BMT175930690.1.2.3,bus2=BMT175930692.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:320716  - Data de conexão anterior06/2011.
+new line.CTR921326 bus1=BMT175929358.1.2.3,bus2=BMT175929457.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:318990  - Data de conexão anterior06/2011.
+new line.CTR93707 bus1=BMT175930457.1.2.3,bus2=BMT175930497.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:59320  - Data de conexão anterior06/2011.
+new line.CTR937097 bus1=BMT176560972.1.2.3,bus2=BMT176560363.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:333055  - Data de conexão anterior06/2011.
+open line.CTR937097 term=1
+new line.CTR937098 bus1=BMT176560377.1.2.3,bus2=BMT176560969.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:333057  - Data de conexão anterior06/2011.
+new line.CTR937099 bus1=BMT176560418.1.2.3,bus2=BMT176560830.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:333063  - Data de conexão anterior06/2011.
+new line.CTR937100 bus1=BMT176560445.1.2.3,bus2=BMT176565809.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:333058  - Data de conexão anterior06/2011.
+new line.CTR937101 bus1=BMT176560457.1.2.3,bus2=BMT176560746.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:333059  - Data de conexão anterior06/2011.
+new line.CTR937102 bus1=BMT176560483.1.2.3,bus2=BMT176560710.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:333062  - Data de conexão anterior06/2011.
+new line.CTR937103 bus1=BMT176560488.1.2.3,bus2=BMT176565542.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:333061  - Data de conexão anterior06/2011.
+new line.CTR937104 bus1=BMT176560516.1.2.3,bus2=BMT176560562.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:333060  - Data de conexão anterior06/2011.
+new line.CTR937932 bus1=BMT176745653.1,bus2=BMT176745662.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:335510  - Data de conexão anterior06/2011.
+new line.CTR937933 bus1=BMT176745889.1,bus2=BMT176745893.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:335511  - Data de conexão anterior06/2011.
+new line.CTR937935 bus1=BMT176746195.1,bus2=BMT176746196.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:335512  - Data de conexão anterior06/2011.
+new line.CTR938249 bus1=BMT178677734.1.2.3,bus2=BMT178677735.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:335261  - Data de conexão anterior06/2011.
+new line.CTR952778 bus1=BMT179731657.1.2.3,bus2=BMT179731659.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:350339  - Data de conexão anterior06/2011.
+new line.CTR953126 bus1=BMT179798135.1.2.3,bus2=BMT179798336.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:362801  - Data de conexão anterior06/2011.
+new line.CTR953350 bus1=BMT179845977.2,bus2=BMT179845975.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:389655  - Data de conexão anterior06/2011.
+open line.CTR953350 term=1
+new line.CTR953410 bus1=BMT180185707.1.2.3,bus2=BMT180185710.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:389656  - Data de conexão anterior06/2011.
+new line.CTR953515 bus1=BMT180027298.1.2.3,bus2=BMT180027300.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:386254  - Data de conexão anterior06/2011.
+new line.CTRR35798 bus1=BMT175928983.1.2.3,bus2=BMT175928984.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:152889
+new line.CTRR48723 bus1=BMT175930734.1.2.3,bus2=BMT175930735.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:327873
+new line.CTR909518 bus1=BMT175929720.1.2.3,bus2=BMT175930304.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:278428  - Data de conexão anterior06/2011.
+new line.CTR909561 bus1=BMT175929714.1.2.3,bus2=BMT175929715.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:276471  - Data de conexão anterior06/2011.
+new line.CTR910655 bus1=BMT175930458.1.2.3,bus2=BMT175930462.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:276382  - Data de conexão anterior06/2011.
+new line.CTR910780 bus1=BMT175930705.1.2.3,bus2=BMT175930761.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:278413  - Data de conexão anterior06/2011.
+new line.CTR924148 bus1=BMT175929635.1.2.3,bus2=BMT175929639.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:332458  - Data de conexão anterior06/2011.
+new line.CTR925982 bus1=BMT175930565.1,bus2=BMT176653886.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:333029  - Data de conexão anterior06/2011.
+new line.CTR939902 bus1=BMT177176212.1.2.3,bus2=BMT177177726.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:350320  - Data de conexão anterior06/2011.
+new line.CTR954030 bus1=BMT179988685.1.2.3,bus2=BMT179989230.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:370073  - Data de conexão anterior06/2011.
+new line.CTR954630 bus1=BMT180150061.3,bus2=BMT180150067.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:389632  - Data de conexão anterior06/2011.
+new line.CTR954633 bus1=BMT180150772.1,bus2=BMT180150927.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:389633  - Data de conexão anterior06/2011.
+new line.CTRR36477 bus1=BMT175929093.1.2.3,bus2=BMT175929096.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:385726
+new line.CTRR37302 bus1=BMT175929494.1.2.3,bus2=BMT175930732.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:141177
+new line.CTRR50286 bus1=BMT176561025.1.2.3,bus2=BMT176565703.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:333056
+new line.CTR913539 bus1=BMT175929724.1.2.3,bus2=BMT175929725.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:276472  - Data de conexão anterior06/2011.
+new line.CTR913584 bus1=BMT175930618.1.2.3,bus2=BMT179053564.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:276487  - Data de conexão anterior06/2011.
+new line.CTR913587 bus1=BMT175930608.1.2.3,bus2=BMT175930610.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:276486  - Data de conexão anterior06/2011.
+new line.CTR913588 bus1=BMT175930596.1.2.3,bus2=BMT175930597.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:276485  - Data de conexão anterior06/2011.
+new line.CTR914112 bus1=BMT175930763.1.2.3,bus2=BMT175930764.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:320073  - Data de conexão anterior06/2011.
+new line.CTR932647 bus1=BMT175930729.1.2.3,bus2=BMT175930733.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:155279  - Data de conexão anterior06/2011.
+new line.CTR933166 bus1=BMT177646253.1.2.3,bus2=BMT178168385.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:324586  - Data de conexão anterior06/2011.
+new line.CTR933168 bus1=BMT179844954.1.2.3,bus2=BMT180185689.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:324585  - Data de conexão anterior06/2011.
+new line.CTR948739 bus1=BMT178891433.1,bus2=BMT178891434.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:359851  - Data de conexão anterior06/2011.
+new line.CTR948975 bus1=BMT178929866.1.2.3,bus2=BMT179307157.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:370035  - Data de conexão anterior06/2011.
+new line.CTR949624 bus1=BMT179053569.3,bus2=BMT179053773.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:350347  - Data de conexão anterior06/2011.
+new line.CTR950178 bus1=BMT179171151.1.2.3,bus2=BMT179172104.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:364959  - Data de conexão anterior06/2011.
+new line.CTR950184 bus1=BMT179172105.1.2.3,bus2=BMT179852680.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:364957  - Data de conexão anterior06/2011.
+new line.CTRR187 bus1=BMT175929345.1.2.3,bus2=BMT175929346.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:58972
+new line.CTR102128 bus1=BMT175929029.1.2.3,bus2=BMT175929073.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:124301  - Data de conexão anterior06/2011.
+new line.CTR121483 bus1=BMT175930393.1.2.3,bus2=BMT176530135.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57349  - Data de conexão anterior06/2011.
+new line.CTR121700 bus1=BMT175930547.1.2.3,bus2=BMT175930683.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:98860  - Data de conexão anterior06/2011.
+new line.CTR151807 bus1=BMT175930164.2,bus2=BMT175930183.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:134707  - Data de conexão anterior06/2011.
+new line.CTR167795 bus1=BMT175930863.1.2.3,bus2=BMT175930911.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:59535  - Data de conexão anterior06/2011.
+new line.CTR168495 bus1=BMT175929652.1.2.3,bus2=BMT175929697.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:154152  - Data de conexão anterior06/2011.
+new line.CTR168502 bus1=BMT175929703.1.2.3,bus2=BMT175929704.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:154153  - Data de conexão anterior06/2011.
+new line.CTR169461 bus1=BMT122298467.1.2.3,bus2=BMT158138817.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:130939  - Data de conexão anterior06/2011.
+new line.CTR182355 bus1=BMT175930742.1.2.3,bus2=BMT175930744.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:155468  - Data de conexão anterior06/2011.
+new line.CTR182565 bus1=BMT175928997.1.2.3,bus2=BMT175928998.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:155639  - Data de conexão anterior06/2011.
+new line.CTR182929 bus1=BMT178101325.1.2.3,bus2=BMT175929036.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:139851  - Data de conexão anterior06/2011.
+new line.CTR20984 bus1=BMT175930338.1,bus2=BMT175930358.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:138845  - Data de conexão anterior06/2011.
+new line.CTR23560 bus1=BMT122298698.1.2.3,bus2=BMT178929859.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:154665  - Data de conexão anterior06/2011.
+new line.CTR31400 bus1=BMT175929645.1.2.3,bus2=BMT175930784.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57876  - Data de conexão anterior06/2011.
+new line.CTR31428 bus1=BMT175929618.1.2.3,bus2=BMT175930939.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:59475  - Data de conexão anterior06/2011.
+new line.CTR31435 bus1=BMT175929624.1.2.3,bus2=BMT175929625.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57707  - Data de conexão anterior06/2011.
+new line.CTR31764 bus1=BMT175929282.1,bus2=BMT175929292.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:127465  - Data de conexão anterior06/2011.
+new line.CTR34851 bus1=BMT175929621.1.2.3,bus2=BMT175929622.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57106  - Data de conexão anterior06/2011.
+new line.CTR349649 bus1=BMT177613822.1.2.3,bus2=BMT175929769.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:268719  - Data de conexão anterior06/2011.
+open line.CTR349649 term=1
+new line.CTR39387 bus1=BMT175929404.2,bus2=BMT177853056.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:58830  - Data de conexão anterior06/2011.
+new line.CTR39394 bus1=BMT175929369.2,bus2=BMT175929401.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:192251  - Data de conexão anterior06/2011.
+new line.CTR39499 bus1=BMT175929830.2,bus2=BMT175930232.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:191430  - Data de conexão anterior06/2011.
+new line.CTR7957 bus1=BMT175929020.1.2.3,bus2=BMT175929021.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:116337  - Data de conexão anterior06/2011.
+new line.CTR844503 bus1=BMT175929118.1.2.3,bus2=BMT175929122.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:315463  - Data de conexão anterior06/2011.
+new line.CTR845922 bus1=BMT178677739.1.2.3,bus2=BMT175929514.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:304766  - Data de conexão anterior06/2011.
+new line.CTR845945 bus1=BMT175930473.1.2.3,bus2=BMT175930474.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:372942  - Data de conexão anterior06/2011.
+new line.CTR845946 bus1=BMT175930476.1.2.3,bus2=BMT175930477.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:372943  - Data de conexão anterior06/2011.
+new line.CTR875223 bus1=BMT175930885.1.2.3,bus2=BMT178144168.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:138917  - Data de conexão anterior06/2011.
+new line.CTR888760 bus1=BMT175929108.1.2.3,bus2=BMT175929276.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:199413  - Data de conexão anterior06/2011.
+new line.CTR889894 bus1=BMT175930108.3,bus2=BMT175930111.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:154565  - Data de conexão anterior06/2011.
+new line.CTR8902 bus1=BMT175930834.1.2.3,bus2=BMT175930835.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:59526  - Data de conexão anterior06/2011.
+new line.CTR916102 bus1=BMT175929341.1.2.3,bus2=BMT175929470.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:325466  - Data de conexão anterior06/2011.
+new line.CTR944764 bus1=BMT178124178.1.2.3,bus2=BMT178449167.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:354219  - Data de conexão anterior06/2011.
+new line.CTR944812 bus1=BMT178135705.1.2.3,bus2=BMT178135723.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:348836  - Data de conexão anterior06/2011.
+new line.CTR945823 bus1=BMT178356184.1,bus2=BMT178356245.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:359896  - Data de conexão anterior06/2011.
+new line.CTRR3806 bus1=BMT175929648.1.2.3,bus2=BMT175929649.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:58962
+open line.CTRR3806 term=1
+new line.CTRR3813 bus1=BMT175929786.1.2.3,bus2=BMT178154547.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:58961  - Data de conexão anterior06/2011.
+new line.CTRR39796 bus1=BMT175929496.1.2.3,bus2=BMT175929497.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:141175
+new line.CTRR39946 bus1=BMT175929741.1.2.3,bus2=BMT179172057.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:59531
+new line.CTRR51979 bus1=BMT178168387.1.2.3,bus2=BMT177646302.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:356471
+new line.CTR899451 bus1=BMT175930731.1.2.3,bus2=BMT178090225.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:141197  - Data de conexão anterior06/2011.
+new line.CTR912009 bus1=BMT175929059.1.2.3,bus2=BMT175929060.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:318776  - Data de conexão anterior06/2011.
+open line.CTR912009 term=1
+new line.CTR912232 bus1=BMT175929653.1.2.3,bus2=BMT175929654.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:276469  - Data de conexão anterior06/2011.
+new line.CTR912250 bus1=BMT175929707.1.2.3,bus2=BMT178064264.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:276470  - Data de conexão anterior06/2011.
+new line.CTR912251 bus1=BMT175929712.1.2.3,bus2=BMT175929713.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:318777  - Data de conexão anterior06/2011.
+new line.CTR912866 bus1=BMT175929717.1.2.3,bus2=BMT175929718.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:318761  - Data de conexão anterior06/2011.
+new line.CTR913017 bus1=BMT171138160.1.2.3,bus2=BMT171138100.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:277304  - Data de conexão anterior06/2011.
+new line.CTR940916 bus1=BMT177411605.2,bus2=BMT178120386.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:348853  - Data de conexão anterior06/2011.
+new line.CTR941800 bus1=BMT177573755.3,bus2=BMT177573859.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:346762  - Data de conexão anterior06/2011.
+new line.CTRR40158 bus1=BMT175930124.1.2.3,bus2=BMT175930125.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:272172
+new line.CTRR40232 bus1=BMT172174224.1.2.3,bus2=BMT167617260.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:124672
+open line.CTRR40232 term=1
+new line.CTRR40495 bus1=BMT175929900.1.2.3,bus2=BMT175929901.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:275655
+new line.CTRR40695 bus1=BMT175929320.1.2.3,bus2=BMT175929321.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:152891
+new line.CTRR41758 bus1=BMT175930870.1.2.3,bus2=BMT175930871.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:152709  - Data de conexão anterior06/2011.
+new line.CTRR41759 bus1=BMT175929739.1.2.3,bus2=BMT175929740.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:276473
+open line.CTRR41759 term=1
+new line.CTR12346 bus1=BMT175929818.1,bus2=BMT175930242.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:117248  - Data de conexão anterior06/2011.
+new line.CTR141447 bus1=BMT178090228.1.2.3,bus2=BMT175930725.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:155505  - Data de conexão anterior06/2011.
+new line.CTR141468 bus1=BMT175930869.1.2.3,bus2=BMT175930874.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:155206  - Data de conexão anterior06/2011.
+new line.CTR141531 bus1=BMT175929833.1,bus2=BMT175930224.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:152710  - Data de conexão anterior06/2011.
+new line.CTR141657 bus1=BMT175930136.2,bus2=BMT175930137.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:101395  - Data de conexão anterior06/2011.
+new line.CTR165919 bus1=BMT175930860.1.2.3,bus2=BMT175930915.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:58661  - Data de conexão anterior06/2011.
+new line.CTR179765 bus1=BMT175929333.1.2.3,bus2=BMT175929334.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:155640  - Data de conexão anterior06/2011.
+new line.CTR179772 bus1=BMT175929331.1.2.3,bus2=BMT175929332.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57946  - Data de conexão anterior06/2011.
+new line.CTR19682 bus1=BMT176710861.1.2.3,bus2=BMT176746350.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:138389  - Data de conexão anterior06/2011.
+new line.CTR28887 bus1=BMT122298845.1.2.3,bus2=BMT122298852.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:146397  - Data de conexão anterior06/2011.
+new line.CTR364797 bus1=BMT122298579.1.2.3,bus2=BMT122298607.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:224543  - Data de conexão anterior06/2011.
+new line.CTR40493 bus1=BMT175929048.1.2.3,bus2=BMT175929052.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:155521  - Data de conexão anterior06/2011.
+new line.CTR405775 bus1=BMT175930878.1.2.3,bus2=BMT175930879.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:289615  - Data de conexão anterior06/2011.
+new line.CTR406454 bus1=BMT175929744.1.2.3,bus2=BMT175930291.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:289614  - Data de conexão anterior06/2011.
+new line.CTR46149 bus1=BMT175929832.1,bus2=BMT175930228.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:124746  - Data de conexão anterior06/2011.
+new line.CTR46170 bus1=BMT175930097.1.2.3,bus2=BMT175930120.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:124766  - Data de conexão anterior06/2011.
+new line.CTR46177 bus1=BMT175930133.2,bus2=BMT175930141.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:124769  - Data de conexão anterior06/2011.
+new line.CTR70971 bus1=BMT175929664.1.2.3,bus2=BMT175929665.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57348  - Data de conexão anterior06/2011.
+new line.CTR901217 bus1=BMT175929507.1.2.3,bus2=BMT175930948.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:271600  - Data de conexão anterior06/2011.
+new line.CTR901694 bus1=BMT175929040.1.2.3,bus2=BMT175929041.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:201244  - Data de conexão anterior06/2011.
+open line.CTR901694 term=1
+new line.CTR901725 bus1=BMT175929022.1.2.3,bus2=BMT178101314.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:201463  - Data de conexão anterior06/2011.
+new line.CTR943264 bus1=BMT177853064.2,bus2=BMT177853072.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:335291  - Data de conexão anterior06/2011.
+new line.CTR943311 bus1=BMT177864770.1.2.3,bus2=BMT177864819.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:353525  - Data de conexão anterior06/2011.
+new line.CTR944057 bus1=BMT180185719.1.2.3,bus2=BMT179855298.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:363367  - Data de conexão anterior06/2011.
+open line.CTR944057 term=1
+new line.CTRR42209 bus1=BMT175929017.1.2.3,bus2=BMT170979203.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:279459  - Data de conexão anterior06/2011.
+open line.CTRR42209 term=1
+new line.CTRR42271 bus1=BMT175929519.1.2.3,bus2=BMT176416495.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:279474  - Data de conexão anterior06/2011.
+new line.CTRR42449 bus1=BMT175930765.1.2.3,bus2=BMT175930766.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:318773
+new line.CTRR42714 bus1=BMT175929050.1.2.3,bus2=BMT122298481.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:124653
+new line.CTR11023 bus1=BMT179820259.1.2.3,bus2=BMT179849575.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:122414  - Data de conexão anterior06/2011.
+new line.CTR138962 bus1=BMT175929651.1.2.3,bus2=BMT175930376.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57948  - Data de conexão anterior06/2011.
+new line.CTR138969 bus1=BMT175930409.1.2.3,bus2=BMT175930412.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57881  - Data de conexão anterior06/2011.
+new line.CTR138976 bus1=BMT175930438.1.2.3,bus2=BMT175930527.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:63  - Data de conexão anterior06/2011.
+new line.CTR138997 bus1=BMT175930861.1.2.3,bus2=BMT176565722.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:58960  - Data de conexão anterior06/2011.
+new line.CTR139011 bus1=BMT175930865.1.2.3,bus2=BMT176560075.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57318  - Data de conexão anterior06/2011.
+new line.CTR139018 bus1=BMT175930089.2,bus2=BMT175930145.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:59572  - Data de conexão anterior06/2011.
+new line.CTR139025 bus1=BMT175929916.1.2.3,bus2=BMT175929917.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57520  - Data de conexão anterior06/2011.
+new line.CTR139032 bus1=BMT175929933.2,bus2=BMT175930036.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:59795  - Data de conexão anterior06/2011.
+new line.CTR139060 bus1=BMT177586806.1,bus2=BMT178762267.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:364958  - Data de conexão anterior06/2011.
+new line.CTR170357 bus1=BMT175930559.1.2.3,bus2=BMT176636006.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57690  - Data de conexão anterior06/2011.
+new line.CTR184707 bus1=BMT175929737.1.2.3,bus2=BMT175930297.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:201714  - Data de conexão anterior06/2011.
+new line.CTR29468 bus1=BMT175929876.1,bus2=BMT175929880.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:118272  - Data de conexão anterior06/2011.
+new line.CTR338365 bus1=BMT175930840.1.2.3,bus2=BMT175930935.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:230025  - Data de conexão anterior06/2011.
+new line.CTR42271 bus1=BMT175930924.1.2.3,bus2=BMT175930926.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:193580  - Data de conexão anterior06/2011.
+new line.CTR42313 bus1=BMT175929003.1.2.3,bus2=BMT122292797.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:140783  - Data de conexão anterior06/2011.
+open line.CTR42313 term=1
+new line.CTR42362 bus1=BMT175929001.1.2.3,bus2=BMT175929002.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:155638  - Data de conexão anterior06/2011.
+new line.CTR6081 bus1=BMT175929631.1.2.3,bus2=BMT175930816.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:58946  - Data de conexão anterior06/2011.
+new line.CTR7908 bus1=BMT175929844.1,bus2=BMT178356183.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:116297  - Data de conexão anterior06/2011.
+new line.CTR846219 bus1=BMT175929175.1.2.3,bus2=BMT175929176.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:315452  - Data de conexão anterior06/2011.
+new line.CTR846250 bus1=BMT175929156.1.2.3,bus2=BMT175929179.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:315453  - Data de conexão anterior06/2011.
+new line.CTR846254 bus1=BMT175929183.1.2.3,bus2=BMT175929184.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:315455  - Data de conexão anterior06/2011.
+new line.CTR846260 bus1=BMT175929182.1.2.3,bus2=BMT175929192.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:315454  - Data de conexão anterior06/2011.
+new line.CTR846299 bus1=BMT175929195.1.2.3,bus2=BMT175929202.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:315448  - Data de conexão anterior06/2011.
+new line.CTR846312 bus1=BMT175929200.1.2.3,bus2=BMT175929201.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:315450  - Data de conexão anterior06/2011.
+open line.CTR846312 term=1
+new line.CTR846352 bus1=BMT175929153.1.2.3,bus2=BMT175929154.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:315456  - Data de conexão anterior06/2011.
+new line.CTR846354 bus1=BMT175929146.1.2.3,bus2=BMT175929147.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:315457  - Data de conexão anterior06/2011.
+new line.CTR846363 bus1=BMT175929145.1.2.3,bus2=BMT178836415.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:315458  - Data de conexão anterior06/2011.
+new line.CTR846375 bus1=BMT175929126.1.2.3,bus2=BMT175929127.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:315462  - Data de conexão anterior06/2011.
+new line.CTR846386 bus1=BMT175929134.2,bus2=BMT175929268.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:315460  - Data de conexão anterior06/2011.
+new line.CTR846399 bus1=BMT175929139.1.2.3,bus2=BMT175929263.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:315449  - Data de conexão anterior06/2011.
+new line.CTR846425 bus1=BMT175929221.1.2.3,bus2=BMT175929249.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:315459  - Data de conexão anterior06/2011.
+new line.CTR846489 bus1=BMT175929262.1.2.3,bus2=BMT175929239.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:315461  - Data de conexão anterior06/2011.
+open line.CTR846489 term=1
+new line.CTR846835 bus1=BMT175929148.1.2.3,bus2=BMT175929214.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:373081  - Data de conexão anterior06/2011.
+new line.CTR8615 bus1=BMT122298334.1.2.3,bus2=BMT160142866.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:108399  - Data de conexão anterior06/2011.
+new line.CTR876655 bus1=BMT175929339.1.2.3,bus2=BMT175929492.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:141173  - Data de conexão anterior06/2011.
+new line.CTR877121 bus1=BMT175929508.1.2.3,bus2=BMT179879381.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:147370  - Data de conexão anterior06/2011.
+new line.CTR893088 bus1=BMT175930851.1.2.3,bus2=BMT178704284.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:268670  - Data de conexão anterior06/2011.
+new line.CTR907647 bus1=BMT175929039.1.2.3,bus2=BMT175929043.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:278389  - Data de conexão anterior06/2011.
+new line.CTR908590 bus1=BMT175930335.1.2.3,bus2=BMT175930360.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:274267  - Data de conexão anterior06/2011.
+new line.CTR908635 bus1=BMT177806679.1.2.3,bus2=BMT175930707.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:278412  - Data de conexão anterior06/2011.
+new line.CTR947208 bus1=BMT178617276.1.2.3,bus2=BMT178617279.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:368983  - Data de conexão anterior06/2011.
+new line.CTR947210 bus1=BMT178617324.1.2.3,bus2=BMT179845413.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:368984  - Data de conexão anterior06/2011.
+new line.CTRR32473 bus1=BMT175930934.1.2.3,bus2=BMT175905122.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:201484
+open line.CTRR32473 term=1
+new line.CTR143400 bus1=BMT175930405.1.2.3,bus2=BMT175930698.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:59473  - Data de conexão anterior06/2011.
+new line.CTR156357 bus1=BMT175930545.1.2.3,bus2=BMT175930688.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:58199  - Data de conexão anterior06/2011.
+new line.CTR171756 bus1=BMT176612962.1.2.3,bus2=BMT176612963.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:122672  - Data de conexão anterior06/2011.
+open line.CTR171756 term=1
+new line.CTR171771 bus1=BMT175930343.1,bus2=BMT175930344.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:108394  - Data de conexão anterior06/2011.
+new line.CTR172933 bus1=BMT175929913.1.2.3,bus2=BMT176612954.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:142416  - Data de conexão anterior06/2011.
+new line.CTR185540 bus1=BMT175930868.1.2.3,bus2=BMT175930866.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:214734  - Data de conexão anterior06/2011.
+!open line.CTR185540 term=1
+new line.CTR186779 bus1=BMT175930844.1.2.3,bus2=BMT175930845.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:155217  - Data de conexão anterior06/2011.
+new line.CTR24883 bus1=BMT175930158.2,bus2=BMT175930159.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:134706  - Data de conexão anterior06/2011.
+new line.CTR36923 bus1=BMT175929919.2,bus2=BMT179414968.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:124775  - Data de conexão anterior06/2011.
+new line.CTR406860 bus1=BMT175930918.1.2.3,bus2=BMT175930919.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:289616  - Data de conexão anterior06/2011.
+new line.CTR40731 bus1=BMT175929005.1.2.3,bus2=BMT175929089.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:154853  - Data de conexão anterior06/2011.
+new line.CTR440691 bus1=BMT175929360.1.2.3,bus2=BMT175929446.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:295005  - Data de conexão anterior06/2011.
+new line.CTR850029 bus1=BMT175930802.1.2.3,bus2=BMT175930806.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:378346  - Data de conexão anterior06/2011.
+new line.CTR877255 bus1=BMT157956430.1.2.3,bus2=BMT157956432.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:143950  - Data de conexão anterior06/2011.
+new line.CTR921951 bus1=BMT175929343.1.2.3,bus2=BMT175929344.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:141205  - Data de conexão anterior06/2011.
+new line.CTR921952 bus1=BMT175929347.1.2.3,bus2=BMT175929348.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:142201  - Data de conexão anterior06/2011.
+new line.CTR93469 bus1=BMT175929353.1.2.3,bus2=BMT175929354.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:57392  - Data de conexão anterior06/2011.
+new line.CTR951351 bus1=BMT179414975.2,bus2=BMT179414976.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:364978  - Data de conexão anterior06/2011.
+new line.CTRR2651 bus1=BMT175929402.2,bus2=BMT175929403.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:59306
+new line.CTRR2847 bus1=BMT175929945.2,bus2=BMT175929946.2,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:59746  - Data de conexão anterior06/2011.
+new line.CTRR31008 bus1=BMT179988686.1.2.3,bus2=BMT179988608.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:302892
+new line.CTRR31371 bus1=BMT175929178.1.2.3,bus2=BMT148780139.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:315446
+open line.CTRR31371 term=1
+new line.CTRR31374 bus1=BMT175929124.1.2.3,bus2=BMT175929125.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:315447
+new line.CTRR44219 bus1=BMT175930400.1.2.3,bus2=BMT176160499.1.2.3,Phases=3,LineCode=tieSwitch,Length=0.001,Units=km,switch=T !numEQ NUMEQ:328852  - Data de conexão anterior06/2011.
+new line.CTRR56490 bus1=BMT175930095.3,bus2=BMT175930102.3,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:289577
+new line.CTRR56493 bus1=BMT180150928.1,bus2=BMT180150929.1,Phases=1,LineCode=tieSwitch1,Length=0.001,Units=km,switch=T !numEQ NUMEQ:369188

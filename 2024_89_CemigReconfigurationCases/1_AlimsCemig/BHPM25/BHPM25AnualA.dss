@@ -1,0 +1,21 @@
+clear
+new circuit.alimBHPM25 bus1=BMT168400651.1.2.3,basekv=13.800000000,pu=1.040000000,r1=0,x1=0.0001
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect BHPM25SegmentosMT.dss
+Redirect BHPM25ChavesMT.dss
+Redirect BHPM25Transformadores.dss
+Redirect BHPM25SegmentosBT.dss
+Redirect BHPM25Ramais.dss
+Redirect BHPM25CargaMT_Nov.dss
+Redirect BHPM25CargaBT_Nov.dss
+
+new energymeter.carga element=line.TR12660158,terminal=1
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+BusCoords BHPM25CoordMT.csv

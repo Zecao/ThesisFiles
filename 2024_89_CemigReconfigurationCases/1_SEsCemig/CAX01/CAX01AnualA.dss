@@ -1,0 +1,32 @@
+clear
+new circuit.alimCAX01 bus1=BMTFIC,basekv=13.800000000,pu=1.040000000,r1=0,x1=0.0001
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect CAX01SegmentosMT.dss
+Redirect CAX01ChavesMT.dss
+Redirect CAX01Reguladores.dss
+Redirect CAX01Transformadores.dss
+Redirect CAX01SegmentosBT.dss
+Redirect CAX01Ramais.dss
+Redirect CAX01CargaMT_Dez.dss
+Redirect CAX01CargaBT_Dez.dss
+Redirect CAX01CapacitorMT.dss
+Redirect CAX01GeradorMT_Dez.dss
+
+new energymeter.carga element=line.TRfic5,terminal=2
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+Set MaxIter = 200
+Set MaxControlIter = 200
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+
+! BusCoords CAX01CoordMT.csv
+ClearBusMarkers
+! AddBusMarker Bus= ,code=12,color=Green,size=5 ! substation
+! AddBusMarker bus= ,code=27,color=Green,size=3 ! NC switch in Green
+! AddBusMarker bus= ,code=27,color=Yellow,size=3 ! Yellow circle = NO switch to be closed
+! plot circuit quantity=power,dots=n,labels=n,subs=y,showloops=n,C1=Blue,C2=Blue,C3=Red,R2=0.95,R3=0.90

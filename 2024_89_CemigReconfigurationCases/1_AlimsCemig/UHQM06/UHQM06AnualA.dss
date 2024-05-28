@@ -1,0 +1,22 @@
+clear
+new circuit.alimUHQM06 bus1=BMT126195234.1.2.3,basekv=34.500000000,pu=1.040000000
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect UHQM06SegmentosMT.dss
+Redirect UHQM06ChavesMT.dss
+Redirect UHQM06Reguladores.dss
+Redirect UHQM06Transformadores.dss
+Redirect UHQM06SegmentosBT.dss
+Redirect UHQM06Ramais.dss
+Redirect UHQM06CargaMT_Dez.dss
+Redirect UHQM06CapacitorMT.dss
+
+new energymeter.carga element=line.TR2596663,terminal=1
+
+Set voltagebases=[34.500000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+! BusCoords UHQM06CoordMT.csv

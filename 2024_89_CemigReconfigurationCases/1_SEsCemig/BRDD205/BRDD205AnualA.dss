@@ -1,0 +1,28 @@
+clear
+new circuit.alimBRDD205 bus1=BMTFIC.1.2.3,basekv=13.800000000,pu=1.040000000
+
+Redirect ..\..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\..\0PermRes\Condutores.dss
+Redirect BRDD205SegmentosMT.dss
+Redirect BRDD205ChavesMT.dss
+Redirect BRDD205Reguladores.dss
+Redirect BRDD205Transformadores.dss
+Redirect BRDD205SegmentosBT.dss
+Redirect BRDD205Ramais.dss
+Redirect BRDD205CargaMT_Dez.dss
+Redirect BRDD205CargaBT_Dez.dss
+Redirect BRDD205CapacitorMT.dss
+
+new energymeter.carga element=line.TRfic3,terminal=2
+
+!Set algorithm=Newton
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+Set tolerance = 0.001
+Set MaxIter = 500
+Set MaxControlIter = 100
+
+Solve mode=daily,hour=0,number=24,stepsize=1h
+
+! BusCoords BRDD205CoordMT.csv

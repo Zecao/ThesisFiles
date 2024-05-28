@@ -1,0 +1,23 @@
+clear
+new circuit.alimMOO06 bus1=BMTFIC.1.2.3,basekv=13.800000000,pu=1.040000000
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect MOO06SegmentosMT.dss
+Redirect MOO06ChavesMT.dss
+Redirect MOO06Reguladores.dss
+Redirect MOO06Transformadores.dss
+Redirect MOO06SegmentosBT.dss
+Redirect MOO06Ramais.dss
+Redirect MOO06CargaMT_Dez.dss
+Redirect MOO06CargaBT_Dez.dss
+! Redirect MOO06CapacitorMTDez.dss
+
+new energymeter.carga element=line.TRfic5,terminal=2
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+! BusCoords MOO06CoordMT.csv

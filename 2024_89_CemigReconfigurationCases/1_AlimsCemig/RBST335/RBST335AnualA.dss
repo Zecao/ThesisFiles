@@ -1,0 +1,21 @@
+clear
+new circuit.alimRBST335 bus1=BMT102745617.1.2.3,basekv=13.800000000,pu=1.040000000,r1=0,x1=0.0001
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect RBST335SegmentosMT.dss
+Redirect RBST335ChavesMT.dss
+Redirect RBST335Transformadores.dss
+Redirect RBST335SegmentosBT.dss
+Redirect RBST335Ramais.dss
+Redirect RBST335CargaMT_Nov.dss
+Redirect RBST335CargaBT_Nov.dss
+
+new energymeter.carga element=line.TR7811791,terminal=1
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+BusCoords RBST335CoordMT.csv

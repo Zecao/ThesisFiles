@@ -1,0 +1,10 @@
+!manobra 306353	302273 (ja estava executada)
+close line.CTRR27672 term=1 !302273
+open line.CTRR27679 term=1 !numEQ NUMEQ:306353
+
+new energymeter.carga element=line.SMT_5118737,terminal=1
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+Set MaxIter = 150
+Set MaxControlIter = 40

@@ -1,0 +1,7 @@
+close line.CTR884272 term=1
+open line.CTR263950 term=1
+
+new energymeter.carga element=line.TR4683099,terminal=1
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases

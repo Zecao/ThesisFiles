@@ -1,0 +1,23 @@
+clear
+new circuit.alimITMU05 bus1=BMTFIC.1.2.3,basekv=13.800000000,pu=1.040000000
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect ITMU05SegmentosMT.dss
+Redirect ITMU05ChavesMT.dss
+Redirect ITMU05Reguladores.dss
+Redirect ITMU05Transformadores.dss
+Redirect ITMU05SegmentosBT.dss
+Redirect ITMU05Ramais.dss
+Redirect ITMU05CargaMT_Dez.dss
+Redirect ITMU05CargaBT_Dez.dss
+Redirect ITMU05CapacitorMT.dss
+
+new energymeter.carga element=line.TRfic3,terminal=2
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+! BusCoords ITMU05CoordMT.csv

@@ -1,0 +1,20 @@
+clear
+new circuit.alimCICM01 bus1=BMTFIC.1.2.3,basekv=13.800000000,pu=1.040000000
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect CICM01SegmentosMT.dss
+Redirect CICM01ChavesMT.dss
+Redirect CICM01Transformadores.dss
+Redirect CICM01SegmentosBT.dss
+Redirect CICM01Ramais.dss
+Redirect CICM01CargaMT_Dez.dss
+Redirect CICM01CargaBT_Dez.dss
+Redirect CICM01CapacitorMT.dss
+
+new energymeter.carga element=line.TRfic13,terminal=2
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h

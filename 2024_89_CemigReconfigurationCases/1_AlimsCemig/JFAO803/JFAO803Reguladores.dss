@@ -1,0 +1,6 @@
+new transformer.RT7038-1 Phases=1,windings=2,buses=[BMT175929892.1.0 BMT178155793.1.0],conns=[LN LN],kvs=[12.70 12.70],kvas=[1140.000000000 1140.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0439
+new RegControl.RC7038-1 transformer=RT7038-1,winding=2,PTphase=1,ptratio=105.8,band=3,vreg=123,RevNeutral=yes!reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:320574
+new transformer.RT7038-2 Phases=1,windings=2,buses=[BMT175929892.2.0 BMT178155793.2.0],conns=[LN LN],kvs=[12.70 12.70],kvas=[1140.000000000 1140.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0439
+new RegControl.RC7038-2 transformer=RT7038-2,winding=2,PTphase=1,ptratio=105.8,band=3,vreg=123,RevNeutral=yes!reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:320574
+new transformer.RT7038-3 Phases=1,windings=2,buses=[BMT175929892.3.0 BMT178155793.3.0],conns=[LN LN],kvs=[12.70 12.70],kvas=[1140.000000000 1140.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0439
+new RegControl.RC7038-3 transformer=RT7038-3,winding=2,PTphase=1,ptratio=105.8,band=3,vreg=123,RevNeutral=yes!reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:320574

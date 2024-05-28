@@ -1,0 +1,33 @@
+clear
+new circuit.alimMDH06 bus1=BMTFIC,basekv=13.800000000,pu=1.040000000,r1=0,x1=0.0001
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect MDH06SegmentosMT.dss
+Redirect MDH06ChavesMT.dss
+Redirect MDH06Reguladores.dss
+Redirect MDH06Transformadores.dss
+Redirect MDH06SegmentosBT.dss
+Redirect MDH06Ramais.dss
+Redirect MDH06CargaMT_Dez.dss
+Redirect MDH06CargaBT_Dez.dss
+Redirect MDH06CapacitorMT.dss
+Redirect MDH06GeradorMT_Dez.dss
+Redirect MDH06GeradorBT_Dez.dss
+
+new energymeter.carga element=line.TRfic2,terminal=2
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+Set MaxIter = 400
+Set MaxControlIter = 400
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+
+! BusCoords MDH06CoordMT.csv
+ClearBusMarkers
+! AddBusMarker Bus= ,code=12,color=Green,size=5 ! substation
+! AddBusMarker bus= ,code=27,color=Green,size=3 ! NC switch in Green
+! AddBusMarker bus= ,code=27,color=Yellow,size=3 ! Yellow circle = NO switch to be closed
+! plot circuit quantity=power,dots=n,labels=n,subs=y,showloops=n,C1=Blue,C2=Blue,C3=Red,R2=0.95,R3=0.90

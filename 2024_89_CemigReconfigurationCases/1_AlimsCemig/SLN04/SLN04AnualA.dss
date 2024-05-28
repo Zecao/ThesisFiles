@@ -1,0 +1,20 @@
+clear
+new circuit.alimSLN04 bus1=BMT177685412.1.2.3,basekv=13.800000000,pu=1.040000000
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect SLN04SegmentosMT.dss
+Redirect SLN04ChavesMT.dss
+Redirect SLN04Reguladores.dss
+Redirect SLN04Transformadores.dss
+Redirect SLN04SegmentosBT.dss
+Redirect SLN04Ramais.dss
+Redirect SLN04CargaMT_Dez.dss
+Redirect SLN04CargaBT_Dez.dss
+
+new energymeter.carga element=line.TR496432,terminal=1
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h

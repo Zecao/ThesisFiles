@@ -1,0 +1,3 @@
+new capacitor.CAP110365-1 bus1=BMT137859570.1.0,Phases=1,Conn=LN,Kvar=200,Kv=13.8
+new capacitor.CAP110365-2 bus1=BMT137859570.2.0,Phases=1,Conn=LN,Kvar=200,Kv=13.8
+new capacitor.CAP110365-3 bus1=BMT137859570.3.0,Phases=1,Conn=LN,Kvar=200,Kv=13.8

@@ -1,0 +1,23 @@
+clear
+new circuit.alimACSU106 bus1=BMTFIC.1.2.3,basekv=13.800000000,pu=1.040000000
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect ACSU106SegmentosMT.dss
+Redirect ACSU106ChavesMT.dss
+Redirect ACSU106Reguladores.dss
+Redirect ACSU106Transformadores.dss
+Redirect ACSU106SegmentosBT.dss
+Redirect ACSU106Ramais.dss
+Redirect ACSU106CargaMT_Dez.dss
+Redirect ACSU106CargaBT_Dez.dss
+! Redirect ACSU106CapacitorMTDez.dss
+
+new energymeter.carga element=line.TRfic5,terminal=2
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+! BusCoords ACSU106CoordMT.csv

@@ -1,0 +1,33 @@
+clear
+new circuit.alimPTUU02 bus1=BMTFIC,basekv=13.800000000,pu=1.020000000,r1=0,x1=0.0001
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect PTUU02SegmentosMT.dss
+Redirect PTUU02ChavesMT.dss
+Redirect PTUU02Reguladores.dss
+Redirect PTUU02Transformadores.dss
+Redirect PTUU02SegmentosBT.dss
+Redirect PTUU02Ramais.dss
+Redirect PTUU02CargaMT_Dez.dss
+Redirect PTUU02CargaBT_Dez.dss
+Redirect PTUU02CapacitorMT.dss
+Redirect PTUU02GeradorMT_Dez.dss
+Redirect PTUU02GeradorBT_Dez.dss
+
+new energymeter.carga element=line.TRfic7,terminal=2
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+Set MaxIter = 400
+Set MaxControlIter = 400
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+
+! BusCoords PTUU02CoordMT.csv
+ClearBusMarkers
+! AddBusMarker Bus= ,code=12,color=Green,size=5 ! substation
+! AddBusMarker bus= ,code=27,color=Green,size=3 ! NC switch in Green
+! AddBusMarker bus= ,code=27,color=Yellow,size=3 ! Yellow circle = NO switch to be closed
+! plot circuit quantity=power,dots=n,labels=n,subs=y,showloops=n,C1=Blue,C2=Blue,C3=Red,R2=0.95,R3=0.90

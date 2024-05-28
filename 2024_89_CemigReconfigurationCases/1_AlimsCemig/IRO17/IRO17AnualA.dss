@@ -1,0 +1,22 @@
+clear
+new circuit.alimIRO17 bus1=BMT137001197.1.2.3,basekv=13.800000000,pu=1.040000000,r1=0,x1=0.0001
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect IRO17SegmentosMT.dss
+Redirect IRO17ChavesMT.dss
+Redirect IRO17Reguladores.dss
+Redirect IRO17Transformadores.dss
+Redirect IRO17SegmentosBT.dss
+Redirect IRO17Ramais.dss
+Redirect IRO17CargaMT_Nov.dss
+Redirect IRO17CargaBT_Nov.dss
+
+new energymeter.carga element=line.TR7752646,terminal=1
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+BusCoords IRO17CoordMT.csv

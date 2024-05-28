@@ -1,0 +1,2 @@
+new loadshape.c3009900233 npts=24,interval=1.0,mult=
+new generator.3009900233 bus1=BMT168810211.1.2.3,Phases=3,kv=,kW=0.001000000,pf=0.95,model=1,daily=c3009900233,status=Fixed

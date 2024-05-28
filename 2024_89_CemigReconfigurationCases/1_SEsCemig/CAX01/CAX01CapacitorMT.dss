@@ -1,0 +1,3 @@
+new capacitor.CAP262863-1 bus1=BMT169302569.1.0,Phases=1,Conn=LN,Kvar=200,Kv=13.8
+new capacitor.CAP262863-2 bus1=BMT169302569.2.0,Phases=1,Conn=LN,Kvar=200,Kv=13.8
+new capacitor.CAP262863-3 bus1=BMT169302569.3.0,Phases=1,Conn=LN,Kvar=200,Kv=13.8

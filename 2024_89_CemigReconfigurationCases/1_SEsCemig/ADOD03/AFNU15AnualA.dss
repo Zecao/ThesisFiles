@@ -1,0 +1,22 @@
+clear
+new circuit.alimAFNU15 bus1=BMT156190736.1.2.3,basekv=13.800000000,pu=1.040000000
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect AFNU15SegmentosMT.dss
+Redirect AFNU15ChavesMT.dss
+Redirect AFNU15Reguladores.dss
+Redirect AFNU15Transformadores.dss
+Redirect AFNU15SegmentosBT.dss
+Redirect AFNU15Ramais.dss
+Redirect AFNU15CargaMT_Dez.dss
+Redirect AFNU15CargaBT_Dez.dss
+
+new energymeter.carga element=line.TR12301093,terminal=1
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+! BusCoords AFNU15CoordMT.csv

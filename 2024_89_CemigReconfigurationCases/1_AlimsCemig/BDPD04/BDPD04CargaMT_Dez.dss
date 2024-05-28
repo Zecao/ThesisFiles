@@ -1,0 +1,17 @@
+new load.3006273168M1 bus1=BMT108490720.1.2.3.0,Phases=3,kv=13.800000000,kW=3.47458,pf=0.92,Vminpu=0.93,Vmaxpu=1.5,model=1,daily=MT1_1,status=variable
+new load.3009012334M1 bus1=BMT150338885.1.2.3.0,Phases=3,kv=13.800000000,kW=160.39202,pf=0.92,Vminpu=0.93,Vmaxpu=1.5,model=1,daily=MT1_1,status=variable
+new load.3009013309M1 bus1=BMT172061345.1.2.3.0,Phases=3,kv=13.800000000,kW=3.76502,pf=0.92,Vminpu=0.93,Vmaxpu=1.5,model=1,daily=MT1_1,status=variable
+new load.3009013611M1 bus1=BMT167661253.1.2.3.0,Phases=3,kv=13.800000000,kW=29.27302,pf=0.92,Vminpu=0.93,Vmaxpu=1.5,model=1,daily=MT1_1,status=variable
+new load.3009014387M1 bus1=BMT98742863.1.2.3.0,Phases=3,kv=13.800000000,kW=68.61432,pf=0.92,Vminpu=0.93,Vmaxpu=1.5,model=1,daily=MT1_1,status=variable
+new load.3009014672M1 bus1=BMT2120037.1.2.3.0,Phases=3,kv=0.220000000,kW=103.82,pf=0.92,Vminpu=0.93,Vmaxpu=1.5,model=1,daily=MT1_1,status=variable
+new load.3009014727M1 bus1=BMT98743437.1.2.3.0,Phases=3,kv=13.800000000,kW=6.46058,pf=0.92,Vminpu=0.93,Vmaxpu=1.5,model=1,daily=MT1_1,status=variable
+new load.3009020508M1 bus1=BMT98742975.1.2.3.0,Phases=3,kv=13.800000000,kW=29.76918,pf=0.92,Vminpu=0.93,Vmaxpu=1.5,model=1,daily=MT1_1,status=variable
+new load.3009020968M1 bus1=BMT98744074.1.2.3.0,Phases=3,kv=13.800000000,kW=1.71082,pf=0.92,Vminpu=0.93,Vmaxpu=1.5,model=1,daily=MT1_1,status=variable
+new load.3010561941M1 bus1=BMT98740224.1.2.3.0,Phases=3,kv=13.800000000,kW=4.53798,pf=0.92,Vminpu=0.93,Vmaxpu=1.5,model=1,daily=MT1_1,status=variable
+new load.3011327875M1 bus1=BMT172211547.1.2.3.0,Phases=3,kv=13.800000000,kW=18.51498,pf=0.92,Vminpu=0.93,Vmaxpu=1.5,model=1,daily=MT1_1,status=variable
+new load.3011422012M1 bus1=BMT98742471.1.2.3.0,Phases=3,kv=13.800000000,kW=14.2644,pf=0.92,Vminpu=0.93,Vmaxpu=1.5,model=1,daily=MT1_1,status=variable
+new load.3011645232M1 bus1=BMT108503621.1.2.3.0,Phases=3,kv=13.800000000,kW=10.3572,pf=0.92,Vminpu=0.93,Vmaxpu=1.5,model=1,daily=MT1_1,status=variable
+new load.3011740895M1 bus1=BMT165412046.1.2.3.0,Phases=3,kv=13.800000000,kW=6.07788,pf=0.92,Vminpu=0.93,Vmaxpu=1.5,model=1,daily=MT1_1,status=variable
+new load.3013240446M1 bus1=BMT151847642.1.2.3.0,Phases=3,kv=13.800000000,kW=74.28982,pf=0.92,Vminpu=0.93,Vmaxpu=1.5,model=1,daily=MT1_1,status=variable
+new load.3013243168M1 bus1=BMT156949192.1.2.3.0,Phases=3,kv=13.800000000,kW=576.38146,pf=0.92,Vminpu=0.93,Vmaxpu=1.5,model=1,daily=MT1_1,status=variable
+new load.3013457454M1 bus1=BMT98740084.1.2.3.0,Phases=3,kv=13.800000000,kW=0.49616,pf=0.92,Vminpu=0.93,Vmaxpu=1.5,model=1,daily=MT1_1,status=variable

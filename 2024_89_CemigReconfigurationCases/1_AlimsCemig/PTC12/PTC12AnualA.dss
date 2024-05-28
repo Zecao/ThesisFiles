@@ -1,0 +1,31 @@
+clear
+new circuit.alimPTC12 bus1=BMT124586137,basekv=13.800000000,pu=1.040000000,r1=0,x1=0.0001
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect PTC12SegmentosMT.dss
+Redirect PTC12ChavesMT.dss
+Redirect PTC12Reguladores.dss
+Redirect PTC12Transformadores.dss
+Redirect PTC12SegmentosBT.dss
+Redirect PTC12Ramais.dss
+Redirect PTC12CargaMT_Dez.dss
+Redirect PTC12CargaBT_Dez.dss
+Redirect PTC12CapacitorMT.dss
+
+new energymeter.carga element=line.SMT_1257785,terminal=1
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+Set MaxIter = 150
+Set MaxControlIter = 40
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+
+! BusCoords PTC12CoordMT.csv
+ClearBusMarkers
+! AddBusMarker Bus= ,code=12,color=Green,size=5 ! substation
+! AddBusMarker bus= ,code=27,color=Green,size=3 ! NC switch in Green
+! AddBusMarker bus= ,code=27,color=Yellow,size=3 ! Yellow circle = NO switch to be closed
+! plot circuit quantity=power,dots=n,labels=n,subs=y,showloops=n,C1=Blue,C2=Blue,C3=Red,R2=0.95,R3=0.90

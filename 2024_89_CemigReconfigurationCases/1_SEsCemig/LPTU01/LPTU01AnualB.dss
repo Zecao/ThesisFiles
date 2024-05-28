@@ -1,0 +1,8 @@
+close line.CTRR41580 term=1 !273329
+open line.CTR58808 term=1 !120036
+
+new energymeter.carga element=line.TRfic4,terminal=2
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+Set tolerance = 0.001

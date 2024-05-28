@@ -1,0 +1,24 @@
+new transformer.RT5307-1 Phases=1,windings=2,buses=[BMT179220026.1.0 BMT179220025.1.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[1500.000000000 1500.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0279
+new RegControl.RC5307-1 transformer=RT5307-1,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=123,revNeutral=Yes  ! NUMEQ:212515
+new transformer.RT5307-2 Phases=1,windings=2,buses=[BMT179220026.2.0 BMT179220025.2.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[1500.000000000 1500.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0279
+new RegControl.RC5307-2 transformer=RT5307-2,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=123,revNeutral=Yes  ! NUMEQ:212515
+new transformer.RT5307-3 Phases=1,windings=2,buses=[BMT179220026.3.0 BMT179220025.3.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[1500.000000000 1500.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0279
+new RegControl.RC5307-3 transformer=RT5307-3,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=123,revNeutral=Yes  ! NUMEQ:212515
+new transformer.RT5895-1 Phases=1,windings=2,buses=[BMT179220643.1.0 BMT179220644.1.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[2500.000000000 2500.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0168
+new RegControl.RC5895-1 transformer=RT5895-1,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=123,revNeutral=Yes  ! NUMEQ:235703
+new transformer.RT5895-2 Phases=1,windings=2,buses=[BMT179220643.2.0 BMT179220644.2.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[2500.000000000 2500.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0168
+new RegControl.RC5895-2 transformer=RT5895-2,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=123,revNeutral=Yes  ! NUMEQ:235703
+new transformer.RT5895-3 Phases=1,windings=2,buses=[BMT179220643.3.0 BMT179220644.3.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[2500.000000000 2500.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0168
+new RegControl.RC5895-3 transformer=RT5895-3,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=123,revNeutral=Yes  ! NUMEQ:235703
+new transformer.RT6419-1 Phases=1,windings=2,buses=[BMT179987436.1.0 BMT179987437.1.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[2500.000000000 2500.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0168
+new RegControl.RC6419-1 transformer=RT6419-1,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=123,revNeutral=Yes  ! NUMEQ:312865
+new transformer.RT6419-2 Phases=1,windings=2,buses=[BMT179987436.2.0 BMT179987437.2.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[2500.000000000 2500.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0168
+new RegControl.RC6419-2 transformer=RT6419-2,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=123,revNeutral=Yes  ! NUMEQ:312865
+new transformer.RT6419-3 Phases=1,windings=2,buses=[BMT179987436.3.0 BMT179987437.3.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[2500.000000000 2500.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0168
+new RegControl.RC6419-3 transformer=RT6419-3,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=123,revNeutral=Yes  ! NUMEQ:312865
+new transformer.RT7132-1 Phases=1,windings=2,buses=[BMT179987742.1.0 BMT179987743.1.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[1500.000000000 1500.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0279
+new RegControl.RC7132-1 transformer=RT7132-1,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=123,revNeutral=Yes  ! NUMEQ:342806
+new transformer.RT7132-2 Phases=1,windings=2,buses=[BMT179987742.2.0 BMT179987743.2.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[1500.000000000 1500.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0279
+new RegControl.RC7132-2 transformer=RT7132-2,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=123,revNeutral=Yes  ! NUMEQ:342806
+new transformer.RT7132-3 Phases=1,windings=2,buses=[BMT179987742.3.0 BMT179987743.3.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[1500.000000000 1500.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.0279
+new RegControl.RC7132-3 transformer=RT7132-3,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=123,revNeutral=Yes  ! NUMEQ:342806

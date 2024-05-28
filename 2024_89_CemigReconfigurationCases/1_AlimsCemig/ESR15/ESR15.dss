@@ -1,0 +1,3 @@
+! manter este comentario para compatibilidade do C#
+new circuit.alimESR15 bus1=BMT113797973,basekv=13.800000000,pu=1.040000000,r1=0,x1=0.0001
+

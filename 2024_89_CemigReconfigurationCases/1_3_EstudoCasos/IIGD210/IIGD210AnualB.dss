@@ -1,0 +1,28 @@
+! manobra IIGD220/221
+! IIGD210	ctrr42939	ctrr4978	5200	8165.94	8217.45	0.63
+close line.CTRR42939 term=1 !numEQ 319112
+open line.CTRR4978 term=1 !numEQ 139164
+!
+!! 2a manobra [nao executada]
+!close line.ctr434778 term=1 !
+!open line.ctr231848  term=1 !
+!
+!! 3a manobra [nao executada]
+!close line.ctrr36798 term=1 !
+!open line.ctr434463  term=1 !
+!
+!! 4a manobra [nao executada]
+!close line.ctr557215 term=1 !
+!open line.ctr557229  term=1 !
+!
+!! 5a manobra [nao executada]	
+!close line.ctr56995 term=1 !
+!open line.ctr239359  term=1 !
+
+new energymeter.carga element=line.TRfic8,terminal=2
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+Set tolerance = 0.001
+Set MaxIter = 150
+Set MaxControlIter = 40

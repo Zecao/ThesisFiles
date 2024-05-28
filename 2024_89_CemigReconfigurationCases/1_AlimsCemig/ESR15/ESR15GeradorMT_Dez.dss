@@ -1,0 +1,4 @@
+new loadshape.c3009017640 npts=24,interval=1.0,mult=[0.0001,0.0001,0.0001,0.0001,0.0001,0.0001,0.17,0.47,0.7,0.9,1,1,0.93,0.8,0.53,0.33,0.2,0.13,0.0001,0.0001,0.0001,0.0001,0.0001,0.0001]
+new PVSystem.3009017640 bus1=BMT167566066.1.2.3,Phases=3,kv=13.800000000,kVA=52.333752,Pmpp=43.61146,irradiance=1,%cutin=0.03,%cutout=0.03,VarFollowInverter=False,daily=c3009017640
+New InvControl.InvPVCtrl mode=VOLTVAR,voltage_curvex_ref=rated,vvc_curve1=voltvar_c,VoltageChangeTolerance=0.001,VarChangeTolerance=0.05
+new generator.3009017640-2 bus1=BMT167566066.1.2.3,Phases=3,kv=13.800000000,kw=52.333752,daily=c3009017640,status=Variable

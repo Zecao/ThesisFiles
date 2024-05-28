@@ -1,0 +1,23 @@
+clear
+new circuit.alimSND04 bus1=BMTFIC.1.2.3,basekv=13.800000000,pu=1.040000000
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect SND04SegmentosMT.dss
+Redirect SND04ChavesMT.dss
+Redirect SND04Reguladores.dss
+Redirect SND04Transformadores.dss
+Redirect SND04SegmentosBT.dss
+Redirect SND04Ramais.dss
+Redirect SND04CargaMT_Dez.dss
+Redirect SND04CargaBT_Dez.dss
+! Redirect SND04CapacitorMTDez.dss
+
+new energymeter.carga element=line.TRfic4,terminal=2
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+! BusCoords SND04CoordMT.csv

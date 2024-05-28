@@ -1,0 +1,30 @@
+clear
+new circuit.alimSLUU10 bus1=BMTFIC,basekv=13.800000000,pu=1.040000000,r1=0,x1=0.0001
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect SLUU10SegmentosMT.dss
+Redirect SLUU10ChavesMT.dss
+Redirect SLUU10Reguladores.dss
+Redirect SLUU10Transformadores.dss
+Redirect SLUU10SegmentosBT.dss
+Redirect SLUU10Ramais.dss
+Redirect SLUU10CargaMT_Dez.dss
+Redirect SLUU10CargaBT_Dez.dss
+
+new energymeter.carga element=line.TRfic4,terminal=2
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+Set MaxIter = 150
+Set MaxControlIter = 40
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+
+! BusCoords SLUU10CoordMT.csv
+ClearBusMarkers
+! AddBusMarker Bus= ,code=12,color=Green,size=5 ! substation
+! AddBusMarker bus= ,code=27,color=Green,size=3 ! NC switch in Green
+! AddBusMarker bus= ,code=27,color=Yellow,size=3 ! Yellow circle = NO switch to be closed
+! plot circuit quantity=power,dots=n,labels=n,subs=y,showloops=n,C1=Blue,C2=Blue,C3=Red,R2=0.95,R3=0.90

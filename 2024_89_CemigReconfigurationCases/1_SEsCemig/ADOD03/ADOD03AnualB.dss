@@ -1,0 +1,10 @@
+!FECHAR: 380754 ADOD03 (prot.50,0mm2) Dist.SE: 27,35km
+!ABRIR: 222811 AFNU15 (2 AWG - 33,63mm2) Dist.SE:32,38km
+close line.CTRR34778 term=1 !numEQ 380754
+open line.CTRR32312 term=1 !numEQ 222811
+
+new energymeter.carga element=line.TR849499,terminal=1
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+Set tolerance = 0.001

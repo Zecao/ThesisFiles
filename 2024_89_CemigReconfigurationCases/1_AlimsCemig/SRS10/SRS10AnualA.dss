@@ -1,0 +1,40 @@
+clear
+new circuit.alimSRS10 bus1=BMT166719754.1.2.3,basekv=13.800000000,pu=1.040000000,r1=0,x1=0.0001
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect SRS10SegmentosMT.dss
+Redirect SRS10ChavesMT.dss
+Redirect SRS10Reguladores.dss
+Redirect SRS10Transformadores.dss
+Redirect SRS10CapacitorMT.dss
+Redirect SRS10SegmentosBT.dss
+Redirect SRS10Ramais.dss
+Redirect SRS10CargaMT_Nov.dss
+Redirect SRS10CargaBT_Nov.dss
+
+new energymeter.carga element=line.TR6624967,terminal=1
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+set Maxcontroliter = 20
+
+! manobra proposta
+!close line.CTR65492 term=1
+!open line.CTR183421 term=1
+
+! manobra Mauro
+!close line.CTR101493 term=1
+!open line.CTRR37226 term=1
+
+!Solve mode=daily,hour=18,number=1,stepsize=1h
+Solve mode=daily,hour=14,number=1,stepsize=1h
+
+!Show current TRANSFORMER.RT6703-1
+
+!Solve mode=snap
+
+! ? line.CTR65492.bus1
+! BusCoords SRS10CoordMT.csv
+

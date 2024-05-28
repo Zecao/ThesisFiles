@@ -1,0 +1,21 @@
+clear
+new circuit.alimNLAE713 bus1=BMT159478078.1.2.3,basekv=13.800000000,pu=1.040000000,r1=0,x1=0.0001
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect NLAE713SegmentosMT.dss
+Redirect NLAE713ChavesMT.dss
+Redirect NLAE713Transformadores.dss
+Redirect NLAE713SegmentosBT.dss
+Redirect NLAE713Ramais.dss
+Redirect NLAE713CargaMT_Nov.dss
+Redirect NLAE713CargaBT_Nov.dss
+
+new energymeter.carga element=line.TR12434357,terminal=1
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+BusCoords NLAE713CoordMT.csv

@@ -1,0 +1,22 @@
+clear
+new circuit.alimCOJ09 bus1=BMT171812628.1.2.3,basekv=13.800000000,pu=1.040000000,r1=0,x1=0.0001
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect COJ09SegmentosMT.dss
+Redirect COJ09ChavesMT.dss
+Redirect COJ09Reguladores.dss
+Redirect COJ09Transformadores.dss
+Redirect COJ09SegmentosBT.dss
+Redirect COJ09Ramais.dss
+Redirect COJ09CargaMT_Nov.dss
+Redirect COJ09CargaBT_Nov.dss
+
+new energymeter.carga element=line.TR12640945,terminal=1
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+BusCoords COJ09CoordMT.csv

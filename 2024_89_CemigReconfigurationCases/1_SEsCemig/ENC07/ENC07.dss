@@ -1,0 +1,3 @@
+! manter este comentario para compatibilidade do C#
+new circuit.alimENC07 bus1=BMTFIC,basekv=13.800000000,pu=1.020000000,r1=0,x1=0.0001
+

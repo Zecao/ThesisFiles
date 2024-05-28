@@ -1,0 +1,8 @@
+new loadshape.c3009900020 npts=24,interval=1.0,mult=[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
+new generator.3009900020 bus1=BMT177178884.1.2.3,Phases=3,kv=13.800000000,kW=388.28748,pf=0.92,model=1,daily=c3009900020,status=Variable
+new loadshape.c3009900021 npts=24,interval=1.0,mult=[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
+new generator.3009900021 bus1=BMT167158301.1.2.3,Phases=3,kv=13.800000000,kW=195.0164,pf=0.92,model=1,daily=c3009900021,status=Variable
+new loadshape.c3009900046 npts=24,interval=1.0,mult=[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
+new generator.3009900046 bus1=BMT120719449.1.2.3,Phases=3,kv=13.800000000,kW=125.30386,pf=0.92,model=1,daily=c3009900046,status=Variable
+new loadshape.c3009900230 npts=24,interval=1.0,mult=[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
+new generator.3009900230 bus1=BMT120719449.1.2.3,Phases=3,kv=13.800000000,kW=1424.42533,pf=0.92,model=1,daily=c3009900230,status=Variable

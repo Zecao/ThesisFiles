@@ -1,0 +1,22 @@
+clear
+new circuit.alimMDH08 bus1=BMT101708035.1.2.3,basekv=13.800000000,pu=1.040000000,r1=0,x1=0.0001
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect MDH08SegmentosMT.dss
+Redirect MDH08ChavesMT.dss
+Redirect MDH08Reguladores.dss
+Redirect MDH08Transformadores.dss
+Redirect MDH08SegmentosBT.dss
+Redirect MDH08Ramais.dss
+Redirect MDH08CargaMT_Nov.dss
+Redirect MDH08CargaBT_Nov.dss
+
+new energymeter.carga element=line.TR5008585,terminal=1
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+Solve mode=daily,hour=0,number=18,stepsize=1h
+
+BusCoords MDH08CoordMT.csv

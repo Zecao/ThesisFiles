@@ -1,0 +1,22 @@
+clear
+new circuit.alimSDEU15 bus1=BMT125127769.1.2.3,basekv=13.800000000,pu=1.040000000,r1=0,x1=0.0001
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect SDEU15SegmentosMT.dss
+Redirect SDEU15ChavesMT.dss
+Redirect SDEU15Reguladores.dss
+Redirect SDEU15Transformadores.dss
+Redirect SDEU15SegmentosBT.dss
+Redirect SDEU15Ramais.dss
+Redirect SDEU15CargaMT_Nov.dss
+Redirect SDEU15CargaBT_Nov.dss
+
+new energymeter.carga element=line.TR1225894,terminal=1
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+Solve mode=daily,hour=18,number=1,stepsize=1h
+
+BusCoords SDEU15CoordMT.csv

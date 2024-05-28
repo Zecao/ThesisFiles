@@ -1,0 +1,15 @@
+! manobra realizada em campo 18/02/2021
+close line.CTRR23304 term=1 !297745
+open line.CTRR35959 term=1 !251378
+
+! manobra realizada em campo 27/08/2021
+close line.CTRR37168 term=1 ! 255893
+open line.CTR267359 term=1 !20130 !
+
+new energymeter.carga element=line.TRfic7,terminal=2
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+Set tolerance = 0.001
+Set MaxIter = 150
+Set MaxControlIter = 40

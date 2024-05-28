@@ -1,0 +1,25 @@
+clear
+new circuit.alimUNIT306 bus1=BMTFIC.1.2.3,basekv=13.800000000,pu=1.040000000
+
+Redirect ..\..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\..\0PermRes\Condutores.dss
+Redirect UNIT306SegmentosMT.dss
+Redirect UNIT306ChavesMT.dss
+Redirect UNIT306Reguladores.dss
+Redirect UNIT306Transformadores.dss
+Redirect UNIT306SegmentosBT.dss
+Redirect UNIT306Ramais.dss
+Redirect UNIT306CargaMT_Dez.dss
+Redirect UNIT306CargaBT_Dez.dss
+
+new energymeter.carga element=line.TRfic5,terminal=2
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+Set MaxIter = 700 ! precisa 594 iter hora 17 p/ 18
+Set MaxControlIter = 100
+
+! nao conv hora 18 
+Solve mode=daily,hour=0,number=24,stepsize=1h
+
+! BusCoords UNIT306CoordMT.csv

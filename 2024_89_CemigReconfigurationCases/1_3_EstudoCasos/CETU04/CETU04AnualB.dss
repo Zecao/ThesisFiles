@@ -1,0 +1,15 @@
+! manobra escolhida 1a geracao (implementada em campo)
+close line.CTR349105 term=1 !302068
+open line.CTRR42278  term=1 !257107
+
+! 2a manobra [nao executada]
+!close line.ctrr37266 term=1 !
+!open line.ctr283991  term=1 !
+
+new energymeter.carga element=line.TRfic4,terminal=2
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+Set tolerance = 0.001
+Set MaxIter = 150
+Set MaxControlIter = 40

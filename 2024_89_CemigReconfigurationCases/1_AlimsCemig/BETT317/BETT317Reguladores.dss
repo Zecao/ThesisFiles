@@ -1,0 +1,6 @@
+new transformer.RT5629-1 Phases=1,windings=2,buses=[BMT165675836.1.0 BMT165675837.1.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[2500.000000000 2500.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.03
+new RegControl.RC5629-1 transformer=RT5629-1,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:209628
+new transformer.RT5629-2 Phases=1,windings=2,buses=[BMT165675836.2.0 BMT165675837.2.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[2500.000000000 2500.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.03
+new RegControl.RC5629-2 transformer=RT5629-2,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:209628
+new transformer.RT5629-3 Phases=1,windings=2,buses=[BMT165675836.3.0 BMT165675837.3.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[2500.000000000 2500.000000000],xhl=0.700000000,%loadloss=0.200000000,%noloadloss=0.03
+new RegControl.RC5629-3 transformer=RT5629-3,winding=2,PTphase=1,ptratio=66.4,band=3,vreg=125.004,reversible=Yes,revband=3,revvreg=125.004 ! NUMEQ:209628

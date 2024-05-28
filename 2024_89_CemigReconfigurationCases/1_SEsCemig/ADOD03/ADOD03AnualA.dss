@@ -1,0 +1,23 @@
+clear
+new circuit.alimADOD03 bus1=BMT156188776.1.2.3,basekv=13.800000000,pu=1.040000000
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect ADOD03SegmentosMT.dss
+Redirect ADOD03ChavesMT.dss
+Redirect ADOD03Reguladores.dss
+Redirect ADOD03Transformadores.dss
+Redirect ADOD03SegmentosBT.dss
+Redirect ADOD03Ramais.dss
+Redirect ADOD03CargaMT_Dez.dss
+Redirect ADOD03CargaBT_Dez.dss
+Redirect ADOD03GeradorMT_Dez.dss
+
+new energymeter.carga element=line.TR849499,terminal=1
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+Solve mode=daily,hour=0,number=18,stepsize=1h
+
+! BusCoords ADOD03CoordMT.csv

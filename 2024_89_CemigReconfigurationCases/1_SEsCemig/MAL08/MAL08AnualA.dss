@@ -1,0 +1,23 @@
+clear
+new circuit.alimMAL08 bus1=BMTFIC.1.2.3,basekv=13.800000000,pu=1.040000000
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect MAL08SegmentosMT.dss
+Redirect MAL08ChavesMT.dss
+Redirect MAL08Reguladores.dss
+Redirect MAL08Transformadores.dss
+Redirect MAL08SegmentosBT.dss
+Redirect MAL08Ramais.dss
+Redirect MAL08CargaMT_Dez.dss
+Redirect MAL08CargaBT_Dez.dss
+! Redirect MAL08CapacitorMTDez.dss
+
+new energymeter.carga element=line.TRfic5,terminal=2
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+! BusCoords MAL08CoordMT.csv

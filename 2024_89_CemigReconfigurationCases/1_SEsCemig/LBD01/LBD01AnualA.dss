@@ -1,0 +1,35 @@
+clear
+new circuit.alimLBD01 bus1=BMTFIC.1.2.3,basekv=13.800000000,pu=1.040000000
+
+Redirect ..\..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\..\0PermRes\Condutores.dss
+Redirect LBD01SegmentosMT.dss
+Redirect LBD01ChavesMT.dss
+Redirect LBD01Reguladores.dss
+Redirect LBD01Transformadores.dss
+Redirect LBD01SegmentosBT.dss
+Redirect LBD01Ramais.dss
+Redirect LBD01CargaMT_Dez.dss
+Redirect LBD01CargaBT_Dez.dss
+Redirect LBD01CapacitorMT.dss
+
+new energymeter.carga element=line.TRfic5,terminal=2
+
+!new monitor.brtT1 element=transformer.RT7044-1,terminal=1,mode=0
+!new monitor.brtT2 element=transformer.RT7044-1,terminal=2,mode=0
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+Set tolerance = 0.01
+Set MaxIter = 2000 ! nao roda caso tolerance = 0.001 ou 0.0001, mesmo com 2000 iter.
+Set MaxControlIter = 100
+
+Solve mode=daily,hour=0,number=1,stepsize=1h
+
+! BusCoords LBD01CoordMT.csv
+
+!Export monitors brtT1
+!Export monitors brtT2
+!Plot monitor object= subpotwatt channels=(1 3 5 )
+!Plot monitor object= subpotwatt channels=(2 4 6 )
+

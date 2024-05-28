@@ -1,0 +1,6 @@
+new transformer.RT99-1 Phases=1,windings=2,buses=[BMT167714276.1.0 BMT167714277.1.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[750.000000000 750.000000000],xhl=0.500000000,%loadloss=0.124000000,%noloadloss=0.0393
+new RegControl.RC99-1 transformer=RT99-1,winding=2,PTphase=1,ptratio=66.4,band=2,vreg=125.004
+new transformer.RT99-2 Phases=1,windings=2,buses=[BMT167714276.2.0 BMT167714277.2.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[750.000000000 750.000000000],xhl=0.500000000,%loadloss=0.124000000,%noloadloss=0.0393
+new RegControl.RC99-2 transformer=RT99-2,winding=2,PTphase=1,ptratio=66.4,band=2,vreg=125.004
+new transformer.RT99-3 Phases=1,windings=2,buses=[BMT167714276.3.0 BMT167714277.3.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[750.000000000 750.000000000],xhl=0.500000000,%loadloss=0.124000000,%noloadloss=0.0393
+new RegControl.RC99-3 transformer=RT99-3,winding=2,PTphase=1,ptratio=66.4,band=2,vreg=125.004

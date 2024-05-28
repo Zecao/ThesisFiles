@@ -1,0 +1,23 @@
+clear
+new circuit.alimTOTU03 bus1=BMTFIC.1.2.3,basekv=13.800000000,pu=1.040000000
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect TOTU03SegmentosMT.dss
+Redirect TOTU03ChavesMT.dss
+Redirect TOTU03Reguladores.dss
+Redirect TOTU03Transformadores.dss
+Redirect TOTU03SegmentosBT.dss
+Redirect TOTU03Ramais.dss
+Redirect TOTU03CargaMT_Dez.dss
+Redirect TOTU03CargaBT_Dez.dss
+Redirect TOTU03CapacitorMT.dss
+
+new energymeter.carga element=line.TRfic7,terminal=2
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+! BusCoords TOTU03CoordMT.csv

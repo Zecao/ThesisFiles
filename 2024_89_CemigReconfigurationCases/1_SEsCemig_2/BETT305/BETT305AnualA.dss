@@ -1,0 +1,33 @@
+clear
+new circuit.alimBETT305 bus1=BMTFIC,basekv=13.800000000,pu=1.040000000,r1=0,x1=0.0001
+
+Redirect ..\..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\..\0PermRes\Condutores.dss
+Redirect BETT305SegmentosMT.dss
+Redirect BETT305ChavesMT.dss
+Redirect BETT305Reguladores.dss
+Redirect BETT305Transformadores.dss
+Redirect BETT305SegmentosBT.dss
+Redirect BETT305Ramais.dss
+Redirect BETT305CargaMT_Dez.dss
+Redirect BETT305CargaBT_Dez.dss
+Redirect BETT305GeradorMT_Dez.dss
+Redirect BETT305GeradorBT_Dez.dss
+
+new energymeter.carga element=line.TRfic8,terminal=2
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+Set tolerance = 0.01 ! obs nao roda com tol=0.001
+Set MaxIter = 400
+Set MaxControlIter = 100
+
+Solve mode=daily,hour=17,number=1,stepsize=1h
+
+
+! BusCoords BETT305CoordMT.csv
+ClearBusMarkers
+! AddBusMarker Bus= ,code=12,color=Green,size=5 ! substation
+! AddBusMarker bus= ,code=27,color=Green,size=3 ! NC switch in Green
+! AddBusMarker bus= ,code=27,color=Yellow,size=3 ! Yellow circle = NO switch to be closed
+! plot circuit quantity=power,dots=n,labels=n,subs=y,showloops=n,C1=Blue,C2=Blue,C3=Red,R2=0.95,R3=0.90

@@ -1,0 +1,26 @@
+clear
+new circuit.alimORPU06 bus1=BMTFIC.1.2.3,basekv=13.800000000,pu=1.040000000
+
+Redirect ..\..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\..\0PermRes\Condutores.dss
+Redirect ORPU06SegmentosMT.dss
+Redirect ORPU06ChavesMT.dss
+Redirect ORPU06Reguladores.dss
+Redirect ORPU06Transformadores.dss
+Redirect ORPU06SegmentosBT.dss
+Redirect ORPU06Ramais.dss
+Redirect ORPU06CargaMT_Dez.dss
+Redirect ORPU06CargaBT_Dez.dss
+Redirect ORPU06CapacitorMT.dss
+
+new energymeter.carga element=line.TRfic5,terminal=2
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+Set tolerance = 0.001
+Set MaxIter = 1700 ! precisa de 1653 iter na hora 11 p/ 12, caso tolerance seja = 0.0001
+Set MaxControlIter = 100
+
+Solve mode=daily,hour=0,number=1,stepsize=1h
+
+! BusCoords ORPU06CoordMT.csv

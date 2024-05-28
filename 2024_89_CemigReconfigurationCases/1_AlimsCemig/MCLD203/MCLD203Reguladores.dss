@@ -1,0 +1,12 @@
+new transformer.RT1588-1 Phases=1,windings=2,buses=[BMT123079884.1.0 BMT172621826.1.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[2500.000000000 2500.000000000],xhl=0.750000000,%loadloss=0.116000000,%noloadloss=0.0209
+new RegControl.RC1588-1 transformer=RT1588-1,winding=2,PTphase=1,ptratio=66.4,band=2,vreg=125.004
+new transformer.RT1588-2 Phases=1,windings=2,buses=[BMT123079884.2.0 BMT172621826.2.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[2500.000000000 2500.000000000],xhl=0.750000000,%loadloss=0.116000000,%noloadloss=0.0209
+new RegControl.RC1588-2 transformer=RT1588-2,winding=2,PTphase=1,ptratio=66.4,band=2,vreg=125.004
+new transformer.RT1588-3 Phases=1,windings=2,buses=[BMT123079884.3.0 BMT172621826.3.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[2500.000000000 2500.000000000],xhl=0.750000000,%loadloss=0.116000000,%noloadloss=0.0209
+new RegControl.RC1588-3 transformer=RT1588-3,winding=2,PTphase=1,ptratio=66.4,band=2,vreg=125.004
+new transformer.RT6771-1 Phases=1,windings=2,buses=[BMT165447174.1.0 BMT165447175.1.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[1500.000000000 1500.000000000],xhl=0.700000000,%loadloss=0.115000000,%noloadloss=0.0279
+new RegControl.RC6771-1 transformer=RT6771-1,winding=2,PTphase=1,ptratio=66.4,band=2,vreg=125.004
+new transformer.RT6771-2 Phases=1,windings=2,buses=[BMT165447174.2.0 BMT165447175.2.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[1500.000000000 1500.000000000],xhl=0.700000000,%loadloss=0.115000000,%noloadloss=0.0279
+new RegControl.RC6771-2 transformer=RT6771-2,winding=2,PTphase=1,ptratio=66.4,band=2,vreg=125.004
+new transformer.RT6771-3 Phases=1,windings=2,buses=[BMT165447174.3.0 BMT165447175.3.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[1500.000000000 1500.000000000],xhl=0.700000000,%loadloss=0.115000000,%noloadloss=0.0279
+new RegControl.RC6771-3 transformer=RT6771-3,winding=2,PTphase=1,ptratio=66.4,band=2,vreg=125.004

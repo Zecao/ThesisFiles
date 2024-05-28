@@ -1,0 +1,23 @@
+clear
+new circuit.alimNLAU06 bus1=BMTFIC.1.2.3,basekv=13.800000000,pu=1.040000000
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect NLAU06SegmentosMT.dss
+Redirect NLAU06ChavesMT.dss
+Redirect NLAU06Reguladores.dss
+Redirect NLAU06Transformadores.dss
+Redirect NLAU06SegmentosBT.dss
+Redirect NLAU06Ramais.dss
+Redirect NLAU06CargaMT_Dez.dss
+Redirect NLAU06CargaBT_Dez.dss
+Redirect NLAU06CapacitorMT.dss
+
+new energymeter.carga element=line.TRfic5,terminal=2
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+! BusCoords NLAU06CoordMT.csv

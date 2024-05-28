@@ -1,0 +1,21 @@
+clear
+new circuit.alimALSD204 bus1=BMT98391400.1.2.3,basekv=13.800000000,pu=1.040000000,r1=0,x1=0.0001
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect ALSD204SegmentosMT.dss
+Redirect ALSD204ChavesMT.dss
+Redirect ALSD204Transformadores.dss
+Redirect ALSD204SegmentosBT.dss
+Redirect ALSD204Ramais.dss
+Redirect ALSD204CargaMT_Nov.dss
+Redirect ALSD204CargaBT_Nov.dss
+
+new energymeter.carga element=line.TR3504894,terminal=1
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+BusCoords ALSD204CoordMT.csv

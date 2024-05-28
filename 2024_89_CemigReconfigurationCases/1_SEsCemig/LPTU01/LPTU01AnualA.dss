@@ -1,0 +1,23 @@
+clear
+new circuit.alimLPTU01 bus1=BMTFIC.1.2.3,basekv=13.800000000,pu=1.040000000
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect LPTU01SegmentosMT.dss
+Redirect LPTU01ChavesMT.dss
+Redirect LPTU01Reguladores.dss
+Redirect LPTU01Transformadores.dss
+Redirect LPTU01SegmentosBT.dss
+Redirect LPTU01Ramais.dss
+Redirect LPTU01CargaMT_Dez.dss
+Redirect LPTU01CargaBT_Dez.dss
+! Redirect LPTU01CapacitorMTDez.dss
+
+new energymeter.carga element=line.TRfic4,terminal=2
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+! BusCoords LPTU01CoordMT.csv

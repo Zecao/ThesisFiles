@@ -1,0 +1,6 @@
+new transformer.RT2136-1 Phases=1,windings=2,buses=[BMT100998739.1.0 BMT100998746.1.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[1500.000000000 1500.000000000],xhl=0.700000000,%loadloss=0.115000000,%noloadloss=0.0279
+new RegControl.RC2136-1 transformer=RT2136-1,winding=2,PTphase=1,ptratio=66.4,band=2,vreg=125.004
+new transformer.RT2136-2 Phases=1,windings=2,buses=[BMT100998739.2.0 BMT100998746.2.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[1500.000000000 1500.000000000],xhl=0.700000000,%loadloss=0.115000000,%noloadloss=0.0279
+new RegControl.RC2136-2 transformer=RT2136-2,winding=2,PTphase=1,ptratio=66.4,band=2,vreg=125.004
+new transformer.RT2136-3 Phases=1,windings=2,buses=[BMT100998739.3.0 BMT100998746.3.0],conns=[LN LN],kvs=[7.967 7.967],kvas=[1500.000000000 1500.000000000],xhl=0.700000000,%loadloss=0.115000000,%noloadloss=0.0279
+new RegControl.RC2136-3 transformer=RT2136-3,winding=2,PTphase=1,ptratio=66.4,band=2,vreg=125.004

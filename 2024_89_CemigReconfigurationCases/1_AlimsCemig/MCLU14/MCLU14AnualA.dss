@@ -1,0 +1,21 @@
+clear
+new circuit.alimMCLU14 bus1=BMT123156821.1.2.3,basekv=13.800000000,pu=1.040000000
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect MCLU14SegmentosMT.dss
+Redirect MCLU14ChavesMT.dss
+Redirect MCLU14Transformadores.dss
+Redirect MCLU14SegmentosBT.dss
+Redirect MCLU14Ramais.dss
+Redirect MCLU14CargaMT_Dez.dss
+Redirect MCLU14CargaBT_Dez.dss
+
+new energymeter.carga element=line.TR1545053,terminal=1
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+! BusCoords MCLU14CoordMT.csv

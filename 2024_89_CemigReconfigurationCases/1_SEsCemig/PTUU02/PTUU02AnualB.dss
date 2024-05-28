@@ -1,0 +1,12 @@
+!PTUU02	1.04	17430634.6 (GD)	841964.2	4.830%	Mensal
+!PTUU02	1.04	17397128.8 (GD)	820991.0	4.719%	Mensal
+close line.CTRR34957 term=1 !245891
+open line.CTRR41287 term=1 !129062
+
+new energymeter.carga element=line.TRfic7,terminal=2
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+Set tolerance = 0.001
+Set MaxIter = 400
+Set MaxControlIter = 400
