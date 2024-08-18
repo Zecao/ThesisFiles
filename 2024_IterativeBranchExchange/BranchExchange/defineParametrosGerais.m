@@ -16,7 +16,7 @@ param.OUT_ALL = 0;
 param.metodoFluxo = 1; 
 
 % dataType dos individuos
-param.dataType = 'logical';
+param.dataType = 'int32';
 
 % globals do Matpower
 param.VMAX = 1.1; % maximum voltage magnitude (p.u.) 

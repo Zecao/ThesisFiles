@@ -16,7 +16,7 @@ paramAG.tipoOrdCiclos = 'aleatorio'; % 'tamCiclo' 'aleatorio' 'revTamCiclo' 'car
 paramAG.ladoCicloBE = 'maiorQueda'; %'aleatorio';
 
 % tipo de fluxo
-paramAG.PFtype = 'DistFlow'; %DistFlow 'AlimReduzido'; % Matpower 
+paramAG.PFtype = 'Matpower'; %DistFlow 'AlimReduzido'; % Matpower 
 
 % se = 1, faz BE com chaves fechadas
 paramAG.closeAll = 0;

@@ -6,13 +6,13 @@ warning 'off';
 % reset the random number generator for reproducibility  
 rng('default');
 
-% 1 Sistema_Zhu2002_3fontes - 16 buses ;   
-% 2 Sistema_Zhu2002 - 33 buses ;           
-% 3 Sistema_Huang2002 - 70 buses;  
-% 4 Sistema_Brasileiro2008 - 136 buses;  
-% 5 Sistema_TPC2003 - 84 buses;
-% 6 Sistema 417 barras - 417 buses
-% 7 Sistema 119 barras - 119 buses
+% sistema = 1 -> 16 bus   
+% sistema = 2 -> 33 bus         
+% sistema = 31 -> 69 bus PG&E Bran&Wu  
+% sistema = 4 -> 136 bus Sistema_Brasileiro 
+% sistema = 5 -> 84 bus TPC2003
+% sistema = 6 -> 417 bus
+% sistema = 7 -> 119 bus
 sistema = 3;
 
 % ALGORITMOS 
