@@ -19,10 +19,10 @@ while ( k <= alim.paramAG.numGeracoes )
     % Elitismo. Guarda o melhor individuo
     arrayStructElite = preencheArrayStructElite(arrayStructElite,fitness,populacao,k);
     
-    % verifica convergencia algoritmo
-    [sucesso, arrayStructElite] = verificaSucesso(sistema,arrayStructElite,k,alim);
-
-    if ( sucesso )
+    % stop criteria
+    stop = stopCriteria(sistema,arrayStructElite,k,alim);
+    
+    if ( stop )
         return;
     end  
     
@@ -31,6 +31,50 @@ while ( k <= alim.paramAG.numGeracoes )
 
 end
     
+end
+
+% verifies the stop criteria
+function stop = stopCriteria(sistema,arrayStructElite,k,alim)
+
+% init var
+stop = 0;
+
+% TODO
+% for the 119 and 136-bus we have to compare 2 generations before.
+% if ((sistema==7)||(sistema==4))
+    if (k>2)
+        elite = arrayStructElite(1, k).FFxXGen;
+
+        old = arrayStructElite(1, k-2).FFxXGen;
+
+        % no improvement in last generation
+        if (elite == old)
+
+            stop = 1;
+            return;
+        end
+
+    end
+% else
+%     if (k>1)
+%         elite = arrayStructElite(1, k).FFxXGen;
+% 
+%         old = arrayStructElite(1, k-1).FFxXGen;
+% 
+%         % no improvement in last generation
+%         if (elite == old)
+% 
+%             stop = 1;
+%             return;
+%         end
+% 
+%     end
+% 
+% end
+
+% debug mode: stop when found the known optima 
+[stop, arrayStructElite] = verificaSucesso(sistema,arrayStructElite,k,alim);
+
 end
 
 % verifica diversidade populacional
@@ -74,10 +118,8 @@ end
 % verifica sucesso 
 function [sucesso, arrayStructElite] = verificaSucesso(sistema,arrayStructElite,geracao,alim)
 
-% TODO
 % condicao de saida funcao
-if (~strcmp(alim.Ftipo,'ieee'))
-
+if (alim.paramAG.debugMode == 0)
     sucesso = 0;
     return ;
 end

@@ -1,7 +1,7 @@
 % encapsula busca local
 function [populacao, fxi] = buscaLocal(populacao,fxi,alim,geracao)
 
-% [populacao, fxi] = setupGeral(populacao,fxi,alim,geracao);
+[populacao, fxi] = setupGeral(populacao,fxi,alim,geracao);
 
 % OLD CODE manter
 % 
@@ -21,9 +21,6 @@ function [populacao, fxi] = buscaLocal(populacao,fxi,alim,geracao)
 %     
 % end
 
-% [populacao, fxi] = buscaLocalPvt(populacao,fxi,alim);
-
-[populacao, fxi] = setupGeral(populacao,fxi,alim,geracao);
 end
 
 % OLD CODE manter

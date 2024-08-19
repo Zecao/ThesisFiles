@@ -10,19 +10,23 @@ paramAG.metodoGerPopCemig = '2'; % 1 ou 2: mdo 1 cria menos individuos
 paramAG.loadPopMAT = 0; 
 
 % tipo de ordenacao dos ciclos
-paramAG.tipoOrdCiclos = 'aleatorio'; % 'tamCiclo' 'aleatorio' 'revTamCiclo' 'cargaCiclo'
+paramAG.tipoOrdCiclos = 'tamCiclo'; % 'tamCiclo' 'aleatorio' 'revTamCiclo' 'cargaCiclo'
 
 % lado de realizacao da BE
-paramAG.ladoCicloBE = 'maiorQueda'; %'aleatorio';
+paramAG.ladoCicloBE = 'maiorQueda'; %'aleatorio'; maiorQueda
 
 % tipo de fluxo
-paramAG.PFtype = 'Matpower'; %DistFlow 'AlimReduzido'; % Matpower 
+paramAG.PFtype = 'DistFlow'; %DistFlow 'AlimReduzido'; % Matpower 
 
 % se = 1, faz BE com chaves fechadas
 paramAG.closeAll = 0;
 
-% falg p/ controlar BE por DistFlow nos clusters
+% flag p/ controlar BE por DistFlow nos clusters
 paramAG.skipDistFlowCluster = 0;
+
+% flag to stop when find the global minimum for 33, 69, 84, 119 and 136 buses
+% as the results are known from literature.
+paramAG.debugMode = 0;
 
 switch sistema
     
@@ -39,52 +43,38 @@ switch sistema
 
         paramAG.maxPop = 5; % artigo
         paramAG.numGeracoes = 5;
-        paramAG.tipoOrdCiclos = 'tamCiclo';
 %       paramAG.tipoOrdCiclos = 'aleatorio'; % melhor desempenho
               
     case 3 % 69-bus
 
         paramAG.maxPop = 5; % artigo
         paramAG.numGeracoes = 5; 
-        paramAG.tipoOrdCiclos = 'tamCiclo'; % melhor desempenho
-%       paramAG.tipoOrdCiclos = 'aleatorio';
+%       paramAG.tipoOrdCiclos = 'tamCiclo'; % melhor desempenho
 %       paramAG.tipoOrdCiclos = 'cargaCiclo'; % nao resolve a rede
         
     case 4 % 136-bus
 
         paramAG.numGeracoes = 5;
         paramAG.maxPop = 10;
-%       paramAG.tipoOrdCiclos = 'aleatorio'; % pessimos resultados sucesso 1/10
-        paramAG.tipoOrdCiclos = 'tamCiclo'; % melhor
-%       paramAG.tipoOrdCiclos = 'cargaCiclo';
-       
-% setup artigo (p/ nao resolver)         
-%         paramAG.numGeracoes = 50;
-%         paramAG.maxPop = 50;
-%         paramAG.tamPopulacao = 10;
-%         paramAG.tipoOrdCiclos = 'aleatorio';      
-        
+%       paramAG.tipoOrdCiclos = 'aleatorio'; % pessimos res sucesso 1/10
+     
     case 5 % 84-bus
 
         paramAG.maxPop = 5; % 10 artigo
         paramAG.numGeracoes = 5;
-%        paramAG.tipoOrdCiclos = 'aleatorio'; % melhor desempenho
-        paramAG.tipoOrdCiclos = 'tamCiclo';
-%        paramAG.tipoOrdCiclos = 'cargaCiclo';
+%       paramAG.tipoOrdCiclos = 'aleatorio'; %  melhor desempenho
 
     case 6 % 417-bus 
         
         paramAG.maxPop = 30;
         paramAG.numGeracoes = 30;
-        paramAG.tipoOrdCiclos = 'aleatorio';     
+%       paramAG.tipoOrdCiclos = 'aleatorio';     
         
     case 7 % 119-bus 
         
         paramAG.maxPop = 5;
         paramAG.numGeracoes = 10;
-        paramAG.tipoOrdCiclos = 'tamCiclo'; % melhor
-%         paramAG.tipoOrdCiclos = 'cargaCiclo';
-%         paramAG.tipoOrdCiclos = 'aleatorio'; % sucessos: 5/10
+%       paramAG.tipoOrdCiclos = 'aleatorio'; % pessimos res: 4/10
         
     case 8 % rede Carrano
         

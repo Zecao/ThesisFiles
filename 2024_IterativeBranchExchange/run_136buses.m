@@ -36,7 +36,7 @@ for i=1:numexec
     % define variaveis globais
     defineParametrosGerais();
     
-    % seta configuracoes do algoritmo genetico
+    % seta configuracoes do algoritmo
     conf = setaConfiguracoesAG(sistema);
         
     % carregaArquivoAlimentador
