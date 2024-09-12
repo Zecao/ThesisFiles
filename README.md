@@ -6,11 +6,12 @@ The Matlab project uses 2 external programs/libraries.
 - Matlab_bgl: a Matlab wrapper for the Boost Graph Library (https://github.com/dgleich/matlab-bgl).
 
 Instructions: Download the [**"IterativeBranchExchange"**](https://github.com/Zecao/ThesisFiles/tree/master/2024_IterativeBranchExchange) .m files. Before starting, edit the file setPath.m adding the folder 'BranchExchange'. The following .m files run the Iterative Branch Exchange for each network described in item 1.
-- run_16buses.m
-- run_33buses.m
-- run_70buses.m
-- run_84buses.m
-- run_136buses.m
+- run_16bus.m
+- run_33bus.m
+- run_69bus.m
+- run_84bus.m
+- run_119bus.m
+- run_136bus.m
 
 ## 2. Iterative Branch Exchange - C# OpenDSS Customization 
 Please go to the folder OpenDSSCustomization the repository [**InterativeBranchExchange**](https://github.com/Zecao/IterativeBranchExchange/tree/master) for the C# Visual Studio project. This is the article [**Distribution Network Reconfiguration using Iterative Branch Exchange and Clustering Techniques**](https://www.mdpi.com/1996-1073/16/5/2395) and contains a 2023 version of the Matlab codes.
