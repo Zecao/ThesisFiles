@@ -14,7 +14,7 @@ Instructions: Download the [**"IterativeBranchExchange"**](https://github.com/Ze
 - run_136bus.m
 
 ## 2. Iterative Branch Exchange - C# OpenDSS Customization 
-Please go to the folder OpenDSSCustomization the repository [**InterativeBranchExchange**](https://github.com/Zecao/IterativeBranchExchange/tree/master) for the C# Visual Studio project. This is the article [**Distribution Network Reconfiguration using Iterative Branch Exchange and Clustering Techniques**](https://www.mdpi.com/1996-1073/16/5/2395) and contains a 2023 version of the Matlab codes.
+for the C# Visual Studio project, please go to the repository [**InterativeBranchExchange**](https://github.com/Zecao/IterativeBranchExchange/tree/master/OpenDssCustomization) for the article [**Distribution Network Reconfiguration using Iterative Branch Exchange and Clustering Techniques**](https://www.mdpi.com/1996-1073/16/5/2395).
 
 [**2024_89_CemigReconfigurationCases**](https://github.com/Zecao/ThesisFiles/tree/master/2024_89_CemigReconfigurationCases)
 Folder containing 89 feeders (or substations) in the OpenDSS format (.dss), including the 3 study cases presented in my thesis. Also, I uploaded 4 powerpoints presentations, describing these 89 reconfiguration cases implemented in the CEMIG-D distribution system. I suggest a quick look at these files [**folder "Reconf_pptx"**](https://github.com/Zecao/ThesisFiles/tree/master/2024_SupMaterial/Reconf_pptx)
