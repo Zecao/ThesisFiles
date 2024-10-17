@@ -1,5 +1,5 @@
-new load.3009006884M1 bus1=BMT177573690.1.2.3.0,Phases=3,kv=13.800000000,kW=90.0336,pf=0.92,Vminpu=0.93,Vmaxpu=1.5,model=1,daily=MT1_1,status=variable
-new load.3009006886M1 bus1=BMT101736231.1.2.3.0,Phases=3,kv=13.800000000,kW=5.64526,pf=0.92,Vminpu=0.93,Vmaxpu=1.5,model=1,daily=MT1_1,status=variable
-new load.3009006892M1 bus1=BMT170420095.1.2.3.0,Phases=3,kv=13.800000000,kW=36.21312,pf=0.92,Vminpu=0.93,Vmaxpu=1.5,model=1,daily=MT1_1,status=variable
-new load.3012432587M1 bus1=BMT151635210.1.2.3.0,Phases=3,kv=13.800000000,kW=19.72208,pf=0.92,Vminpu=0.93,Vmaxpu=1.5,model=1,daily=MT1_1,status=variable
-new load.3012462734M1 bus1=BMT171693767.1.2.3.0,Phases=3,kv=13.800000000,kW=85.71042,pf=0.92,Vminpu=0.93,Vmaxpu=1.5,model=1,daily=MT1_1,status=variable
+new load.3009006884M1 bus1=BMT177573690.1.2.3.0,Phases=3,kv=13.800000000,kW=90.0336,pf=0.92,Vminpu=0.93,Vmaxpu=1.5,model=8,zipv=[0.5,0,0.5,1,0,0,0],daily=MT1_1,status=variable
+new load.3009006886M1 bus1=BMT101736231.1.2.3.0,Phases=3,kv=13.800000000,kW=5.64526,pf=0.92,Vminpu=0.93,Vmaxpu=1.5,model=8,zipv=[0.5,0,0.5,1,0,0,0],daily=MT1_1,status=variable
+new load.3009006892M1 bus1=BMT170420095.1.2.3.0,Phases=3,kv=13.800000000,kW=36.21312,pf=0.92,Vminpu=0.93,Vmaxpu=1.5,model=8,zipv=[0.5,0,0.5,1,0,0,0],daily=MT1_1,status=variable
+new load.3012432587M1 bus1=BMT151635210.1.2.3.0,Phases=3,kv=13.800000000,kW=19.72208,pf=0.92,Vminpu=0.93,Vmaxpu=1.5,model=8,zipv=[0.5,0,0.5,1,0,0,0],daily=MT1_1,status=variable
+new load.3012462734M1 bus1=BMT171693767.1.2.3.0,Phases=3,kv=13.800000000,kW=85.71042,pf=0.92,Vminpu=0.93,Vmaxpu=1.5,model=8,zipv=[0.5,0,0.5,1,0,0,0],daily=MT1_1,status=variable

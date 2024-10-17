@@ -19,10 +19,10 @@ new energymeter.carga element=line.TRfic3,terminal=2
 
 Set voltagebases=[13.800000000 0.24 0.22]
 CalcVoltageBases
-Set tolerance = 0.001
+!Set tolerance = 0.001
 Set MaxIter = 500
 Set MaxControlIter = 100
 
-Solve mode=daily,hour=0,number=24,stepsize=1h
+Solve mode=daily,hour=17,number=1,stepsize=1h
 
 ! BusCoords BRDD205CoordMT.csv

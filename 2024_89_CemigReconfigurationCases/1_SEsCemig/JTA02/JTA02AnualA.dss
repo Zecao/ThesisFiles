@@ -1,0 +1,23 @@
+clear
+new circuit.alimJTA02 bus1=BMTFIC.1.2.3,basekv=13.800000000,pu=1.040000000
+
+Redirect ..\0PermRes\NovasCurvasTxt\CurvasDeCargaDU.dss
+Redirect ..\0PermRes\Condutores.dss
+Redirect JTA02SegmentosMT.dss
+Redirect JTA02ChavesMT.dss
+Redirect JTA02Reguladores.dss
+Redirect JTA02Transformadores.dss
+Redirect JTA02SegmentosBT.dss
+Redirect JTA02Ramais.dss
+Redirect JTA02CargaMT_Dez.dss
+Redirect JTA02CargaBT_Dez.dss
+! Redirect JTA02CapacitorMTDez.dss
+
+new energymeter.carga element=line.TRfic6,terminal=2
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+! BusCoords JTA02CoordMT.csv

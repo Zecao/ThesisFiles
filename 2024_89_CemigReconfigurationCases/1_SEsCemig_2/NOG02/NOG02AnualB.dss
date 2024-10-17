@@ -1,6 +1,6 @@
 ! manobra 24/08/2021
-close line.CTR662453 term=1 !20025
-open line.CTR662453 term=1 !254494
+!close line.CTR662453 term=1 !20025
+!open line.CTR662453 term=1 !254494
 
 new energymeter.carga element=line.TRfic9,terminal=2
 

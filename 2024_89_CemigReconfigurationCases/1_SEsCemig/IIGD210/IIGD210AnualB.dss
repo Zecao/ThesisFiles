@@ -1,12 +1,16 @@
-! manobra IIGD220/221
-close line.CTRR42939 term=1
-open line.CTR876880 term=1
+! 2a manobra IIGD220/221 - 06/08/2020 
+! OBS: deve-se executar o caso da pasta 1_3_EstudoCasos
+!close line.CTRR42939 term=1 !319112	139164
+!open line.CTR876880 term=1
 
-! manobra IIGD210/222
-!close line.CTR238141 term=1
+! 1a manobra IIGD210/222 - 25/01/2020
+!close line.CTR238141 term=1 !48399	241566
 !open line.CTRR4978 term=1
+
 new energymeter.carga element=line.TRfic8,terminal=2
 
 Set voltagebases=[13.800000000 0.24 0.22]
 CalcVoltageBases
-Set tolerance = 0.001
+Set tolerance = 0.01 ! 0.01 -> 11:02:15 / 11:03:14: IIGD210
+Set MaxIter = 1000
+Set MaxControlIter = 1000

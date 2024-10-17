@@ -1,5 +1,5 @@
-close line.CTRR42362 term=1 !278701
-open line.CTRR43441 term=1 !278467
+!close line.CTRR42362 term=1 !278701
+!open line.CTRR43441 term=1 !278467
 
 new energymeter.carga element=line.SMT_1126857,terminal=1
 

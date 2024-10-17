@@ -1,4 +1,4 @@
-! manobra 
+!manobra 
 close line.CTRR41905 term=1 ! 267983	
 open line.CTRR41100 term=1 ! 267984
 

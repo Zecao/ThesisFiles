@@ -1,2 +1,2 @@
-new load.3009000459M1 bus1=BMT99046369.1.2.3.0,Phases=3,kv=13.8,kW=5.7589,pf=0.92,Vminpu=0.93,Vmaxpu=1.5,model=1,daily=A4-1,status=variable
-new load.3011472561M1 bus1=BMT110972612.1.2.3.0,Phases=3,kv=13.8,kW=41.01862,pf=0.92,Vminpu=0.93,Vmaxpu=1.5,model=1,daily=A4-3,status=variable
+new load.3009000459M1 bus1=BMT99046369.1.2.3.0,Phases=3,kv=13.8,kW=5.7589,pf=0.92,Vminpu=0.93,Vmaxpu=1.5,model=8,zipv=[0.5,0,0.5,1,0,0,0],daily=A4-1,status=variable
+new load.3011472561M1 bus1=BMT110972612.1.2.3.0,Phases=3,kv=13.8,kW=41.01862,pf=0.92,Vminpu=0.93,Vmaxpu=1.5,model=8,zipv=[0.5,0,0.5,1,0,0,0],daily=A4-3,status=variable

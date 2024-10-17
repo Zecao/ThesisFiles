@@ -1,7 +1,6 @@
-! manobra IIGD220/221
-! IIGD210	ctrr42939	ctrr4978	5200	8165.94	8217.45	0.63
-close line.CTRR42939 term=1 !numEQ 319112
-open line.CTRR4978 term=1 !numEQ 139164
+! 1a manobra IIGD220/221 06/08/2020
+!close line.CTRR42939 term=1 !numEQ 319112
+!open line.CTRR4978 term=1 !numEQ 139164
 !
 !! 2a manobra [nao executada]
 !close line.ctr434778 term=1 !
@@ -26,3 +25,7 @@ CalcVoltageBases
 Set tolerance = 0.001
 Set MaxIter = 150
 Set MaxControlIter = 40
+
+!IIGD210/222	48399	241566	25/01/2020
+!close line.CTR238141 term=1
+!open line.CTR876880 term=1

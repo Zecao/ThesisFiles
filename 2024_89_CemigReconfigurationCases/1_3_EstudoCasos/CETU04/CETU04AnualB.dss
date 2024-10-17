@@ -1,6 +1,6 @@
-! manobra escolhida 1a geracao (implementada em campo)
-close line.CTR349105 term=1 !302068
-open line.CTRR42278  term=1 !257107
+! manobra escolhida 1a geracao (implementada em campo) 10/11/2020
+!close line.CTR349105 term=1 !302068
+!open line.CTRR42278  term=1 !257107
 
 ! 2a manobra [nao executada]
 !close line.ctrr37266 term=1 !

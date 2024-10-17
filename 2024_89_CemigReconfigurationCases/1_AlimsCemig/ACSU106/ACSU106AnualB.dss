@@ -1,5 +1,5 @@
-close line.CTR660731 term=1
-open line.CTRR41131 term=1
+!close line.CTR660731 term=1
+!open line.CTRR41131 term=1
 
 new energymeter.carga element=line.TRfic5,terminal=2
 

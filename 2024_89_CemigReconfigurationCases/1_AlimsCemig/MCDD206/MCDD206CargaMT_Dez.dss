@@ -1,1 +1,1 @@
-new load.3013115464M1 bus1=BMT169017930.1.2.3,Phases=3,kv=13.8,kW=217.35306,pf=0.92,Vminpu=0.93,Vmaxpu=1.5,model=1,daily=A4-4,status=variable
+new load.3013115464M1 bus1=BMT169017930.1.2.3,Phases=3,kv=13.8,kW=217.35306,pf=0.92,Vminpu=0.93,Vmaxpu=1.5,model=8,zipv=[0.5,0,0.5,1,0,0,0],daily=A4-4,status=variable

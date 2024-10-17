@@ -1,6 +1,6 @@
 ! manobra fechar 
-close line.CTR378512 term=1 !233454
-open line.CTR230035 term=1 !53296
+!close line.CTR378512 term=1 !233454
+!open line.CTR230035 term=1 !53296
 
 new energymeter.carga element=line.TR4010917,terminal=1
 

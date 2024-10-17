@@ -1,8 +1,8 @@
-!manobra 24/08/2021
+! 2a manobra 24/08/2021
 !close line.CTR662453 term=1 !20025
 !open line.CTR662453 term=1 !254494
 
-!manobra 01/03/2021
+! 1a manobra 01/03/2021
 close line.CTRR40099 term=1 !273766
 open line.CTRR40287 term=1 !273765
 

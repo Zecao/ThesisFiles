@@ -1,0 +1,6 @@
+new capacitor.CAP297979-1 bus1=BMT170182772.1.0,Phases=1,Conn=LN,Kvar=200,Kv=13.8
+new capacitor.CAP297979-2 bus1=BMT170182772.2.0,Phases=1,Conn=LN,Kvar=200,Kv=13.8
+new capacitor.CAP297979-3 bus1=BMT170182772.3.0,Phases=1,Conn=LN,Kvar=200,Kv=13.8
+new capacitor.CAP297980-1 bus1=BMT170182800.1.0,Phases=1,Conn=LN,Kvar=400,Kv=13.8
+new capacitor.CAP297980-2 bus1=BMT170182800.2.0,Phases=1,Conn=LN,Kvar=400,Kv=13.8
+new capacitor.CAP297980-3 bus1=BMT170182800.3.0,Phases=1,Conn=LN,Kvar=400,Kv=13.8

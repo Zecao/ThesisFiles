@@ -1,0 +1,12 @@
+! manobra
+close line.CTR847568 term=1 !305055
+open line.CTR456455 term=1!315142
+
+new energymeter.carga element=line.TRfic6,terminal=2
+
+Set voltagebases=[13.800000000 0.24 0.22]
+CalcVoltageBases
+
+! Solve mode=daily,hour=0,number=24,stepsize=1h
+
+! BusCoords JTA02CoordMT.csv

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Configuracoes>
-  <CaminhoMensais>F:\DropboxZecao\Dropbox\0doutorado\0soft\0alimCemig\_Tese89casos\1_art2023_4emDiante\</CaminhoMensais>
-  <CaminhoRecPerm>F:\DropboxZecao\Dropbox\0doutorado\0soft\0alimCemig\_Tese89casos\0PermRes\</CaminhoRecPerm>
+  <CaminhoMensais>F:\DropboxZecao\Dropbox\0doutorado\0soft\0alimCemig\_Tese89casos_M8\1_3_EstudoCasos\</CaminhoMensais>
+  <CaminhoRecPerm>F:\DropboxZecao\Dropbox\0doutorado\0soft\0alimCemig\_Tese89casos_M8\0PermRes\</CaminhoRecPerm>
   <Mes>Dezembro</Mes>
   <Ano>2022</Ano>
   <AllowForms>true</AllowForms>

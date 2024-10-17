@@ -3,13 +3,13 @@
 !open line.CTRR42667 term=1 !279055
 
 ! 1a manobra - 11/08/2022	
-close line.CTRR27672 term=1 !302273
-open line.CTRR27679 term=1 !306353 
+!close line.CTRR27672 term=1 !302273
+!open line.CTRR27679 term=1 !306353 
 
 new energymeter.carga element=line.TRfic8,terminal=2
 
 Set voltagebases=[13.800000000 0.24 0.22]
 CalcVoltageBases
-Set tolerance = 0.01
+Set tolerance = 0.01  ! 0.01 -> 10:56:52 11:01:16:
 Set MaxIter = 400
-Set MaxControlIter = 100
+Set MaxControlIter = 400

@@ -1,0 +1,27 @@
+2024-10-17 12:28:05: Início
+2024-10-17 12:28:05: Carregando arquivo de LoadMults...
+2024-10-17 12:28:05: Executando Fluxo...
+2024-10-17 12:28:36: IIGD210 -> Solução Convergiu
+2024-10-17 12:28:36: Alim\PU SaidaSE:\Energia(KWh)\Perdas(KWh)\Perdas(%)
+IIGD210	1.04	504589.6	17760.3	3.520%	DU
+2024-10-17 12:29:03: IIGD210 -> Solução Convergiu
+2024-10-17 12:29:03: Alim\PU SaidaSE:\Energia(KWh)\Perdas(KWh)\Perdas(%)
+IIGD210	1.04	432738.5	14336.0	3.313%	SA
+2024-10-17 12:29:29: IIGD210 -> Solução Convergiu
+2024-10-17 12:29:29: Alim\PU SaidaSE:\Energia(KWh)\Perdas(KWh)\Perdas(%)
+IIGD210	1.04	389136.7	12860.5	3.305%	DO
+2024-10-17 12:29:29: Alim\PU SaidaSE:\Energia(KWh)\Perdas(KWh)\Perdas(%)
+IIGD210	1.04	14821211.3	513849.4	3.467%	Mensal
+2024-10-17 12:29:40: CETU04 -> Solução Convergiu
+2024-10-17 12:29:40: Alim\PU SaidaSE:\Energia(KWh)\Perdas(KWh)\Perdas(%)
+CETU04	1.04	177651.3	8171.1	4.600%	DU
+2024-10-17 12:29:52: CETU04 -> Solução Convergiu
+2024-10-17 12:29:52: Alim\PU SaidaSE:\Energia(KWh)\Perdas(KWh)\Perdas(%)
+CETU04	1.04	154905.2	6795.4	4.387%	SA
+2024-10-17 12:30:02: CETU04 -> Solução Convergiu
+2024-10-17 12:30:02: Alim\PU SaidaSE:\Energia(KWh)\Perdas(KWh)\Perdas(%)
+CETU04	1.04	132090.8	5805.8	4.395%	DO
+2024-10-17 12:30:02: Alim\PU SaidaSE:\Energia(KWh)\Perdas(KWh)\Perdas(%)
+CETU04	1.04	5211217.1	236965.3	4.547%	Mensal
+2024-10-17 12:30:02: Fim da execução.
+2024-10-17 12:30:02: Tempo total de execução: 00:01:56.4627137

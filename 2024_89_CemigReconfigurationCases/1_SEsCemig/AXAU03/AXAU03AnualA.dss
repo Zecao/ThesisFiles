@@ -11,7 +11,7 @@ Redirect AXAU03SegmentosBT.dss
 Redirect AXAU03Ramais.dss
 Redirect AXAU03CargaMT_Dez.dss
 Redirect AXAU03CargaBT_Dez.dss
-! Redirect AXAU03CapacitorMTDez.dss
+Redirect AXAU03CapacitorMT.dss
 
 new energymeter.carga element=line.TRfic7,terminal=2
 

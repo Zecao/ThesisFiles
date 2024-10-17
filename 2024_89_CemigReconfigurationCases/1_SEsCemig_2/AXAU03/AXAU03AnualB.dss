@@ -1,9 +1,0 @@
-!manobra
-close line.CTR859146 term=1 !381123
-open line.CTR57313  term=1 !60111
-
-new energymeter.carga element=line.TRfic7,terminal=2
-
-Set voltagebases=[13.800000000 0.24 0.22]
-CalcVoltageBases
-Set tolerance = 0.001

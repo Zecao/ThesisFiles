@@ -1,6 +1,5 @@
-% CETU04 % NFP=111 (61 + 50)  % estudos de caso
-% IIGD210 %  NFP = ()
-% IIGU115
+IIGD210
+CETU04
 % ACSU106 % Inicio 89 casos
 % ALSD204
 % AMN06
@@ -49,7 +48,7 @@
 % RBST335
 % SDEU15
 % SFIQ410
-% % % SLAT309
+% SLAT309
 % SLAU04
 % SLN04
 % SND04
@@ -88,7 +87,7 @@
 % TOTU03
 % UNIT306 % tol = 0.001 || num alto iter.
 % AXAU03 % SEs com 2a manobras. VERIFICAR DATAS.
-BETT305
+% BETT305
 % LBD01
 % NOG02
-% TOTU03
+% % TOTU03

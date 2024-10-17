@@ -1,3 +1,4 @@
+! 1a manobra 26/10/2020
 close line.CTR919594 term=1 ! 330257
 open line.CTRR42814 term=1 ! 280754
 

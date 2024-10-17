@@ -1,5 +1,5 @@
-!close line.CTR769049 term=1 ! 208241
-!open line.CTR764814  term=1 ! 208259
+close line.CTR769049 term=1 ! 208241
+open line.CTR764814  term=1 ! 208259
 
 new energymeter.carga element=line.TR5329290,terminal=1
 
